@@ -1,0 +1,30 @@
+感謝您邀請 夕由愛 加入您的伺服器！
+
+特此聲明，當您邀請 夕由愛 加入伺服器時，即表示您同意 夕由愛 蒐集使用者與伺服器資料。若您不同意進行此蒐集，請移除 夕由愛 自您的伺服器。
+
+除了一般成員可使用的斜線指令外，部分指令僅限管理員使用，其使用方法如下：(管理員指令非斜線指令，而是前綴指令，使用時請注意)
+前綴: admin!
+
+以下是一些管理員指令的功能：
+
+無...
+
+感謝您的理解與合作，如有任何問題或需要進一步說明，請隨時聯繫開發者。
+
+
+Thank you for inviting XitoAi to join your server!
+
+We hereby declare that by inviting XitoAi to join the server, you agree to allow XitoAi to collect user and server data. If you do not consent to this collection, please remove XitoAi from your server.
+
+In addition to the slash commands available to regular members, there are specific commands reserved for administrators. These commands are prefixed with: !admin. Please note that administrator commands are not preceded by a slash (/) and should be used with caution.
+
+Here are some functionalities of administrator commands:
+
+None...
+
+We appreciate your understanding and cooperation. If you have any questions or need further clarification, please feel free to contact Developer.
+
+
+開發者聯繫 Developer Contact:
+Discord: lightinvi#0
+Email: lightinvipeng@gmail.com

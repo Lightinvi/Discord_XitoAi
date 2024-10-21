@@ -1,0 +1,305 @@
+[2023/12/24|03:14:04][INFO]:擴充指令初始化完成
+[2023/12/24|03:14:04][INFO]:logging in using static token
+[2023/12/24|03:14:05][INFO]:Shard ID None has connected to Gateway (Session ID: ce0889b74e60ed6552027969885a9cfd).
+[2023/12/24|03:14:08][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|03:14:08][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|03:14:28][WARNING]:Commit fail: There is an unknown error in the SQL command
+Update Fail:
+(241, b'Conversion failed when converting date and/or time from character string.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+UPDATE profile_memberOnline SET onlineTime = 'None', total_onlineTime = '0' WHERE id = '293FBB4D-C517-4716-A004-145554D888E2'
+[2023/12/24|03:14:28][WARNING]:更新 profile_memberOnline 失敗
+更新 profile_memberStar 成功UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:15:53][WARNING]:Commit fail: There is an unknown error in the SQL command
+Update Fail:
+(241, b'Conversion failed when converting date and/or time from character string.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+UPDATE profile_memberOnline SET onlineTime = 'None', total_onlineTime = '0' WHERE id = '293FBB4D-C517-4716-A004-145554D888E2'
+[2023/12/24|03:15:53][WARNING]:更新 profile_memberOnline 失敗
+更新 profile_memberStar 成功UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:16:33][INFO]:擴充指令初始化完成
+[2023/12/24|03:16:33][INFO]:logging in using static token
+[2023/12/24|03:16:34][INFO]:Shard ID None has connected to Gateway (Session ID: 94ecd6629457be6787ab341792870a51).
+[2023/12/24|03:16:37][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|03:16:37][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|03:16:58][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:05][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:08][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:12][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:15][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:18][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:22][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:46][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:49][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:52][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:17:55][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:18:06][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|03:18:23][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:05:06][INFO]:擴充指令初始化完成
+[2023/12/24|20:05:06][INFO]:logging in using static token
+[2023/12/24|20:05:08][INFO]:Shard ID None has connected to Gateway (Session ID: 1d570bc811cce56eab43420af34044f4).
+[2023/12/24|20:05:10][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:05:10][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:05:15][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 73, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 22, in get_member_data
+    member_UUID = await ProfileMethod.get_database_id(# pylint: disable=invalid-name
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 187, in get_database_id
+    interaction.guild.system_channel.id
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VoiceChannel' object has no attribute 'system_channel'
+[2023/12/24|20:05:25][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 80, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 22, in get_member_data
+    member_UUID = await ProfileMethod.get_database_id(# pylint: disable=invalid-name
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 187, in get_database_id
+    interaction.guild.system_channel.id
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VoiceChannel' object has no attribute 'system_channel'
+[2023/12/24|20:07:43][INFO]:擴充指令初始化完成
+[2023/12/24|20:07:44][INFO]:logging in using static token
+[2023/12/24|20:07:45][INFO]:Shard ID None has connected to Gateway (Session ID: 614512ab4e0d3a791f2f80cdd5c86290).
+[2023/12/24|20:07:47][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:07:47][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:07:58][WARNING]:Commit fail: There is an unknown error in the SQL command
+Update Fail:
+(241, b'Conversion failed when converting date and/or time from character string.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+UPDATE profile_memberOnline SET onlineTime = '2023-12-24 20:07:58.496203', total_onlineTime = '0' WHERE id = '293FBB4D-C517-4716-A004-145554D888E2'
+[2023/12/24|20:07:58][WARNING]:更新 profile_memberOnline 失敗
+更新 profile_memberStar 成功UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:08:36][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 81, in on_voice_state_update
+    member_profile.total_online_time += datetime.datetime.now() - member_profile.online_time
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+[2023/12/24|20:09:24][INFO]:擴充指令初始化完成
+[2023/12/24|20:09:24][INFO]:logging in using static token
+[2023/12/24|20:09:25][INFO]:Shard ID None has connected to Gateway (Session ID: 7beb93c2afb3c9c48a81209d3578075d).
+[2023/12/24|20:09:27][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:09:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:09:35][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:09:41][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 81, in on_voice_state_update
+    member_profile.total_online_time += datetime.datetime.now() - member_profile.online_time
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'bytes'
+[2023/12/24|20:21:34][INFO]:擴充指令初始化完成
+[2023/12/24|20:21:34][INFO]:logging in using static token
+[2023/12/24|20:21:36][INFO]:Shard ID None has connected to Gateway (Session ID: b71dc1a1966e165ca732994694cdd73a).
+[2023/12/24|20:21:38][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:21:38][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:21:46][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 73, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 337, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 325, in _async_init
+    self.level = result['starLevel'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023/12/24|20:21:58][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 80, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 337, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 325, in _async_init
+    self.level = result['starLevel'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023/12/24|20:22:50][INFO]:擴充指令初始化完成
+[2023/12/24|20:22:50][INFO]:logging in using static token
+[2023/12/24|20:22:51][INFO]:Shard ID None has connected to Gateway (Session ID: 8a9f3cbef6412c3a5ea877cf5e41427e).
+[2023/12/24|20:22:54][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:22:54][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:22:56][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 73, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 338, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 326, in _async_init
+    self.level = result['starLevel'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023/12/24|20:25:19][INFO]:擴充指令初始化完成
+[2023/12/24|20:25:19][INFO]:logging in using static token
+[2023/12/24|20:25:20][INFO]:Shard ID None has connected to Gateway (Session ID: 901478165703b3d1c477610a56781822).
+[2023/12/24|20:25:23][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:25:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:25:24][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 80, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 338, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 328, in _async_init
+    online_time = datetime.datetime.strptime(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-12-24 20:09:35 +00:00' does not match format '%Y-%m-%d %H:%M:%S.%f%z'
+[2023/12/24|20:25:31][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 73, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 338, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 328, in _async_init
+    online_time = datetime.datetime.strptime(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-12-24 20:09:35 +00:00' does not match format '%Y-%m-%d %H:%M:%S.%f%z'
+[2023/12/24|20:25:58][INFO]:擴充指令初始化完成
+[2023/12/24|20:25:58][INFO]:logging in using static token
+[2023/12/24|20:25:59][INFO]:Shard ID None has connected to Gateway (Session ID: 1b474f11b503ba1fc39698eafed0e7bb).
+[2023/12/24|20:26:01][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:26:01][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:26:06][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 73, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_event.py", line 25, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 338, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 328, in _async_init
+    online_time = datetime.datetime.strptime(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 555, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\_strptime.py", line 333, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2023-12-24 20:09:35 +00:00' does not match format '%Y-%m-%d %H:%M:%S.%f'
+[2023/12/24|20:27:04][INFO]:擴充指令初始化完成
+[2023/12/24|20:27:04][INFO]:logging in using static token
+[2023/12/24|20:27:07][INFO]:Shard ID None has connected to Gateway (Session ID: 82629ac96164125f52ec7f4fff5118a4).
+[2023/12/24|20:27:09][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:27:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:27:12][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:27:16][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\event.py", line 81, in on_voice_state_update
+    member_profile.total_online_time += datetime.datetime.now() - member_profile.online_time
+TypeError: unsupported operand type(s) for +: 'int' and 'datetime.timedelta'
+[2023/12/24|20:34:58][INFO]:擴充指令初始化完成
+[2023/12/24|20:34:58][INFO]:logging in using static token
+[2023/12/24|20:35:00][INFO]:Shard ID None has connected to Gateway (Session ID: 660a8e2379f2f4ac1263a40f823006a6).
+[2023/12/24|20:35:02][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/24|20:35:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/24|20:35:07][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:35:13][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:35:22][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2023/12/24|20:35:57][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:37:24][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/24|20:37:28][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區

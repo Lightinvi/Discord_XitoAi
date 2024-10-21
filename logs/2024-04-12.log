@@ -1,0 +1,357 @@
+[2024/04/12|10:24:58][INFO]:擴充指令初始化完成
+[2024/04/12|10:24:58][INFO]:logging in using static token
+[2024/04/12|10:25:00][INFO]:Shard ID None has connected to Gateway (Session ID: bb540c03e485b6bfbfacc65e267f5f2b).
+[2024/04/12|10:25:02][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:25:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:25:09][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:25:09][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:25:09][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:25:55][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:25:55][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:25:55][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值
+[2024/04/12|10:26:32][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:26:32][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:26:32][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:26:47][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/12|10:28:31][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/12|10:29:17][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:29:17][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:29:17][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 2貢獻值 和 4碎星值
+[2024/04/12|10:31:49][INFO]:擴充指令初始化完成
+[2024/04/12|10:31:49][INFO]:logging in using static token
+[2024/04/12|10:31:50][INFO]:Shard ID None has connected to Gateway (Session ID: d878d02627cb5e75843c19e4eb11056c).
+[2024/04/12|10:31:53][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:31:53][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:32:06][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 70, in on_voice_state_update
+    print(before_channel,after_channel)
+          ^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'before_channel' where it is not associated with a value
+[2024/04/12|10:33:27][INFO]:擴充指令初始化完成
+[2024/04/12|10:33:28][INFO]:logging in using static token
+[2024/04/12|10:33:30][INFO]:Shard ID None has connected to Gateway (Session ID: dec211d16e4079c60afff2b5e1c0542c).
+[2024/04/12|10:33:32][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:33:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:33:56][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:33:56][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:33:57][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 7貢獻值 和 14碎星值
+[2024/04/12|10:34:29][INFO]:更新 profileOnline 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:34:29][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:34:29][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:39:13][INFO]:擴充指令初始化完成
+[2024/04/12|10:39:13][INFO]:logging in using static token
+[2024/04/12|10:39:14][INFO]:Shard ID None has connected to Gateway (Session ID: 3af05d56fcf6880e43dc313ae8bcbe47).
+[2024/04/12|10:39:17][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:39:17][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:39:23][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'isOnline'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 88, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 70, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 444, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 431, in _async_init
+    self.is_online = result['isOnline'].values[0]
+                     ~~~~~~^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+    raise KeyError(key) from err
+KeyError: 'isOnline'
+[2024/04/12|10:40:00][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'isOnline'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 75, in on_voice_state_update
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 70, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 444, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 431, in _async_init
+    self.is_online = result['isOnline'].values[0]
+                     ~~~~~~^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+    raise KeyError(key) from err
+KeyError: 'isOnline'
+[2024/04/12|10:41:24][INFO]:擴充指令初始化完成
+[2024/04/12|10:41:25][INFO]:logging in using static token
+[2024/04/12|10:41:27][INFO]:Shard ID None has connected to Gateway (Session ID: 9ff665dfecf3f5d52eca5c1ba9bbd3da).
+[2024/04/12|10:41:29][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:41:29][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:41:34][WARNING]:更新 profileOnline 失敗->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:41:34][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:41:34][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:43:52][INFO]:擴充指令初始化完成
+[2024/04/12|10:43:52][INFO]:logging in using static token
+[2024/04/12|10:44:07][INFO]:Shard ID None has connected to Gateway (Session ID: 49e9e91091518ccbebb6911424f3ef96).
+[2024/04/12|10:44:10][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:44:10][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:46:17][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:46:17][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:46:17][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:46:25][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:46:25][INFO]:更新 profileStar 成功->UUID:42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:46:25][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值
+[2024/04/12|10:48:00][INFO]:擴充指令初始化完成
+[2024/04/12|10:48:00][INFO]:logging in using static token
+[2024/04/12|10:48:02][INFO]:Shard ID None has connected to Gateway (Session ID: ce537356712dc57d0b861aa1e3319026).
+[2024/04/12|10:48:05][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|10:48:05][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|10:48:18][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:18][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:18][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|10:48:22][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:22][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:22][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值
+[2024/04/12|10:48:24][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:24][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|10:48:24][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|13:48:59][INFO]:擴充指令初始化完成
+[2024/04/12|13:48:59][INFO]:logging in using static token
+[2024/04/12|13:49:01][INFO]:Shard ID None has connected to Gateway (Session ID: e6ff90c1c8d3d0257f98249df8e117db).
+[2024/04/12|13:49:03][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|13:49:03][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|13:49:08][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|13:49:08][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|13:49:08][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 180貢獻值 和 360碎星值
+[2024/04/12|13:49:31][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/12|13:49:35][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|13:49:35][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|13:49:35][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|13:49:43][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/12|13:51:32][INFO]:lightinvi<428845649279188992>在[光隱測試區->test]說:d
+[2024/04/12|13:51:38][INFO]:光隱測試區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯: d -> dc
+[2024/04/12|13:52:08][INFO]:光隱測試區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: dc
+[2024/04/12|14:08:32][INFO]:擴充指令初始化完成
+[2024/04/12|14:08:32][INFO]:logging in using static token
+[2024/04/12|14:08:34][INFO]:Shard ID None has connected to Gateway (Session ID: f1139d63ecee5b22ce6748a25326a66b).
+[2024/04/12|14:08:36][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|14:08:36][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|14:08:53][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:08:53][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:08:53][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 19貢獻值 和 38碎星值
+[2024/04/12|14:09:02][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:02][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:02][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|14:09:05][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:05][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:05][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值
+[2024/04/12|14:09:25][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:25][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:25][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|14:09:31][INFO]:更新 profileOnline 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:31][INFO]:更新 profileStar 成功->UUID: 42F792FA-2839-49AC-AB48-0C86A01E840C
+[2024/04/12|14:09:31][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值
+[2024/04/12|15:40:44][INFO]:擴充指令初始化完成
+[2024/04/12|15:40:44][INFO]:logging in using static token
+[2024/04/12|15:40:45][INFO]:Shard ID None has connected to Gateway (Session ID: 6ec03a75e43d80d97245ead06bd7e22e).
+[2024/04/12|15:40:48][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|15:40:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|15:41:00][INFO]:lightinvi 查詢光隱測試區的 在線時間排行
+[2024/04/12|15:41:00][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 305, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 87, in ranking_list
+    return await ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 243, in create_ranking_list
+    if result_.loc[result_['userId'] == str(interaction.user.id)].empty:
+                   ~~~~~~~^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'userId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'userId'
+[2024/04/12|15:44:21][INFO]:擴充指令初始化完成
+[2024/04/12|15:44:21][INFO]:logging in using static token
+[2024/04/12|15:44:22][INFO]:Shard ID None has connected to Gateway (Session ID: 738c0f061cb5384c2b1613098f0fb0d6).
+[2024/04/12|15:44:24][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|15:44:24][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|15:44:33][INFO]:lightinvi 查詢光隱測試區的 在線時間排行
+[2024/04/12|15:44:34][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 305, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 87, in ranking_list
+    return await ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 244, in create_ranking_list
+    if result_.loc[result_['userId'] == str(interaction.user.id)].empty:
+                   ~~~~~~~^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'userId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'userId'
+[2024/04/12|15:46:37][INFO]:擴充指令初始化完成
+[2024/04/12|15:46:37][INFO]:logging in using static token
+[2024/04/12|15:46:38][INFO]:Shard ID None has connected to Gateway (Session ID: f0a900f09665f8da71040482d2f4f97e).
+[2024/04/12|15:46:41][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|15:46:41][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|15:46:55][INFO]:lightinvi 查詢光隱測試區的 在線時間排行
+[2024/04/12|17:17:23][INFO]:擴充指令初始化完成
+[2024/04/12|17:17:23][INFO]:logging in using static token
+[2024/04/12|17:17:25][INFO]:Shard ID None has connected to Gateway (Session ID: 90b4d6f78e6163e4faacc00e29fc778e).
+[2024/04/12|17:17:27][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|17:17:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|17:17:53][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 71, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 76, in join_guild
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 68, in get_member_data
+    member_UUID = await ProfileMethod.get_database_id(# pylint: disable=invalid-name
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 179, in get_database_id
+    await ProfileObject.create(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 501, in create
+    await QuicklyCreate.setup(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 301, in setup
+    await cls.profile_online(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 356, in profile_online
+    sql_cmd.isonline
+AttributeError: 'Table' object has no attribute 'isonline'. Did you mean: 'isOnline'?
+[2024/04/12|17:20:29][INFO]:擴充指令初始化完成
+[2024/04/12|17:20:29][INFO]:logging in using static token
+[2024/04/12|17:20:31][INFO]:Shard ID None has connected to Gateway (Session ID: 6197087f6dfcd70cf86e26333e700f8f).
+[2024/04/12|17:20:33][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|17:20:33][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|17:20:51][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 71, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 76, in join_guild
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 71, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 446, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 425, in _async_init
+    self.level = result['starLevel'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'starLevel'
+[2024/04/12|17:23:10][INFO]:擴充指令初始化完成
+[2024/04/12|17:23:10][INFO]:logging in using static token
+[2024/04/12|17:23:12][INFO]:Shard ID None has connected to Gateway (Session ID: 547d477a9065b59f24ad54ee131ed6fc).
+[2024/04/12|17:23:14][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|17:23:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|17:23:21][INFO]:資料庫成功創建lightinvi(428845649279188992)於光隱測試區(1029978425550704640)的基本資料
+[2024/04/12|17:23:22][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:23:22][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:23:22][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|17:23:38][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/12|17:30:51][INFO]:擴充指令初始化完成
+[2024/04/12|17:30:51][INFO]:logging in using static token
+[2024/04/12|17:30:53][INFO]:Shard ID None has connected to Gateway (Session ID: eb66680f23f59d7f9129e29fad79d688).
+[2024/04/12|17:30:56][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/12|17:30:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/12|17:31:16][WARNING]:lightinvi<428845649279188992> 異常時間紀錄
+[2024/04/12|17:32:44][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:32:44][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:32:44][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/04/12|17:32:49][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:32:49][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/04/12|17:32:49][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 0貢獻值 和 0碎星值

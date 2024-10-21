@@ -1,0 +1,50 @@
+[2024/06/03|16:37:24][INFO]:擴充指令初始化完成
+[2024/06/03|16:37:24][INFO]:logging in using static token
+[2024/06/03|16:37:26][INFO]:Shard ID None has connected to Gateway (Session ID: 9bd233c3b047d0679910b9788091f09d).
+[2024/06/03|16:37:33][INFO]:已載入24個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', 'start_record<1246024385882624020>', 'stop_record<1245564727015243787>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/06/03|16:37:33][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/03|16:37:34][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\event.py", line 71, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_event.py", line 76, in join_guild
+    member_profile = await VoiceMethod.get_member_data(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_event.py", line 71, in get_member_data
+    return await ProfileObject.init(member_UUID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile.py", line 446, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile.py", line 423, in _async_init
+    result = await ProfileMethod.profile_result_getter(self.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile.py", line 151, in profile_result_getter
+    ).where(sql_cmd.id == database_id).async_result
+            ^^^^^^^^^^
+AttributeError: 'VTable' object has no attribute 'id'
+[2024/06/03|16:37:40][ERROR]:Ignoring exception in command 'start_record'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\record.py", line 30, in start_record
+    self.voice_client = await interaction.user.voice.channel.connect(cls=EXVoiceClient)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\abc.py", line 1899, in connect
+    raise TypeError('Type must meet VoiceProtocol abstract base class.')
+TypeError: Type must meet VoiceProtocol abstract base class.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'start_record' raised an exception: TypeError: Type must meet VoiceProtocol abstract base class.

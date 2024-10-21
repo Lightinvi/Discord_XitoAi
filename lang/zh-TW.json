@@ -1,0 +1,76 @@
+{
+    "command":{
+        "me":"我",
+        "me.desc":"查看您在當前公會的 星級、碎星值、在線時間 等資訊",
+
+        "other":"其他人",
+        "other.desc":"查看當前公會其他成員的 星級、碎星值、在線時間 等資訊",
+        "other.user.desc":"查詢目標成員,可使用 @ 快速指定用戶",
+
+        "lottery":"樂透",
+        "lottery.desc":"經由下注碎星值進行抽獎您有機會獲得更多,但也可能變得一無所有",
+        "lottery.broken_star.desc":"碎星值下注範圍 1~10000",
+
+        "get_verification":"獲取驗證碼",
+        "get_verification.desc":"輸入email位址,用於獲取驗證碼",
+        "get_verification.email.desc":"您的email位址",
+
+        "verify":"驗證",
+        "verify.desc":"用於輸入從email獲得的驗證碼",
+        "verify.code.desc":"驗證碼(六位數)",
+
+        "music":"音樂",
+        "queue":"音樂隊列",
+        "skip":"跳過音樂",
+        "pause":"暫停音樂",
+        "resume":"恢復音樂",
+        "disconnect":"中斷連接",
+        "music.desc":"音樂播放器",
+        "music.music.desc":"音樂名稱或音樂網址(僅限youtube)",
+        "queue.desc":"查看音樂隊列",
+        "skip.desc":"跳過當前音樂",
+        "pause.desc":"暫停當前音樂",
+        "resume.desc":"恢復暫停的音樂",
+        "disconnect.desc":"退出語音頻道和初始化音樂列表",
+
+        "rank":"排行",
+        "rank.desc":"此公會成員的各項排行",
+        "rank.target.desc":"排行項目",
+        "rank.index.desc":"排行索引值，決定回傳多少個名次",
+        "rank.choice.brokenStar":"碎星值",
+        "rank.choice.onlineTime":"貢獻值"
+    },
+    "content":{
+        "me.is_personal":"此指令無法使用於個人訊息中",
+        "me.verify":"已驗證",
+        "me.unverify":"未驗證",
+        "me.starLevel":"星級",
+        "me.brokenStar":"碎星值",
+        "me.current_online_time":"當前在線時長",
+        "me.total_online_time":"貢獻值",
+        "me.verify_status":"信箱驗證狀態",
+
+        "other.starLevel":"星級",
+        "other.brokenStar":"碎星值",
+        "other.current_online_time":"當前在線時長",
+        "other.total_online_time":"貢獻值",
+        "other.is_personal":"此指令無法使用於個人訊息中",
+
+        "lottery.error.msg.rangeout":"超出下注範圍",
+        "lottery.error.msg.insufficient":"碎星值不足",
+        "lottery.result":"抽獎結果",
+        "lottery.bet":"您下注的碎星值",
+        "lottery.magnification":"倍率",
+        "lottery.probability":"機率",
+        "lottery.bouns":"最終獲得",
+
+        "verify.completed":"已驗證",
+        "verify.sent":"已寄出驗證碼,請查閱信箱",
+        "verify.succeed":"驗證成功",
+        "verify.failed":"驗證失敗",
+
+        "rank.brokenStar":"碎星值",
+        "rank.total_onlineTime":"貢獻值",
+        "rank.index.rangeout":"無效索引值"
+    }
+}

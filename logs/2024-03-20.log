@@ -1,0 +1,230 @@
+[2024/03/20|10:04:40][INFO]:擴充指令初始化完成
+[2024/03/20|10:04:40][INFO]:logging in using static token
+[2024/03/20|10:04:42][INFO]:Shard ID None has connected to Gateway (Session ID: 7c0e59c3393ca610a36573af9b96ca78).
+[2024/03/20|10:04:44][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/20|10:04:44][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|10:05:27][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/20|10:05:27][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 218, in view_self_profile
+    F"Current online time:{online_time}\n"\
+                           ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'online_time' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: UnboundLocalError: cannot access local variable 'online_time' where it is not associated with a value
+[2024/03/20|10:08:47][INFO]:擴充指令初始化完成
+[2024/03/20|10:08:47][INFO]:logging in using static token
+[2024/03/20|10:08:49][INFO]:Shard ID None has connected to Gateway (Session ID: 1dc77f4aba8aa71b4733a8e1ad8953f8).
+[2024/03/20|10:08:51][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/20|10:08:51][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|10:09:11][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/20|13:59:15][INFO]:擴充指令初始化完成
+[2024/03/20|13:59:15][INFO]:logging in using static token
+[2024/03/20|13:59:16][INFO]:Shard ID None has connected to Gateway (Session ID: 77b921ff6f19b94a20293de99ecf219e).
+[2024/03/20|13:59:19][INFO]:已載入9個斜線指令
+['樂透', 'lottery', '信箱驗證', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/20|13:59:19][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|14:01:27][INFO]:擴充指令初始化完成
+[2024/03/20|14:01:27][INFO]:logging in using static token
+[2024/03/20|14:01:29][INFO]:Shard ID None has connected to Gateway (Session ID: d2afabce8038c3d5ef491dcb0ddaf8b9).
+[2024/03/20|14:01:31][INFO]:已載入9個斜線指令
+['樂透', 'lottery', '信箱驗證', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/20|14:01:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|14:01:54][ERROR]:Ignoring exception in command '信箱驗證'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'email_adderss'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\mail.py", line 42, in verify_mail
+    run_code = await super().verify_mail(interaction, user_mail)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\mail.py", line 20, in verify_mail
+    user = UserMail(interaction.user.id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 4, in __init__
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_mail.py", line 32, in __post_init__
+    self.email = result['email_adderss'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+    raise KeyError(key) from err
+KeyError: 'email_adderss'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '信箱驗證' raised an exception: KeyError: 'email_adderss'
+[2024/03/20|14:06:44][INFO]:擴充指令初始化完成
+[2024/03/20|14:06:44][INFO]:logging in using static token
+[2024/03/20|14:06:45][INFO]:Shard ID None has connected to Gateway (Session ID: e2cc02dee2ee0c8b3f6968d4b9d51312).
+[2024/03/20|14:06:48][INFO]:已載入9個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '信箱驗證']
+[2024/03/20|14:06:49][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|14:07:34][ERROR]:Ignoring exception in command '信箱驗證'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\verify_mail.py", line 42, in verify_mail
+    run_code = await super().verify_mail(interaction, email)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\verify_mail.py", line 21, in verify_mail
+    if '@' in user.email and '*' not in user.email:
+       ^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '信箱驗證' raised an exception: TypeError: argument of type 'NoneType' is not iterable
+[2024/03/20|14:09:01][INFO]:擴充指令初始化完成
+[2024/03/20|14:09:01][INFO]:logging in using static token
+[2024/03/20|14:09:02][INFO]:Shard ID None has connected to Gateway (Session ID: f576c96c3b986a5394c7170a60617fe0).
+[2024/03/20|14:09:05][INFO]:已載入9個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '信箱驗證']
+[2024/03/20|14:09:05][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|14:52:40][INFO]:擴充指令初始化完成
+[2024/03/20|14:52:40][INFO]:logging in using static token
+[2024/03/20|14:52:41][INFO]:Shard ID None has connected to Gateway (Session ID: 790a7922f3d5409d046b336ba5f5aa11).
+[2024/03/20|14:52:48][INFO]:已載入10個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '信箱驗證', '驗證碼']
+[2024/03/20|14:52:49][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|15:49:42][INFO]:擴充指令初始化完成
+[2024/03/20|15:49:42][INFO]:logging in using static token
+[2024/03/20|15:49:43][INFO]:Shard ID None has connected to Gateway (Session ID: ff748e34695b99c70f46021d4d9fa9e9).
+[2024/03/20|15:49:46][INFO]:已載入10個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證']
+[2024/03/20|15:49:46][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|15:49:59][INFO]:lightinvi 在 光隱測試區/test 說: t
+[2024/03/20|15:53:15][INFO]:擴充指令初始化完成
+[2024/03/20|15:53:15][INFO]:logging in using static token
+[2024/03/20|15:53:16][INFO]:Shard ID None has connected to Gateway (Session ID: b6bf870b04bc0d2c94fa78e6de6927c9).
+[2024/03/20|15:53:19][INFO]:已載入10個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證']
+[2024/03/20|15:53:19][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|15:53:32][INFO]:lightinvi<428845649279188992>在[光隱測試區->test]說:t
+[2024/03/20|16:03:32][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/20|16:03:32][INFO]:XitoAi Debug System<765494347410964500>在[光隱測試區->test]說:
+[2024/03/20|16:05:38][INFO]:擴充指令初始化完成
+[2024/03/20|16:05:38][INFO]:logging in using static token
+[2024/03/20|16:05:40][INFO]:Shard ID None has connected to Gateway (Session ID: 231fa127602f284e9f1b96bb3b2e4764).
+[2024/03/20|16:05:43][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|16:05:43][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|16:06:05][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/20|16:17:29][INFO]:擴充指令初始化完成
+[2024/03/20|16:17:29][INFO]:logging in using static token
+[2024/03/20|16:17:31][INFO]:Shard ID None has connected to Gateway (Session ID: 26092b904b28786c29e0c0510465f450).
+[2024/03/20|16:17:33][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|16:17:33][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|16:18:08][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 113, in on_message
+    await attachment.save(F"\\system\\{attachment.filename}")
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\message.py", line 290, in save
+    with open(fp, 'wb') as f:
+         ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '\\system\\test1.png'
+[2024/03/20|16:20:02][INFO]:擴充指令初始化完成
+[2024/03/20|16:20:02][INFO]:logging in using static token
+[2024/03/20|16:20:03][INFO]:Shard ID None has connected to Gateway (Session ID: 9eedcdca8971f415f18f83b12909f62a).
+[2024/03/20|16:20:05][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|16:20:05][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|16:20:29][INFO]:lightinvi<428845649279188992>在[光隱測試區->test]新增附件:[<Attachment id=1219923501729710100 filename='test1.png' url='https://cdn.discordapp.com/attachments/1146358218696691764/1219923501729710100/test1.png?ex=660d114b&is=65fa9c4b&hm=25cc33d30c77730a15a774accd55cc33f6e6516cfa7453650a9b8ef9abc80d55&'>, <Attachment id=1219923501981372496 filename='test2.png' url='https://cdn.discordapp.com/attachments/1146358218696691764/1219923501981372496/test2.png?ex=660d114b&is=65fa9c4b&hm=14625454f34192ad0f680006b80e9024cf88ca8d152ccda2636840f543c56a7e&'>, <Attachment id=1219923502212055070 filename='test3.jpg' url='https://cdn.discordapp.com/attachments/1146358218696691764/1219923502212055070/test3.jpg?ex=660d114c&is=65fa9c4c&hm=9c1ae613c1b23bb5143a236c65b4d2541218685ec526262d53e21c643f58f855&'>]
+[2024/03/20|16:23:29][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 122, in on_message
+    F"{msg.author.name}<{msg.author.id}>在[{msg.guild.name}->{msg.channel.name}]說:"
+                                            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2024/03/20|17:00:29][INFO]:擴充指令初始化完成
+[2024/03/20|17:00:29][INFO]:logging in using static token
+[2024/03/20|17:00:31][INFO]:Shard ID None has connected to Gateway (Session ID: dc9662811540b608229c29a391ced571).
+[2024/03/20|17:00:33][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|17:00:33][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|17:01:06][INFO]:lightinvi<428845649279188992>私訊夕由愛:hi
+[2024/03/20|17:01:06][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\event.py", line 139, in on_message
+    F"{msg.author.name}<{msg.author.id}>在[{msg.guild.name}->{msg.channel.name}]說:"
+                                            ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+[2024/03/20|17:02:32][INFO]:擴充指令初始化完成
+[2024/03/20|17:02:32][INFO]:logging in using static token
+[2024/03/20|17:02:33][INFO]:Shard ID None has connected to Gateway (Session ID: 984d433d04c6a214b9fe68c31dfbdc1a).
+[2024/03/20|17:02:36][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|17:02:36][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|17:05:05][INFO]:lightinvi<428845649279188992>私訊夕由愛:hi
+[2024/03/20|17:05:26][INFO]:lightinvi<428845649279188992>私訊夕由愛新增附件:<generator object MessageEvent.on_message.<locals>.<genexpr> at 0x000002F533CCA740>
+[2024/03/20|17:08:23][INFO]:擴充指令初始化完成
+[2024/03/20|17:08:23][INFO]:logging in using static token
+[2024/03/20|17:08:25][INFO]:Shard ID None has connected to Gateway (Session ID: 6781f75bba55af00642109a2057e9443).
+[2024/03/20|17:08:27][INFO]:已載入12個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking', '獲取驗證碼', '驗證', 'get_verification', 'verify']
+[2024/03/20|17:08:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|17:08:54][INFO]:lightinvi<428845649279188992>私訊夕由愛新增附件:('test2.png', 'test3.jpg')
+[2024/03/20|17:28:00][INFO]:擴充指令初始化完成
+[2024/03/20|17:28:00][INFO]:logging in using static token
+[2024/03/20|17:28:02][INFO]:Shard ID None has connected to Gateway (Session ID: e2882c2fe22881b91c7a7ac70cf18e8b).
+[2024/03/20|17:28:04][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/20|17:28:04][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/20|17:47:13][INFO]:擴充指令初始化完成
+[2024/03/20|17:47:13][INFO]:logging in using static token
+[2024/03/20|17:47:15][INFO]:Shard ID None has connected to Gateway (Session ID: 1d03471fcb06d607cba012e7e2eb2f67).
+[2024/03/20|17:47:17][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/20|17:47:17][INFO]: >>夕由愛XitoAi已成功連線Discord<< 

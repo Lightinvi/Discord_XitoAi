@@ -1,0 +1,135 @@
+[2024/07/19|10:03:30][INFO]:擴充指令初始化完成
+[2024/07/19|10:03:30][INFO]:logging in using static token
+[2024/07/19|10:03:31][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/19|10:03:31][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/19|10:03:31][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/19|10:03:31][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/19|10:03:31][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/19|10:03:31][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/19|10:03:31][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/19|10:03:31][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/19|10:03:31][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/19|10:03:31][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/19|10:03:31][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/19|10:03:31][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/19|10:03:31][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/19|10:03:31][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/19|10:03:31][INFO]:已同步14個斜線指令
+[2024/07/19|10:03:32][INFO]:Shard ID None has connected to Gateway (Session ID: 086d2a5a4cd8805c1207c31737a880a9).
+[2024/07/19|10:03:34][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/19|10:04:13][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/07/19|10:04:13][INFO]:lightinvi<428845649279188992> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/07/19|10:04:59][INFO]:Connecting to voice...
+[2024/07/19|10:04:59][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|10:05:00][INFO]:Voice handshake complete. Endpoint found hongkong11023.discord.media
+[2024/07/19|10:05:01][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|10:05:01][INFO]:received secret key for voice connection
+[2024/07/19|10:07:58][INFO]:lightinvi<428845649279188992>在[光隱test區->test]說:I fixed XitoAi's music playback functionality
+-Fixed the inability to download streaming audio files from youtube
+
+Please try and provide feedback
+[2024/07/19|10:08:33][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:@everyone 
+I fixed XitoAi's music playback functionality
+-Fixed the inability to download streaming audio files from youtube
+
+Please try and provide feedback
+[2024/07/19|10:08:43][INFO]:ffmpeg process 12284 successfully terminated with return code of 0.
+[2024/07/19|10:08:43][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|10:08:43][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/07/19|10:08:58][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/07/19|10:08:58][INFO]:lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 獲得 4貢獻值 和 8碎星值
+[2024/07/19|10:16:10][INFO]:lightinvi<428845649279188992>在[光隱test區->pytube-bug-fix]說:或使用 https://github.com/JuanBindez/pytubefix
+[2024/07/19|10:16:11][INFO]:光隱test區<1029978425550704640> -> pytube-bug-fix<1263675429122867275> 中的訊息被編輯: 或使用 https://github.com/JuanBindez/pytubefix -> 或使用 https://github.com/JuanBindez/pytubefix
+[2024/07/19|11:07:31][INFO]:lightinvi<428845649279188992>在[光隱test區->study]說:https://medium.com/dean-lin/在電腦安裝類-chatgpt-的-ai-還可以上傳文件對話-gpt4all-80d32c84b37a
+[2024/07/19|11:07:32][INFO]:光隱test區<1029978425550704640> -> study<1163727016554659910> 中的訊息被編輯: https://medium.com/dean-lin/在電腦安裝類-chatgpt-的-ai-還可以上傳文件對話-gpt4all-80d32c84b37a -> https://medium.com/dean-lin/在電腦安裝類-chatgpt-的-ai-還可以上傳文件對話-gpt4all-80d32c84b37a
+[2024/07/19|11:13:27][INFO]:lightinvi<428845649279188992>在[光隱test區->study]說:https://docs.gpt4all.io/index.html
+[2024/07/19|11:13:27][INFO]:光隱test區<1029978425550704640> -> study<1163727016554659910> 中的訊息被編輯: https://docs.gpt4all.io/index.html -> https://docs.gpt4all.io/index.html
+[2024/07/19|12:18:33][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|13:58:58][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|14:16:28][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|14:28:55][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]新增附件:('1263744360017825832_image.png',)
+[2024/07/19|14:29:43][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:看來有方法能讓夕由愛活起來了喔
+[2024/07/19|14:55:55][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|16:26:39][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|17:21:32][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|17:21:32][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/19|17:38:24][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|18:00:02][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|19:13:41][INFO]:bigben2689<787727387383037962>在[Star Impact Team->正規成員頻道]說:<@416236840547385345>
+[2024/07/19|19:13:47][INFO]:bigben2689<787727387383037962>在[Star Impact Team->正規成員頻道]說:Watch dm
+[2024/07/19|19:22:55][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|19:22:55][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/19|19:42:19][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|19:42:19][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/19|20:07:14][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|20:07:14][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/19|20:36:54][INFO]:已更新用戶 -> yu.an<530297115356954627>
+[2024/07/19|20:36:55][INFO]:已更新 yu.an<530297115356954627> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|20:59:39][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/19|21:22:14][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1263813605623857247_EFT_Event_Promo_Arms-race_1920x1080.jpg',)
+[2024/07/19|21:22:14][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News 
+The in-game event “Arms Race” is available for completion until July 22, 10AM BST / 5AM EDT.
+#EscapefromTarkov
+[2024/07/19|23:10:28][INFO]:Connecting to voice...
+[2024/07/19|23:10:28][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|23:10:29][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/19|23:10:29][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|23:10:29][INFO]:received secret key for voice connection
+[2024/07/19|23:13:54][INFO]:ffmpeg process 10236 successfully terminated with return code of 0.
+[2024/07/19|23:13:54][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|23:13:54][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/19|23:34:54][INFO]:Connecting to voice...
+[2024/07/19|23:34:54][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|23:34:55][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/19|23:34:55][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|23:34:55][INFO]:received secret key for voice connection
+[2024/07/19|23:38:57][INFO]:ffmpeg process 608 successfully terminated with return code of 0.
+[2024/07/19|23:38:57][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|23:38:57][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/19|23:43:23][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/19|23:43:23][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/19|23:56:43][INFO]:Connecting to voice...
+[2024/07/19|23:56:43][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|23:56:43][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/19|23:56:44][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|23:56:44][INFO]:received secret key for voice connection
+[2024/07/19|23:56:46][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|23:56:46][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/19|23:56:59][INFO]:Connecting to voice...
+[2024/07/19|23:56:59][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|23:56:59][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/19|23:56:59][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|23:56:59][INFO]:received secret key for voice connection
+[2024/07/19|23:57:01][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|23:57:01][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/19|23:57:06][INFO]:Connecting to voice...
+[2024/07/19|23:57:06][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/19|23:57:07][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/19|23:57:07][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/19|23:57:07][INFO]:received secret key for voice connection
+[2024/07/19|23:59:42][INFO]:ffmpeg process 10696 successfully terminated with return code of 0.
+[2024/07/19|23:59:42][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/19|23:59:42][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|00:02:29][INFO]:Connecting to voice...
+[2024/07/20|00:02:29][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|00:02:29][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|00:02:30][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|00:02:30][INFO]:received secret key for voice connection
+[2024/07/20|00:02:32][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|00:02:32][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|00:06:33][INFO]:Connecting to voice...
+[2024/07/20|00:06:33][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|00:06:33][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|00:06:34][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|00:06:34][INFO]:received secret key for voice connection
+[2024/07/20|00:10:46][INFO]:ffmpeg process 9860 successfully terminated with return code of 0.
+[2024/07/20|00:15:04][INFO]:ffmpeg process 7972 successfully terminated with return code of 0.
+[2024/07/20|00:17:46][INFO]:ffmpeg process 4596 successfully terminated with return code of 0.
+[2024/07/20|00:22:16][INFO]:ffmpeg process 7508 successfully terminated with return code of 0.
+[2024/07/20|00:22:17][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|00:22:17][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|00:55:51][INFO]:Shard ID None has successfully RESUMED session 086d2a5a4cd8805c1207c31737a880a9.
+[2024/07/20|01:07:39][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|01:07:39][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 466貢獻值 和 932碎星值
+[2024/07/20|01:07:40][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|01:07:40][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 344貢獻值 和 688碎星值

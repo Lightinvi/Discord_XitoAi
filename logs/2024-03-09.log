@@ -1,0 +1,258 @@
+[2024/03/09|12:23:18][INFO]:擴充指令初始化完成
+[2024/03/09|12:23:18][INFO]:logging in using static token
+[2024/03/09|12:23:19][INFO]:Shard ID None has connected to Gateway (Session ID: 4877e318ba46fb3dc256e0da3aa04f46).
+[2024/03/09|12:23:22][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|12:23:22][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|12:23:55][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 201, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 21, in view_self_profile
+    database_id = await ProfileMethod.get_database_id(interaction)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 171, in get_database_id
+    (sql_cmd.memberId == interaction.user.id)
+     ^^^^^^^^^^^^^^^^
+AttributeError: 'Table' object has no attribute 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'Table' object has no attribute 'memberId'
+[2024/03/09|12:25:19][INFO]:擴充指令初始化完成
+[2024/03/09|12:25:19][INFO]:logging in using static token
+[2024/03/09|12:25:20][INFO]:Shard ID None has connected to Gateway (Session ID: 9af92fed50709fd268062bf752232959).
+[2024/03/09|12:25:23][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|12:25:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|12:25:31][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 201, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 23, in view_self_profile
+    member_profile = await ProfileObject.init(database_id)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 321, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 307, in _async_init
+    result = await ProfileMethod.profile_result_getter(self.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 147, in profile_result_getter
+    SQLType.datetime('onlineTime'),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _DateAndTime() takes no arguments
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: TypeError: _DateAndTime() takes no arguments
+[2024/03/09|12:26:45][INFO]:擴充指令初始化完成
+[2024/03/09|12:26:45][INFO]:logging in using static token
+[2024/03/09|12:26:46][INFO]:Shard ID None has connected to Gateway (Session ID: 87cd85de67df1d7959ddcba53b5532f6).
+[2024/03/09|12:26:48][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|12:26:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|12:26:53][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 201, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 23, in view_self_profile
+    member_profile = await ProfileObject.init(database_id)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 321, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 307, in _async_init
+    result = await ProfileMethod.profile_result_getter(self.id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 144, in profile_result_getter
+    result = await sql_cmd.select(
+             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object _Select can't be used in 'await' expression
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: TypeError: object _Select can't be used in 'await' expression
+[2024/03/09|12:27:27][INFO]:擴充指令初始化完成
+[2024/03/09|12:27:27][INFO]:logging in using static token
+[2024/03/09|12:27:28][INFO]:Shard ID None has connected to Gateway (Session ID: d8ff2a6c54e2fb8765f3764737564591).
+[2024/03/09|12:27:31][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|12:27:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|12:27:35][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/09|12:27:35][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 204, in view_self_profile
+    online_time = online_time.strftime("%d/%m/%Y, %H:%M:%S")
+                  ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+[2024/03/09|12:31:10][INFO]:擴充指令初始化完成
+[2024/03/09|12:31:10][INFO]:logging in using static token
+[2024/03/09|12:31:12][INFO]:Shard ID None has connected to Gateway (Session ID: dbf2fd15685eb9e8334e64d32506f8e2).
+[2024/03/09|12:31:14][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|12:31:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|12:31:21][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/09|12:31:47][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/09|12:33:04][INFO]:lightinvi查詢XitoAi(夕由愛)的個人資料公會->光隱測試區
+[2024/03/09|12:33:15][INFO]:lightinvi 查詢光隱測試區的 碎星值排行
+[2024/03/09|12:33:15][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 285, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 87, in ranking_list
+    return await ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 242, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 75, in ranking_sort
+    result.loc[ranking,'memberId'],
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexing.py", line 1146, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4005, in _get_value
+    series = self._get_item_cache(col)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4414, in _get_item_cache
+    loc = self.columns.get_loc(item)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'memberId'
+[2024/03/09|21:18:01][INFO]:擴充指令初始化完成
+[2024/03/09|21:18:01][INFO]:logging in using static token
+[2024/03/09|21:18:02][INFO]:Shard ID None has connected to Gateway (Session ID: dc031894ad12dc65b4f635067545f4cc).
+[2024/03/09|21:18:05][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|21:18:05][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|21:18:16][INFO]:lightinvi 查詢光隱測試區的 碎星值排行
+[2024/03/09|21:18:16][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 285, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 87, in ranking_list
+    return await ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 246, in create_ranking_list
+    if result_.loc[result_['memberId'] == str(interaction.user.id)].empty:
+                   ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'memberId'
+[2024/03/09|21:19:11][INFO]:擴充指令初始化完成
+[2024/03/09|21:19:11][INFO]:logging in using static token
+[2024/03/09|21:19:12][INFO]:Shard ID None has connected to Gateway (Session ID: 910d2afe94b0eb0b595dba9e0d363fad).
+[2024/03/09|21:19:15][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2024/03/09|21:19:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/09|21:19:25][INFO]:lightinvi 查詢光隱測試區的 在線時間排行

@@ -1,0 +1,847 @@
+[2023/12/17|14:42:32][INFO]:擴充指令初始化完成
+[2023/12/17|14:42:32][INFO]:logging in using static token
+[2023/12/17|14:42:33][INFO]:Shard ID None has connected to Gateway (Session ID: eb72387eacd6eb499e16a1c67e0233db).
+[2023/12/17|14:42:36][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|14:42:36][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|14:42:50][ERROR]:Ignoring exception in command 'lottery'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 64, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 20, in lottery
+    member = await ProfileObject.init(database_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 365, in init
+    await instance._async_init()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 357, in _async_init
+    self.level = result['starLevel'].values[0]
+                 ~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 418, in get_loc
+    raise KeyError(key)
+KeyError: 'starLevel'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'lottery' raised an exception: KeyError: 'starLevel'
+[2023/12/17|14:46:26][INFO]:擴充指令初始化完成
+[2023/12/17|14:46:26][INFO]:logging in using static token
+[2023/12/17|14:46:28][INFO]:Shard ID None has connected to Gateway (Session ID: 18982f0ef0b725135edd5f284b10155e).
+[2023/12/17|14:46:30][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|14:46:30][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|14:47:22][INFO]:更新profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|14:47:22][INFO]:更新profile_memberOnline UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|14:47:39][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2023/12/17|14:52:01][INFO]:擴充指令初始化完成
+[2023/12/17|14:52:01][INFO]:logging in using static token
+[2023/12/17|14:52:02][INFO]:Shard ID None has connected to Gateway (Session ID: 8d2f1f6f737f80aa95a0e393c79b961c).
+[2023/12/17|14:52:04][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|14:52:04][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|14:52:17][INFO]:lightinvi 查詢光隱測試區的 碎星值排行
+[2023/12/17|14:52:29][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|14:52:41][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 372, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|14:53:48][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 372, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|14:56:45][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|14:59:26][INFO]:擴充指令初始化完成
+[2023/12/17|14:59:26][INFO]:logging in using static token
+[2023/12/17|14:59:28][INFO]:Shard ID None has connected to Gateway (Session ID: d0bd6da993f0313f24245eb421e8ccd6).
+[2023/12/17|14:59:30][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|14:59:30][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|14:59:35][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:00:48][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:01:02][INFO]:擴充指令初始化完成
+[2023/12/17|15:01:02][INFO]:logging in using static token
+[2023/12/17|15:01:03][INFO]:Shard ID None has connected to Gateway (Session ID: 6b03ab1322fee66389750bc967c1514f).
+[2023/12/17|15:01:06][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:01:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:01:12][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:01:27][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:02:42][INFO]:擴充指令初始化完成
+[2023/12/17|15:02:42][INFO]:logging in using static token
+[2023/12/17|15:02:43][INFO]:Shard ID None has connected to Gateway (Session ID: d6c18e2797b8941c9f9e528f02ca9195).
+[2023/12/17|15:02:46][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:02:46][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:02:49][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:02:57][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:05:00][INFO]:擴充指令初始化完成
+[2023/12/17|15:05:00][INFO]:logging in using static token
+[2023/12/17|15:05:02][INFO]:Shard ID None has connected to Gateway (Session ID: d41b4f7398f1bd5704dce06789b5e694).
+[2023/12/17|15:05:04][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:05:04][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:05:11][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:15][ERROR]:Ignoring exception in command 'lottery'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 70, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'lottery' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:05:21][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:26][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:29][ERROR]:Ignoring exception in command 'lottery'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 70, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'lottery' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:05:35][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:39][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:44][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:46][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:51][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:05:54][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:06:51][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:06:56][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:01][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2023/12/17|15:07:15][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:18][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:25][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:28][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:31][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:33][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:07:36][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:07:42][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:44][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:47][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:07:49][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:15:17][INFO]:擴充指令初始化完成
+[2023/12/17|15:15:17][INFO]:logging in using static token
+[2023/12/17|15:15:19][INFO]:Shard ID None has connected to Gateway (Session ID: 2a1b3a87e5a0a832083906126a699caf).
+[2023/12/17|15:15:21][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:15:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:15:26][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:15:30][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:15:33][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:16:19][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2023/12/17|15:18:05][INFO]:擴充指令初始化完成
+[2023/12/17|15:18:05][INFO]:logging in using static token
+[2023/12/17|15:18:06][INFO]:Shard ID None has connected to Gateway (Session ID: a74b90a6b8a22573739d3a458fcb0495).
+[2023/12/17|15:18:09][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:18:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:18:15][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:18:27][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:18:34][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 373, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:26:53][INFO]:擴充指令初始化完成
+[2023/12/17|15:26:53][INFO]:logging in using static token
+[2023/12/17|15:26:54][INFO]:Shard ID None has connected to Gateway (Session ID: ead30f718163c92b541ac6612d45885c).
+[2023/12/17|15:26:56][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:26:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:27:09][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 375, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:27:22][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 375, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:27:24][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:27:28][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 375, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    result = await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+[2023/12/17|15:30:12][INFO]:擴充指令初始化完成
+[2023/12/17|15:30:12][INFO]:logging in using static token
+[2023/12/17|15:30:13][INFO]:Shard ID None has connected to Gateway (Session ID: 6977a899b70e80c1a87cf4f993a5ca31).
+[2023/12/17|15:30:15][INFO]:已載入8個斜線指令
+['樂透', 'lottery', '我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/17|15:30:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/17|15:30:23][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:30:28][INFO]:更新profile_memberOnline,profile_memberStar UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2023/12/17|15:30:31][ERROR]:Ignoring exception in command '樂透'
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 43, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 374, in update
+    await ProfileMethod.update_database(
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 241, in update_database
+    await sql_cmd.update(ConditionalObject('id',database_id,'='), **kwargs)
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 162, in wrapper
+    self.db.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '樂透' raised an exception: OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')

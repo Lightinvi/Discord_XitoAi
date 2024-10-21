@@ -1,0 +1,636 @@
+<<<<<<< HEAD
+[2024/06/13|20:06:14][INFO]:擴充指令初始化完成
+[2024/06/13|20:06:14][INFO]:logging in using static token
+[2024/06/13|20:06:15][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/06/13|20:06:15][INFO]:同步指令 -> music<1242794784201117758>
+[2024/06/13|20:06:15][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/06/13|20:06:15][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/06/13|20:06:15][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/06/13|20:06:15][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/06/13|20:06:15][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/06/13|20:06:15][INFO]:同步指令 -> me<1146107097549897728>
+[2024/06/13|20:06:15][INFO]:同步指令 -> other<1146107097549897729>
+[2024/06/13|20:06:15][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/06/13|20:06:15][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/06/13|20:06:15][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/06/13|20:06:15][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/06/13|20:06:15][INFO]:已同步13個斜線指令
+[2024/06/13|20:06:16][INFO]:Shard ID None has connected to Gateway (Session ID: a6baf25b8208e82e4b32313183681475).
+[2024/06/13|20:06:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|20:21:24][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News @Updates  
+The updates installation in #EscapefromTarkov and #TarkovArena is complete. Please download the updates via the launcher.
+[2024/06/13|22:38:26][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1250812155822080115_Arena_Cup-Series_D_ENG.png',)
+[2024/06/13|22:38:26][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News 
+Don't miss the first round of the group stage of the EFT: Arena Cup Series tournament from Battlestate Games in cooperation with tournament operator Hunt Premier. 
+
+16 teams from the CIS and Europe will compete live for a prize pool of €25,000.
+
+June 14 – 6PM BST/1PM EDT. Broadcast starts at 5:30PM BST/ 12:30 PM EDT
+June 15 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+June 16 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+
+You can watch the tournament on the Battlestate Games channel: https://www.twitch.tv/battlestategames and German cast on: https://www.twitch.tv/skuuii. Twitch Drops will be available on both channels.
+
+In anticipation of the start of the tournament we present to you the Aftermovie from the DreamHack Hannover tournament https://youtu.be/hW83W2v9hI8
+[2024/06/13|22:39:56][INFO]:Star Impact Team<510386488639488001> -> 塔科夫公佈欄📝<1140187766064435250> 中的訊息被編輯: @News 
+Don't miss the first round of the group stage of the EFT: Arena Cup Series tournament from Battlestate Games in cooperation with tournament operator Hunt Premier. 
+
+16 teams from the CIS and Europe will compete live for a prize pool of €25,000.
+
+June 14 – 6PM BST/1PM EDT. Broadcast starts at 5:30PM BST/ 12:30 PM EDT
+June 15 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+June 16 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+
+You can watch the tournament on the Battlestate Games channel: https://www.twitch.tv/battlestategames and German cast on: https://www.twitch.tv/skuuii. Twitch Drops will be available on both channels.
+
+In anticipation of the start of the tournament we present to you the Aftermovie from the DreamHack Hannover tournament https://youtu.be/hW83W2v9hI8 -> @News 
+Don't miss the first round of the group stage of the EFT: Arena Cup Series tournament from Battlestate Games in cooperation with tournament operator Hunt Premier. 
+
+16 teams from the CIS and Europe will compete live for a prize pool of €25,000.
+
+June 14 – 6PM BST/1PM EDT. Broadcast starts at 5:30PM BST/ 12:30 PM EDT
+June 15 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+June 16 – 4PM BST/11AM EDT. Broadcast starts at 3:30PM BST/10:30AM EDT
+
+You can watch the tournament on the Battlestate Games channel: https://www.twitch.tv/battlestategames and German cast on: https://www.twitch.tv/skuuii. Twitch Drops will be available on both channels.
+
+In anticipation of the start of the tournament we present to you the Aftermovie from the DreamHack Hannover tournament https://youtu.be/hW83W2v9hI8
+[2024/06/13|22:46:28][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|00:10:06][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|00:10:06][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|00:10:12][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|00:40:29][WARNING]:lightinvi<428845649279188992> 異常上線時間紀錄
+[2024/06/14|00:41:19][WARNING]:fewheng<429678105809125386> 異常上線時間紀錄
+[2024/06/14|00:41:24][WARNING]:chengxue625<416236840547385345> 異常上線時間紀錄
+[2024/06/14|00:47:51][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|00:47:51][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|01:18:57][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|01:46:18][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|02:02:07][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|03:16:15][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|03:16:15][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 186貢獻值 和 279碎星值
+[2024/06/14|03:20:17][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|05:04:14][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|06:00:22][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|06:00:22][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 312貢獻值 和 624碎星值
+[2024/06/14|06:44:09][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|09:03:32][INFO]:已建立公會 -> 光隱test區<1029978425550704640>
+[2024/06/14|09:03:32][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|09:03:32][INFO]:lightinvi<428845649279188992> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/06/14|09:07:43][INFO]:已更新 XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|09:07:43][INFO]:XitoAi Debug System<765494347410964500> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/06/14|09:07:48][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 音樂UI建置成功
+[2024/06/14|09:07:58][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: 音樂UI建置成功
+[2024/06/14|09:08:58][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: 
+[2024/06/14|09:08:59][INFO]:已更新 XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|09:08:59][INFO]:XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 獲得 1貢獻值 和 1碎星值
+[2024/06/14|09:08:59][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:已關閉音樂UI介面
+[2024/06/14|09:13:08][INFO]:已更新 XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|09:13:08][INFO]:XitoAi Debug System<765494347410964500> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/06/14|09:13:12][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 音樂UI建置成功
+[2024/06/14|09:13:23][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:25][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: 音樂UI建置成功
+[2024/06/14|09:13:25][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:25][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:30][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:32][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:32][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:35][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:35][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:36][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:41][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:43][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:43][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:47][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:47][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:47][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:50][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:52][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:52][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:13:56][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:13:58][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:13:58][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:14:10][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:14:13][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:14:13][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:14:18][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:Loading
+[2024/06/14|09:14:19][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: Loading
+[2024/06/14|09:14:19][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被編輯:  -> 
+[2024/06/14|09:14:20][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: 
+[2024/06/14|09:14:27][INFO]:已更新 XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|09:14:27][INFO]:XitoAi Debug System<765494347410964500> 於 光隱test區<1029978425550704640> 獲得 1貢獻值 和 1碎星值
+[2024/06/14|09:14:27][INFO]:光隱test區<1029978425550704640> -> test<1146358218696691764> 中的訊息被刪除: 
+[2024/06/14|09:14:27][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->test]說:已關閉音樂UI介面
+[2024/06/14|10:06:23][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|10:36:40][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|13:12:06][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|14:13:15][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|14:41:06][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|16:49:29][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|16:49:29][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|17:13:34][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|17:13:35][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|17:13:35][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|17:23:39][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|17:23:39][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|17:36:23][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/14|17:36:23][INFO]:lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 獲得 512貢獻值 和 1024碎星值
+[2024/06/14|17:50:15][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|17:50:15][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 36貢獻值 和 54碎星值
+[2024/06/14|17:50:28][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|17:50:28][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|18:14:33][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|18:14:33][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|18:15:47][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|18:18:03][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]說:高中四個階段：
+高一  鄙視私立大學
+高二  理解私立大學
+高三  選填私立大學
+畢業  落選私立大學
+[2024/06/14|18:47:02][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:現在 送外送
+[2024/06/14|18:47:13][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]說:這我
+[2024/06/14|18:47:56][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|18:47:56][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|18:48:24][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]說:高中四個階段：
+高一  鄙視私立科技大學
+高二  理解私立科技大學
+高三  選填私立科技大學
+畢業  落選私立科技大學
+
+這我
+[2024/06/14|18:48:29][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: 高中四個階段：
+高一  鄙視私立科技大學
+高二  理解私立科技大學
+高三  選填私立科技大學
+畢業  落選私立科技大學
+
+這我 -> 高中四個階段：
+高一  鄙視私立科技大學
+高二  理解私立科技大學
+高三  選填私立科技大學
+畢業  落選私立科技大學
+[2024/06/14|18:51:33][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|18:51:33][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 61貢獻值 和 91碎星值
+[2024/06/14|19:13:52][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|19:13:52][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|19:14:28][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/14|19:14:28][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/14|19:21:51][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|21:36:19][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/14|23:44:39][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News 
+Welcome to the fourth episode of the #EscapefromTarkov Field Guide. In this video we will talk about the Hideout - the main hangout for PMCs in between the raids.
+
+Voiceover: USEC 3 realFortyOne
+
+https://youtu.be/F9jWixN3R80
+[2024/06/15|00:28:13][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|01:01:15][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|01:45:51][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|02:21:19][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|02:28:20][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|02:28:20][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 460貢獻值 和 690碎星值
+[2024/06/15|02:50:15][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|02:50:15][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 515貢獻值 和 772碎星值
+[2024/06/15|03:08:14][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|04:11:18][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|04:12:42][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|04:12:42][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 683貢獻值 和 1024碎星值
+[2024/06/15|06:04:10][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|06:04:10][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 760貢獻值 和 1520碎星值
+[2024/06/15|07:38:54][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|10:55:05][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|10:55:05][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 941貢獻值 和 1882碎星值
+[2024/06/15|10:59:22][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|11:16:29][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|11:37:39][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|11:37:39][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/15|13:22:07][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|13:22:07][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/15|13:45:04][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|13:45:04][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 1110貢獻值 和 1665碎星值
+[2024/06/15|14:46:42][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|18:37:00][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|18:59:12][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|19:20:19][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:https://youtu.be/luJJhruwlLI?si=h7ydkbvmJ3H6R8rF
+[2024/06/15|19:20:20][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: https://youtu.be/luJJhruwlLI?si=h7ydkbvmJ3H6R8rF -> https://youtu.be/luJJhruwlLI?si=h7ydkbvmJ3H6R8rF
+[2024/06/15|20:40:09][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|20:40:09][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/15|21:09:47][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/15|23:48:06][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/15|23:48:06][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|00:10:32][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|00:10:32][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|00:53:25][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|01:45:41][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|01:45:41][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 848貢獻值 和 1272碎星值
+[2024/06/16|04:14:39][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|04:14:39][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 266貢獻值 和 399碎星值
+[2024/06/16|04:35:58][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|05:50:55][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|08:33:25][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|08:33:25][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 502貢獻值 和 753碎星值
+[2024/06/16|08:34:48][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|11:34:58][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|11:43:11][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|11:43:11][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 903貢獻值 和 1354碎星值
+[2024/06/16|11:50:22][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|11:50:22][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|12:43:25][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|12:43:25][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|13:41:04][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|14:30:16][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|14:30:16][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|15:27:43][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|15:27:43][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 164貢獻值 和 246碎星值
+[2024/06/16|15:28:08][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|15:28:08][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|16:04:39][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|16:43:30][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|17:04:42][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|17:04:42][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 314貢獻值 和 471碎星值
+[2024/06/16|17:11:22][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|17:11:22][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|17:20:48][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|17:20:48][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|17:31:51][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]新增附件:('1251831600375660636_image.png',)
+[2024/06/16|17:31:51][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:<@428845649279188992>
+[2024/06/16|17:31:59][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:ezzzzzzzzz
+[2024/06/16|17:36:10][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|17:36:10][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|18:31:15][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|19:43:28][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|19:43:28][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 313貢獻值 和 469碎星值
+[2024/06/16|19:51:22][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:https://www.twitch.tv/neipuduck
+[2024/06/16|20:47:36][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|20:47:36][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 216貢獻值 和 324碎星值
+[2024/06/16|21:11:02][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|21:11:02][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 230貢獻值 和 460碎星值
+[2024/06/16|21:11:05][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|21:11:05][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|21:12:20][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|21:37:30][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|21:37:30][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/06/16|23:35:56][INFO]:Shard ID None has successfully RESUMED session a6baf25b8208e82e4b32313183681475.
+[2024/06/16|23:37:21][INFO]:Connecting to voice...
+[2024/06/16|23:37:21][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/16|23:37:22][INFO]:Voice handshake complete. Endpoint found japan11078.discord.media
+[2024/06/16|23:37:23][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/16|23:37:23][INFO]:received secret key for voice connection
+[2024/06/16|23:37:26][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/16|23:37:26][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/06/16|23:37:54][INFO]:Connecting to voice...
+[2024/06/16|23:37:54][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/16|23:37:55][INFO]:Voice handshake complete. Endpoint found japan11078.discord.media
+[2024/06/16|23:37:55][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/16|23:37:56][INFO]:received secret key for voice connection
+[2024/06/16|23:38:10][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/16|23:38:10][INFO]:ffmpeg process 3372 has not terminated. Waiting to terminate...
+[2024/06/16|23:38:10][INFO]:ffmpeg process 3372 should have terminated with a return code of 1.
+[2024/06/16|23:38:10][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/06/16|23:38:23][INFO]:Connecting to voice...
+[2024/06/16|23:38:23][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/16|23:38:24][INFO]:Voice handshake complete. Endpoint found japan11078.discord.media
+[2024/06/16|23:38:25][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/16|23:38:25][INFO]:received secret key for voice connection
+[2024/06/16|23:42:29][INFO]:ffmpeg process 8872 successfully terminated with return code of 0.
+[2024/06/16|23:42:29][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/16|23:42:29][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/06/16|23:43:35][INFO]:Connecting to voice...
+[2024/06/16|23:43:35][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/16|23:43:36][INFO]:Voice handshake complete. Endpoint found japan11078.discord.media
+[2024/06/16|23:43:37][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/16|23:43:37][INFO]:received secret key for voice connection
+[2024/06/16|23:48:18][INFO]:ffmpeg process 13188 successfully terminated with return code of 0.
+[2024/06/16|23:48:18][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/16|23:48:18][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/06/16|23:48:24][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/06/16|23:48:24][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 2066貢獻值 和 4132碎星值
+=======
+[2024/06/13|17:02:14][INFO]:擴充指令初始化完成
+[2024/06/13|17:02:15][INFO]:logging in using static token
+[2024/06/13|17:02:17][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/13|17:02:17][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/13|17:02:17][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/13|17:02:17][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/13|17:02:17][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/13|17:02:17][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/13|17:02:17][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/13|17:02:17][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/13|17:02:18][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/13|17:02:18][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/13|17:02:19][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/13|17:02:19][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/13|17:02:19][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/13|17:02:19][INFO]:已同步13個斜線指令
+[2024/06/13|17:02:19][INFO]:Shard ID None has connected to Gateway (Session ID: 5d0334d66457eee76fd6808402b6c2d4).
+[2024/06/13|17:02:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|17:02:27][INFO]:Connecting to voice...
+[2024/06/13|17:02:27][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/13|17:02:28][INFO]:Voice handshake complete. Endpoint found hongkong430.discord.media
+[2024/06/13|17:02:28][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/13|17:02:28][INFO]:received secret key for voice connection
+[2024/06/13|17:02:59][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/13|17:02:59][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/13|17:17:26][INFO]:擴充指令初始化完成
+[2024/06/13|17:17:26][INFO]:logging in using static token
+[2024/06/13|17:17:28][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/13|17:17:28][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/13|17:17:28][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/13|17:17:28][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/13|17:17:28][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/13|17:17:28][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/13|17:17:28][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/13|17:17:28][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/13|17:17:28][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/13|17:17:28][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/13|17:17:28][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/13|17:17:28][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/13|17:17:29][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/13|17:17:29][INFO]:已同步13個斜線指令
+[2024/06/13|17:17:30][INFO]:Shard ID None has connected to Gateway (Session ID: 28eb7953f8ae017f516c4e3ca1447619).
+[2024/06/13|17:17:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|17:18:26][INFO]:Connecting to voice...
+[2024/06/13|17:18:26][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/13|17:18:26][INFO]:Voice handshake complete. Endpoint found hongkong430.discord.media
+[2024/06/13|17:18:26][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/13|17:18:26][INFO]:received secret key for voice connection
+[2024/06/13|17:18:29][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 44, in play_music
+    music_ = Music_(next(music_list), interaction)
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\helpers.py", line 81, in __next__
+    curr_element = self[self.iter_index]
+                        ^^^^^^^^^^^^^^^
+AttributeError: 'DeferredGeneratorList' object has no attribute 'iter_index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'DeferredGeneratorList' object has no attribute 'iter_index'
+[2024/06/13|17:18:40][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/13|17:18:40][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/13|17:19:43][INFO]:擴充指令初始化完成
+[2024/06/13|17:19:43][INFO]:logging in using static token
+[2024/06/13|17:19:44][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/13|17:19:44][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/13|17:19:44][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/13|17:19:44][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/13|17:19:44][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/13|17:19:44][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/13|17:19:44][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/13|17:19:44][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/13|17:19:44][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/13|17:19:45][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/13|17:19:45][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/13|17:19:45][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/13|17:19:45][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/13|17:19:45][INFO]:已同步13個斜線指令
+[2024/06/13|17:19:46][INFO]:Shard ID None has connected to Gateway (Session ID: 57a4eb4168d9ca96d385c8f150d7024e).
+[2024/06/13|17:19:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|17:20:03][INFO]:Connecting to voice...
+[2024/06/13|17:20:03][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/13|17:20:04][INFO]:Voice handshake complete. Endpoint found hongkong430.discord.media
+[2024/06/13|17:20:05][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/13|17:20:05][INFO]:received secret key for voice connection
+[2024/06/13|17:21:05][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/13|17:21:05][INFO]:ffmpeg process 8344 has not terminated. Waiting to terminate...
+[2024/06/13|17:21:05][INFO]:ffmpeg process 8344 should have terminated with a return code of 1.
+[2024/06/13|17:21:06][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/13|17:32:55][INFO]:擴充指令初始化完成
+[2024/06/13|17:32:55][INFO]:logging in using static token
+[2024/06/13|17:32:56][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/13|17:32:56][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/13|17:32:56][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/13|17:32:57][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/13|17:32:57][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/13|17:32:57][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/13|17:32:57][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/13|17:32:57][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/13|17:32:58][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/13|17:32:58][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/13|17:32:58][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/13|17:32:58][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/13|17:32:58][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/13|17:32:58][INFO]:已同步13個斜線指令
+[2024/06/13|17:33:00][INFO]:Shard ID None has connected to Gateway (Session ID: 87b920dfcfb62a411d4e5e824a1b4f7e).
+[2024/06/13|17:33:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|17:33:08][INFO]:Connecting to voice...
+[2024/06/13|17:33:08][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/13|17:33:09][INFO]:Voice handshake complete. Endpoint found hongkong430.discord.media
+[2024/06/13|17:33:09][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/13|17:33:09][INFO]:received secret key for voice connection
+[2024/06/13|17:33:29][WARNING]:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\XitoAi.py", line 103, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 202, in callback
+    music_queue = MusicQueue(interaction,self.player)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 20, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 56, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\music.py", line 28, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/06/13|17:33:45][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/13|17:33:45][ERROR]:Calling the after function failed.
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\player.py", line 712, in _call_after
+    self.after(error)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\player.py", line 56, in <lambda>
+    after=lambda _: asyncio.run_coroutine_threadsafe(self.start(),self.XitoAi.loop)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\tasks.py", line 950, in run_coroutine_threadsafe
+    loop.call_soon_threadsafe(callback)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_MissingSentinel' object has no attribute 'call_soon_threadsafe'
+[2024/06/13|17:33:45][INFO]:ffmpeg process 4960 has not terminated. Waiting to terminate...
+[2024/06/13|17:33:45][INFO]:ffmpeg process 4960 should have terminated with a return code of 1.
+[2024/06/13|17:33:57][ERROR]:Task exception was never retrieved
+future: <Task finished name='discord-ui-view-dispatch-4ad038a756f4e00bef31085c85702649' coro=<View._scheduled_task() done, defined at C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py:416> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 202, in callback
+    music_queue = MusicQueue(interaction,self.player)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 20, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 56, in gnerate_page
+    name=music.title,
+         ^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\music.py", line 28, in title
+    return self.youtube_info.title
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+                  ^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+[2024/06/13|17:43:01][INFO]:擴充指令初始化完成
+[2024/06/13|17:43:01][INFO]:logging in using static token
+[2024/06/13|17:43:03][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/13|17:43:03][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/13|17:43:03][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/13|17:43:03][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/13|17:43:03][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/13|17:43:03][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/13|17:43:03][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/13|17:43:03][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/13|17:43:03][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/13|17:43:03][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/13|17:43:03][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/13|17:43:03][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/13|17:43:03][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/13|17:43:03][INFO]:已同步13個斜線指令
+[2024/06/13|17:43:04][INFO]:Shard ID None has connected to Gateway (Session ID: 1f312053af99c99f054af1aed269a1d0).
+[2024/06/13|17:43:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/13|17:43:12][INFO]:Connecting to voice...
+[2024/06/13|17:43:12][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/13|17:43:13][INFO]:Voice handshake complete. Endpoint found hongkong430.discord.media
+[2024/06/13|17:43:13][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/13|17:43:13][INFO]:received secret key for voice connection
+[2024/06/13|17:43:21][ERROR]:Ignoring exception in view <View timeout=None children=5> for item <QueueButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='🎵' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 206, in callback
+    await music_queue.show()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\ui.py", line 41, in show
+    embed=self.pages[self.now_page],
+          ~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2024/06/13|17:43:32][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/13|17:43:32][INFO]:ffmpeg process 5828 has not terminated. Waiting to terminate...
+[2024/06/13|17:43:32][INFO]:ffmpeg process 5828 should have terminated with a return code of 1.
+[2024/06/13|17:43:32][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+>>>>>>> 67a345d0d289250bf454b1fd7021fd8a4cf3d87f

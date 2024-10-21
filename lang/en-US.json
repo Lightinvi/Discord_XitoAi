@@ -1,0 +1,76 @@
+{
+    "command":{
+        "me":"me",
+        "me.desc":"View your current guild`s star level, broken star, online time and other information",
+
+        "other":"other",
+        "other.desc":"View the star level, broken star, online time and other information of other current guild members",
+        "other.user.desc":"To query target members, you can use @ to quickly specify the user",
+
+        "lottery":"lottery",
+        "lottery.desc":"By betting broken stars in the lottery, you have a chance to get more",
+        "lottery.broken_star.desc":"Broken star betting range 1~10000",
+
+        "get_verification":"get_verification_code",
+        "get_verification.desc":"Enter the email address to obtain the verification code",
+        "get_verification.email.desc":"your email address",
+
+        "verify":"verify",
+        "verify.desc":"Used to enter the verification code obtained from email",
+        "verify.code.desc":"Verification code (six digits)",
+
+        "music":"music",
+        "queue":"queue",
+        "skip":"skip",
+        "pause":"pause",
+        "resume":"resume",
+        "disconnect":"disconnect",
+        "music.desc":"music player",
+        "music.music.desc":"Music name or music URL (youtube only)",
+        "queue.desc":"View music queue",
+        "skip.desc":"skip music",
+        "pause.desc":"Pause music",
+        "resume.desc":"Resume paused music",
+        "disconnect.desc":"Exit the voice channel and initialize the music list",
+
+        "rank":"ranking",
+        "rank.desc":"Rankings of members of this guild",
+        "rank.target.desc":"Ranking Item",
+        "rank.index.desc":"The ranking index value determines how many rankings are returned",
+        "rank.choice.brokenStar":"BrokenStar",
+        "rank.choice.onlineTime":"Contribution"
+    },
+    "content":{
+        "me.is_personal":"This command cannot be used in personal messages",
+        "me.verify":"verified",
+        "me.unverify":"Unverified",
+        "me.starLevel":"star level",
+        "me.brokenStar":"broken star",
+        "me.current_online_time":"Current online time",
+        "me.total_online_time":"Contribution",
+        "me.verify_status":"Mailbox verification status",
+
+        "other.starLevel":"star level",
+        "other.brokenStar":"broken star",
+        "other.current_online_time":"Current online time",
+        "other.total_online_time":"Contribution",
+        "other.is_personal":"This command cannot be used in personal messages",
+
+        "lottery.error.msg.rangeout":"Out of betting range",
+        "lottery.error.msg.insufficient":"Insufficient broken star",
+        "lottery.result":"Lottery result",
+        "lottery.bet":"The star of your bet",
+        "lottery.magnification":"magnification",
+        "lottery.probability":"probability",
+        "lottery.bouns":"Finally won",
+
+        "verify.completed":"Verified",
+        "verify.sent":"The verification code has been sent, please check your email",
+        "verify.succeed":"Verification successful",
+        "verify.failed":"Verification failed",
+
+        "rank.brokenStar":"brokenStar",
+        "rank.total_onlineTime":"Contribution",
+        "rank.index.rangeout":"Invalid index value"
+    }
+}

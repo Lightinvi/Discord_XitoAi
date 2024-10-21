@@ -1,0 +1,17 @@
+[2024/03/22|10:44:53][INFO]:擴充指令初始化完成
+[2024/03/22|10:44:53][INFO]:logging in using static token
+[2024/03/22|10:44:55][INFO]:Shard ID None has connected to Gateway (Session ID: bb77297a5ce69d04422117cff8471d13).
+[2024/03/22|10:44:58][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/22|10:44:58][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/22|10:46:25][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/22|11:49:54][INFO]:Shard ID None has successfully RESUMED session bb77297a5ce69d04422117cff8471d13.
+[2024/03/22|12:10:23][INFO]:Shard ID None has successfully RESUMED session bb77297a5ce69d04422117cff8471d13.
+[2024/03/22|13:47:02][INFO]:擴充指令初始化完成
+[2024/03/22|13:47:02][INFO]:logging in using static token
+[2024/03/22|13:47:03][INFO]:Shard ID None has connected to Gateway (Session ID: 6b1ba131023e94e6fdd19e1e6becc2e7).
+[2024/03/22|13:47:06][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/22|13:47:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/22|14:54:32][INFO]:Shard ID None has successfully RESUMED session 6b1ba131023e94e6fdd19e1e6becc2e7.
+[2024/03/22|16:07:46][INFO]:XitoAi Debug System#5101<XitoAi Debug System#5101>:請求列印->1220645080344297502_test1.png

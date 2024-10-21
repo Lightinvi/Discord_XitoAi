@@ -1,0 +1,408 @@
+[2024/05/24|09:49:43][INFO]:擴充指令初始化完成
+[2024/05/24|09:49:43][INFO]:logging in using static token
+[2024/05/24|09:49:45][INFO]:Shard ID None has connected to Gateway (Session ID: 6dbccad123a505a52aadc70aa1ae4c1a).
+[2024/05/24|09:49:48][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|09:49:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|09:50:25][INFO]:Connecting to voice...
+[2024/05/24|09:50:25][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|09:50:26][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|09:53:19][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/24|09:53:19][INFO]:ffmpeg process 12132 has not terminated. Waiting to terminate...
+[2024/05/24|09:53:19][INFO]:ffmpeg process 12132 should have terminated with a return code of 1.
+[2024/05/24|09:53:19][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|10:34:30][INFO]:擴充指令初始化完成
+[2024/05/24|10:34:30][INFO]:logging in using static token
+[2024/05/24|10:34:32][INFO]:Shard ID None has connected to Gateway (Session ID: 7a51113ef2817e570b575efafe2ac99c).
+[2024/05/24|10:34:35][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|10:34:35][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|10:34:52][INFO]:Connecting to voice...
+[2024/05/24|10:34:52][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|10:34:53][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|10:35:58][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/24|10:35:58][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|10:35:58][INFO]:ffmpeg process 2432 has not terminated. Waiting to terminate...
+[2024/05/24|10:35:58][INFO]:ffmpeg process 2432 should have terminated with a return code of 1.
+[2024/05/24|10:37:15][INFO]:擴充指令初始化完成
+[2024/05/24|10:37:16][INFO]:logging in using static token
+[2024/05/24|10:37:17][INFO]:Shard ID None has connected to Gateway (Session ID: 399fc024270fa1e6592803728c4bb426).
+[2024/05/24|10:37:20][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|10:37:20][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|10:37:35][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 24, in play_music
+    music = await MusicChenck.is_random()
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MusicChenck.is_random() missing 1 required positional argument: 'music'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: TypeError: MusicChenck.is_random() missing 1 required positional argument: 'music'
+[2024/05/24|10:38:32][INFO]:擴充指令初始化完成
+[2024/05/24|10:38:32][INFO]:logging in using static token
+[2024/05/24|10:38:33][INFO]:Shard ID None has connected to Gateway (Session ID: 426f71299571c7ad058099810567b294).
+[2024/05/24|10:38:35][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|10:38:35][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|10:38:45][INFO]:Connecting to voice...
+[2024/05/24|10:38:45][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|10:38:45][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|10:43:28][INFO]:ffmpeg process 4144 successfully terminated with return code of 0.
+[2024/05/24|10:47:09][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/24|10:47:09][INFO]:ffmpeg process 7536 successfully terminated with return code of 0.
+[2024/05/24|10:47:09][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|14:40:33][INFO]:擴充指令初始化完成
+[2024/05/24|14:40:33][INFO]:logging in using static token
+[2024/05/24|14:40:34][INFO]:Shard ID None has connected to Gateway (Session ID: e98e443f18a67bc8d629ff270e4ca394).
+[2024/05/24|14:40:37][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|14:40:37][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|14:43:04][INFO]:Connecting to voice...
+[2024/05/24|14:43:04][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|14:43:06][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|14:46:05][INFO]:ffmpeg process 12224 successfully terminated with return code of 0.
+[2024/05/24|14:49:56][INFO]:ffmpeg process 4392 successfully terminated with return code of 0.
+[2024/05/24|14:52:36][INFO]:ffmpeg process 8596 successfully terminated with return code of 0.
+[2024/05/24|14:52:59][INFO]:ffmpeg process 11572 has not terminated. Waiting to terminate...
+[2024/05/24|14:52:59][INFO]:ffmpeg process 11572 should have terminated with a return code of 1.
+[2024/05/24|14:56:40][INFO]:ffmpeg process 7216 successfully terminated with return code of 0.
+[2024/05/24|15:00:02][INFO]:ffmpeg process 3292 successfully terminated with return code of 0.
+[2024/05/24|15:03:29][INFO]:ffmpeg process 11276 successfully terminated with return code of 0.
+[2024/05/24|15:05:20][INFO]:Shard ID None has successfully RESUMED session e98e443f18a67bc8d629ff270e4ca394.
+[2024/05/24|15:10:06][INFO]:ffmpeg process 10756 successfully terminated with return code of 0.
+[2024/05/24|15:13:12][ERROR]:Disconnected from voice... Reconnecting in 1.43s.
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\voice_client.py", line 461, in poll_voice_ws
+    await self.ws.poll_event()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 1011, in poll_event
+    raise ConnectionClosed(self.ws, shard_id=None, code=self._close_code)
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1006
+[2024/05/24|15:13:14][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|15:13:14][INFO]:Connecting to voice...
+[2024/05/24|15:13:14][INFO]:Starting voice handshake... (connection attempt 2)
+[2024/05/24|15:13:15][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|15:13:27][INFO]:ffmpeg process 9740 successfully terminated with return code of 0.
+[2024/05/24|15:14:10][INFO]:ffmpeg process 3900 has not terminated. Waiting to terminate...
+[2024/05/24|15:14:10][INFO]:ffmpeg process 3900 should have terminated with a return code of 1.
+[2024/05/24|15:18:21][INFO]:ffmpeg process 5908 successfully terminated with return code of 0.
+[2024/05/24|15:21:35][INFO]:ffmpeg process 11924 successfully terminated with return code of 0.
+[2024/05/24|15:24:46][INFO]:ffmpeg process 11628 successfully terminated with return code of 0.
+[2024/05/24|15:28:00][INFO]:ffmpeg process 2252 successfully terminated with return code of 0.
+[2024/05/24|15:28:15][WARNING]:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 161, in throttling_array_split
+    while len(curr_substring) > 0:
+
+[2024/05/24|15:28:16][WARNING]:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 161, in throttling_array_split
+    while len(curr_substring) > 0:
+
+[2024/05/24|15:28:26][WARNING]:Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 165, in throttling_array_split
+    match_start, match_end = match.span()
+
+[2024/05/24|15:28:27][WARNING]:Shard ID None voice heartbeat blocked for more than 20 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 161, in throttling_array_split
+    while len(curr_substring) > 0:
+
+[2024/05/24|15:28:36][WARNING]:Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 161, in throttling_array_split
+    while len(curr_substring) > 0:
+
+[2024/05/24|15:28:37][WARNING]:Shard ID None voice heartbeat blocked for more than 30 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 435, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 60, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 44, in __init__
+    self.throttling_array = get_throttling_function_array(js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 341, in get_throttling_function_array
+    str_array = throttling_array_split(array_raw)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\parser.py", line 176, in throttling_array_split
+    match_start, match_end = match.span()
+
+[2024/05/24|15:28:43][ERROR]:Disconnected from voice... Reconnecting in 0.11s.
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\client_ws.py", line 244, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\streams.py", line 663, in read
+    return await super().read()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\streams.py", line 622, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\voice_client.py", line 461, in poll_voice_ws
+    await self.ws.poll_event()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 1003, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+[2024/05/24|15:28:43][ERROR]:Attempting a reconnect in 1.82s
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+[2024/05/24|15:28:43][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|15:28:46][INFO]:Shard ID None has successfully RESUMED session e98e443f18a67bc8d629ff270e4ca394.
+[2024/05/24|15:29:03][WARNING]:Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2024/05/24|15:31:17][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|15:33:14][INFO]:擴充指令初始化完成
+[2024/05/24|15:33:14][INFO]:logging in using static token
+[2024/05/24|15:33:16][INFO]:Shard ID None has connected to Gateway (Session ID: 61792ce9ff291d66dd58d7916f997147).
+[2024/05/24|15:33:20][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|15:33:20][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|15:33:39][INFO]:Connecting to voice...
+[2024/05/24|15:33:39][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|15:33:40][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|15:36:18][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/24|15:36:18][INFO]:ffmpeg process 8664 successfully terminated with return code of 0.
+[2024/05/24|15:36:18][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|16:06:50][INFO]:Shard ID None has successfully RESUMED session 61792ce9ff291d66dd58d7916f997147.
+[2024/05/24|16:47:43][INFO]:lightinvi<428845649279188992>在[光隱測試區->一般]說:<#1146358218696691764> 作業在這
+[2024/05/24|17:03:03][INFO]:Shard ID None has successfully RESUMED session 61792ce9ff291d66dd58d7916f997147.
+[2024/05/24|17:04:53][INFO]:Connecting to voice...
+[2024/05/24|17:04:53][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/24|17:04:53][INFO]:Voice handshake complete. Endpoint found hongkong3797.discord.media
+[2024/05/24|17:05:45][ERROR]:Ignoring exception in modal <AddMusicTextinput timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 364, in on_submit
+    is_player_list = MusicChenck.is_playerlist(music)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 80, in is_playerlist
+    if "playlist?list" in url:
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'coroutine' is not iterable
+[2024/05/24|17:10:41][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/24|17:10:41][INFO]:ffmpeg process 4340 successfully terminated with return code of 0.
+[2024/05/24|17:10:41][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/24|17:43:43][WARNING]:Can't keep up, shard ID None websocket is 13.2s behind.
+[2024/05/24|17:43:43][INFO]:Shard ID None session has been invalidated.
+[2024/05/24|17:43:50][INFO]:Shard ID None has connected to Gateway (Session ID: 490a6812beb3c557cca24c5bdbc076c1).
+[2024/05/24|17:43:52][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/24|17:43:52][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/24|17:46:22][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/24|17:46:22][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/24|17:46:22][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/24|17:58:37][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/24|17:58:37][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/24|17:58:37][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 12貢獻值 和 18碎星值

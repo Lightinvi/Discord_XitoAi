@@ -1,0 +1,790 @@
+[2024/05/22|09:18:23][INFO]:擴充指令初始化完成
+[2024/05/22|09:18:24][INFO]:logging in using static token
+[2024/05/22|09:18:25][INFO]:Shard ID None has connected to Gateway (Session ID: c53afb1a9f1208fbdf5a35800c19418b).
+[2024/05/22|09:18:30][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:18:30][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:18:41][ERROR]:Ignoring exception in command 'disconnect'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 123, in dsiconnect_channel
+    await interaction.response.send_message("初始化音樂系統")
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 774, in send_message
+    raise InteractionResponded(self._parent)
+discord.errors.InteractionResponded: This interaction has already been responded to before
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'disconnect' raised an exception: InteractionResponded: This interaction has already been responded to before
+[2024/05/22|09:20:30][INFO]:擴充指令初始化完成
+[2024/05/22|09:20:30][INFO]:logging in using static token
+[2024/05/22|09:20:32][INFO]:Shard ID None has connected to Gateway (Session ID: 21215e324f4b95cdf94093e6eebb485e).
+[2024/05/22|09:20:34][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:20:34][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:20:47][ERROR]:Ignoring exception in command 'disconnect'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 123, in dsiconnect_channel
+    await interaction.response.send_message("初始化音樂系統")
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 774, in send_message
+    raise InteractionResponded(self._parent)
+discord.errors.InteractionResponded: This interaction has already been responded to before
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'disconnect' raised an exception: InteractionResponded: This interaction has already been responded to before
+[2024/05/22|09:24:06][INFO]:擴充指令初始化完成
+[2024/05/22|09:24:06][INFO]:logging in using static token
+[2024/05/22|09:24:07][INFO]:Shard ID None has connected to Gateway (Session ID: 3b89dfadd97462bfcf875247fde0cdc3).
+[2024/05/22|09:24:10][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:24:10][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:37:22][INFO]:擴充指令初始化完成
+[2024/05/22|09:37:22][INFO]:logging in using static token
+[2024/05/22|09:37:25][INFO]:Shard ID None has connected to Gateway (Session ID: f9d41ba14b8373d0e5e0c1e217307809).
+[2024/05/22|09:37:27][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:37:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:37:51][INFO]:Connecting to voice...
+[2024/05/22|09:37:51][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|09:37:51][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/22|09:37:57][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 74, in play_music
+    await self.music_console.start()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 238, in start
+    await self.music.download()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 57, in download
+    stream = self.youtube_info.streams.filter(only_audio=True, file_extension="mp4").first()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 181, in fmt_streams
+    extract.apply_signature(stream_manifest, self.vid_info, self.js)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 409, in apply_signature
+    cipher = Cipher(js=js)
+             ^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 43, in __init__
+    self.throttling_plan = get_throttling_plan(js)
+                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\cipher.py", line 411, in get_throttling_plan
+    transform_plan_raw = find_object_from_startpoint(raw_code, match.span()[1] - 1)
+                                                               ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'span'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'NoneType' object has no attribute 'span'
+[2024/05/22|09:38:20][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|09:38:20][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|09:50:18][INFO]:擴充指令初始化完成
+[2024/05/22|09:50:18][INFO]:logging in using static token
+[2024/05/22|09:50:19][INFO]:Shard ID None has connected to Gateway (Session ID: cf94e05e476c41b121ccab12fa6e635a).
+[2024/05/22|09:50:22][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:50:22][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:50:48][INFO]:Connecting to voice...
+[2024/05/22|09:50:48][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|09:50:49][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/22|09:51:50][WARNING]:Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2024/05/22|09:53:15][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 33, in play_music
+    await interactions.user.voice.channel.connect(timeout=None)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\abc.py", line 1895, in connect
+    raise ClientException('Already connected to a voice channel.')
+discord.errors.ClientException: Already connected to a voice channel.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: ClientException: Already connected to a voice channel.
+[2024/05/22|09:54:00][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|09:54:01][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 461, in finish_socket_func
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 995] 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 33, in play_music
+    await interactions.user.voice.channel.connect(timeout=None)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\abc.py", line 1906, in connect
+    await voice.connect(timeout=timeout, reconnect=reconnect, self_deaf=self_deaf, self_mute=self_mute)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\voice_client.py", line 395, in connect
+    self.ws = await self.connect_websocket()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\voice_client.py", line 366, in connect_websocket
+    await ws.poll_event()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 1005, in poll_event
+    await self.received_message(utils._from_json(msg.data))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 930, in received_message
+    await self.initial_connection(data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 957, in initial_connection
+    recv = await self.loop.sock_recv(state.socket, 74)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\proactor_events.py", line 706, in sock_recv
+    return await self._proactor.recv(sock, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 798, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 465, in finish_socket_func
+    raise ConnectionResetError(*exc.args)
+ConnectionResetError: [WinError 995] 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: ConnectionResetError: [WinError 995] 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+[2024/05/22|09:54:13][INFO]:擴充指令初始化完成
+[2024/05/22|09:54:13][INFO]:logging in using static token
+[2024/05/22|09:54:14][INFO]:Shard ID None has connected to Gateway (Session ID: 4daa30db4b7cd3fcfce07b87d35f30e0).
+[2024/05/22|09:54:17][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|09:54:17][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|09:54:29][INFO]:Connecting to voice...
+[2024/05/22|09:54:29][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|09:54:30][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/22|09:55:21][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 71, in play_music
+    await interactions.followup.send(F"已將{music_.title}加入播放清單",delete_after=10)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Webhook.send() got an unexpected keyword argument 'delete_after'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: TypeError: Webhook.send() got an unexpected keyword argument 'delete_after'
+[2024/05/22|09:56:36][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|09:56:36][INFO]:ffmpeg process 8676 has not terminated. Waiting to terminate...
+[2024/05/22|09:56:36][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|09:56:36][INFO]:ffmpeg process 8676 should have terminated with a return code of 1.
+[2024/05/22|09:56:36][ERROR]:Ignoring exception in command 'disconnect'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 129, in dsiconnect_channel
+    await self.music_console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 254, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'disconnect' raised an exception: NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024/05/22|10:04:18][INFO]:擴充指令初始化完成
+[2024/05/22|10:04:18][INFO]:logging in using static token
+[2024/05/22|10:04:19][INFO]:Shard ID None has connected to Gateway (Session ID: f8c51f875f7fe88dfe485acb94ee9516).
+[2024/05/22|10:04:21][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|10:04:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|10:04:41][INFO]:Connecting to voice...
+[2024/05/22|10:04:41][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|10:04:41][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/22|10:05:25][INFO]:ffmpeg process 7364 has not terminated. Waiting to terminate...
+[2024/05/22|10:05:25][INFO]:ffmpeg process 7364 should have terminated with a return code of 1.
+[2024/05/22|10:07:32][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|10:07:32][INFO]:ffmpeg process 2628 has not terminated. Waiting to terminate...
+[2024/05/22|10:07:32][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|10:07:33][INFO]:ffmpeg process 2628 should have terminated with a return code of 1.
+[2024/05/22|10:07:33][ERROR]:Ignoring exception in view <View timeout=600 children=4> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 205, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 254, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024/05/22|10:14:56][INFO]:擴充指令初始化完成
+[2024/05/22|10:14:56][INFO]:logging in using static token
+[2024/05/22|10:14:58][INFO]:Shard ID None has connected to Gateway (Session ID: 05d1f64bc494acd5acd2a0b91f6fe200).
+[2024/05/22|10:15:00][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|10:15:00][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|10:15:16][INFO]:Connecting to voice...
+[2024/05/22|10:15:16][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|10:15:16][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/22|10:15:43][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|10:15:43][INFO]:ffmpeg process 8612 has not terminated. Waiting to terminate...
+[2024/05/22|10:15:44][INFO]:ffmpeg process 8612 should have terminated with a return code of 1.
+[2024/05/22|10:15:44][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|10:15:44][ERROR]:Ignoring exception in view <View timeout=600 children=4> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 205, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 253, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+[2024/05/22|13:52:23][INFO]:擴充指令初始化完成
+[2024/05/22|13:52:23][INFO]:logging in using static token
+[2024/05/22|13:52:24][INFO]:Shard ID None has connected to Gateway (Session ID: 0cb0d422f3fde8e4d3284cbf5e81818d).
+[2024/05/22|13:52:27][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|13:52:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|13:52:44][INFO]:Connecting to voice...
+[2024/05/22|13:52:44][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|13:52:45][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|13:53:40][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|13:53:40][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|13:53:40][INFO]:ffmpeg process 11640 has not terminated. Waiting to terminate...
+[2024/05/22|13:53:40][INFO]:ffmpeg process 11640 should have terminated with a return code of 1.
+[2024/05/22|13:55:29][INFO]:擴充指令初始化完成
+[2024/05/22|13:55:30][INFO]:logging in using static token
+[2024/05/22|13:55:32][INFO]:Shard ID None has connected to Gateway (Session ID: f2c96cf3b4f62b9f5288eafa4f25e765).
+[2024/05/22|13:55:34][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|13:55:34][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|13:55:57][INFO]:Connecting to voice...
+[2024/05/22|13:55:57][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|13:55:58][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|13:56:20][INFO]:ffmpeg process 10116 has not terminated. Waiting to terminate...
+[2024/05/22|13:56:20][INFO]:ffmpeg process 10116 should have terminated with a return code of 1.
+[2024/05/22|13:56:47][ERROR]:Ignoring exception in view <View timeout=600 children=4> for item <SkipButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏭' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 168, in callback
+    await self.console.skip()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 264, in skip
+    self.discord_voice_channel.stop()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'stop'
+[2024/05/22|13:57:17][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|13:57:17][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|13:57:18][INFO]:ffmpeg process 5168 has not terminated. Waiting to terminate...
+[2024/05/22|13:57:18][INFO]:ffmpeg process 5168 should have terminated with a return code of 1.
+[2024/05/22|13:58:19][INFO]:擴充指令初始化完成
+[2024/05/22|13:58:20][INFO]:logging in using static token
+[2024/05/22|13:58:21][INFO]:Shard ID None has connected to Gateway (Session ID: 6fb742815994590a8b8f4e4c25d32fbd).
+[2024/05/22|13:58:24][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|13:58:24][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|14:00:33][INFO]:Connecting to voice...
+[2024/05/22|14:00:33][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:00:34][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:00:46][INFO]:ffmpeg process 6872 has not terminated. Waiting to terminate...
+[2024/05/22|14:00:46][INFO]:ffmpeg process 6872 should have terminated with a return code of 1.
+[2024/05/22|14:01:21][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:01:21][INFO]:ffmpeg process 12280 has not terminated. Waiting to terminate...
+[2024/05/22|14:01:22][INFO]:ffmpeg process 12280 should have terminated with a return code of 1.
+[2024/05/22|14:06:19][INFO]:擴充指令初始化完成
+[2024/05/22|14:06:19][INFO]:logging in using static token
+[2024/05/22|14:06:20][INFO]:Shard ID None has connected to Gateway (Session ID: 7acbbd366431ddb1309bf9c4aaf1a4c5).
+[2024/05/22|14:06:23][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|14:06:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|14:06:36][INFO]:Connecting to voice...
+[2024/05/22|14:06:36][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:06:36][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:06:49][INFO]:ffmpeg process 3276 has not terminated. Waiting to terminate...
+[2024/05/22|14:06:49][INFO]:ffmpeg process 3276 should have terminated with a return code of 1.
+[2024/05/22|14:06:56][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:06:56][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|14:06:56][INFO]:ffmpeg process 1904 has not terminated. Waiting to terminate...
+[2024/05/22|14:06:56][INFO]:ffmpeg process 1904 should have terminated with a return code of 1.
+[2024/05/22|14:07:11][INFO]:Connecting to voice...
+[2024/05/22|14:07:11][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:07:11][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:07:28][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:07:28][INFO]:ffmpeg process 10196 has not terminated. Waiting to terminate...
+[2024/05/22|14:07:28][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|14:07:28][INFO]:ffmpeg process 10196 should have terminated with a return code of 1.
+[2024/05/22|14:07:29][ERROR]:Ignoring exception in view <View timeout=600 children=4> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 253, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10008): Unknown Message
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 205, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 254, in shutdown
+    except [AttributeError,discord.errors.NotFound]:
+TypeError: catching classes that do not inherit from BaseException is not allowed
+[2024/05/22|14:13:27][INFO]:擴充指令初始化完成
+[2024/05/22|14:13:27][INFO]:logging in using static token
+[2024/05/22|14:13:29][INFO]:Shard ID None has connected to Gateway (Session ID: e8509a20e4832e2965311e4e2c7cc72f).
+[2024/05/22|14:13:32][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|14:13:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|14:13:44][INFO]:Connecting to voice...
+[2024/05/22|14:13:44][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:13:44][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:13:53][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:13:53][INFO]:ffmpeg process 4540 has not terminated. Waiting to terminate...
+[2024/05/22|14:13:53][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|14:13:53][INFO]:ffmpeg process 4540 should have terminated with a return code of 1.
+[2024/05/22|14:17:03][INFO]:擴充指令初始化完成
+[2024/05/22|14:17:03][INFO]:logging in using static token
+[2024/05/22|14:17:05][INFO]:Shard ID None has connected to Gateway (Session ID: 483861120b273af8d469f66dc16d3198).
+[2024/05/22|14:17:08][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|14:17:08][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|14:17:15][INFO]:Connecting to voice...
+[2024/05/22|14:17:15][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:17:15][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:17:36][INFO]:ffmpeg process 6360 has not terminated. Waiting to terminate...
+[2024/05/22|14:17:36][INFO]:ffmpeg process 6360 should have terminated with a return code of 1.
+[2024/05/22|14:17:45][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:17:45][INFO]:ffmpeg process 11436 has not terminated. Waiting to terminate...
+[2024/05/22|14:17:45][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|14:17:45][INFO]:ffmpeg process 11436 should have terminated with a return code of 1.
+[2024/05/22|14:18:03][INFO]:Connecting to voice...
+[2024/05/22|14:18:03][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|14:18:04][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|14:18:14][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|14:18:14][INFO]:ffmpeg process 780 has not terminated. Waiting to terminate...
+[2024/05/22|14:18:14][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|14:18:14][INFO]:ffmpeg process 780 should have terminated with a return code of 1.
+[2024/05/22|15:07:42][INFO]:擴充指令初始化完成
+[2024/05/22|15:07:42][INFO]:logging in using static token
+[2024/05/22|15:07:44][INFO]:Shard ID None has connected to Gateway (Session ID: 147a73894ae801c01708e6ecd14c644a).
+[2024/05/22|15:07:46][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:07:46][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:07:56][INFO]:Connecting to voice...
+[2024/05/22|15:07:56][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:07:57][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:08:06][ERROR]:Ignoring exception in view <View timeout=600 children=5> for item <AddMusicButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏏' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 216, in callback
+    await interaction.response.send_modal(self.AddMusicTextinput(self.console))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 964, in send_modal
+    raise InteractionResponded(self._parent)
+discord.errors.InteractionResponded: This interaction has already been responded to before
+[2024/05/22|15:08:37][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:08:37][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:08:37][INFO]:ffmpeg process 8096 has not terminated. Waiting to terminate...
+[2024/05/22|15:08:52][INFO]:擴充指令初始化完成
+[2024/05/22|15:08:52][INFO]:logging in using static token
+[2024/05/22|15:08:53][INFO]:Shard ID None has connected to Gateway (Session ID: 13773892b57ece678ecc8702df86fb9d).
+[2024/05/22|15:08:56][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:08:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:09:08][INFO]:Connecting to voice...
+[2024/05/22|15:09:08][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:09:09][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:09:36][ERROR]:Ignoring exception in modal <AddMusicTextinput timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 253, in on_submit
+    await interaction.followup.send(F"已將{music_.title}加入播放清單")
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 1805, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+[2024/05/22|15:10:24][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:10:24][INFO]:ffmpeg process 10860 has not terminated. Waiting to terminate...
+[2024/05/22|15:10:24][INFO]:ffmpeg process 10860 should have terminated with a return code of 1.
+[2024/05/22|15:10:24][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:13:06][INFO]:擴充指令初始化完成
+[2024/05/22|15:13:06][INFO]:logging in using static token
+[2024/05/22|15:13:08][INFO]:Shard ID None has connected to Gateway (Session ID: ac482b7b3bfb4e41d26eee87368c9d03).
+[2024/05/22|15:13:10][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:13:10][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:13:21][INFO]:Connecting to voice...
+[2024/05/22|15:13:21][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:13:21][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:18:09][INFO]:ffmpeg process 12196 successfully terminated with return code of 0.
+[2024/05/22|15:20:45][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:20:45][INFO]:ffmpeg process 8456 successfully terminated with return code of 0.
+[2024/05/22|15:20:45][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:21:16][INFO]:擴充指令初始化完成
+[2024/05/22|15:21:16][INFO]:logging in using static token
+[2024/05/22|15:21:17][INFO]:Shard ID None has connected to Gateway (Session ID: 4f9d89dc259999c1f051eda7aa555485).
+[2024/05/22|15:21:20][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:21:20][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:21:31][INFO]:Connecting to voice...
+[2024/05/22|15:21:31][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:21:32][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:21:49][ERROR]:Ignoring exception in modal <AddMusicTextinput timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 257, in on_submit
+    msg.delete(delay=10)
+    ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'delete'
+[2024/05/22|15:22:16][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:22:16][INFO]:ffmpeg process 11108 has not terminated. Waiting to terminate...
+[2024/05/22|15:22:16][INFO]:ffmpeg process 11108 should have terminated with a return code of 1.
+[2024/05/22|15:22:16][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:23:10][INFO]:擴充指令初始化完成
+[2024/05/22|15:23:10][INFO]:logging in using static token
+[2024/05/22|15:23:11][INFO]:Shard ID None has connected to Gateway (Session ID: 5c5fe16ff58aac11bfd0abf97241bfb1).
+[2024/05/22|15:23:13][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:23:13][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:23:24][INFO]:Connecting to voice...
+[2024/05/22|15:23:24][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:23:24][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:23:52][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:23:52][INFO]:ffmpeg process 7032 has not terminated. Waiting to terminate...
+[2024/05/22|15:23:52][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:23:52][INFO]:ffmpeg process 7032 should have terminated with a return code of 1.
+[2024/05/22|15:24:31][INFO]:擴充指令初始化完成
+[2024/05/22|15:24:32][INFO]:logging in using static token
+[2024/05/22|15:24:33][INFO]:Shard ID None has connected to Gateway (Session ID: a880053b01e9e932b5de813ff7d08ccf).
+[2024/05/22|15:24:36][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:24:36][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:24:52][INFO]:Connecting to voice...
+[2024/05/22|15:24:52][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:24:52][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:29:39][INFO]:ffmpeg process 2008 successfully terminated with return code of 0.
+[2024/05/22|15:32:15][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:32:15][INFO]:ffmpeg process 5588 successfully terminated with return code of 0.
+[2024/05/22|15:32:15][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:36:36][INFO]:擴充指令初始化完成
+[2024/05/22|15:36:36][INFO]:logging in using static token
+[2024/05/22|15:36:38][INFO]:Shard ID None has connected to Gateway (Session ID: f43daa0549452d325964679821bffbdc).
+[2024/05/22|15:36:40][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:36:40][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:37:47][INFO]:擴充指令初始化完成
+[2024/05/22|15:37:47][INFO]:logging in using static token
+[2024/05/22|15:37:48][INFO]:Shard ID None has connected to Gateway (Session ID: da4f64601bc0ce473deac2fa36b43f89).
+[2024/05/22|15:37:51][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:37:51][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:38:28][INFO]:Connecting to voice...
+[2024/05/22|15:38:28][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:38:28][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:38:29][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(Music_(music, interactions))
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 279, in append
+    if music.length < 600:
+       ^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 41, in length
+    return self.youtube_info.length
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 21, in youtube_info
+    return YouTube(self.url)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+[2024/05/22|15:39:13][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:39:13][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:39:31][INFO]:Connecting to voice...
+[2024/05/22|15:39:31][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:39:32][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:39:32][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(Music_(music, interactions))
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 279, in append
+    if music.length < 600:
+       ^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 41, in length
+    return self.youtube_info.length
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 21, in youtube_info
+    return YouTube(self.url)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+[2024/05/22|15:40:04][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:40:04][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:40:18][INFO]:Connecting to voice...
+[2024/05/22|15:40:18][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:40:19][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:41:29][ERROR]:Ignoring exception in view <View timeout=600 children=5> for item <QueueButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='🎵' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 202, in callback
+    msg = await interaction.followup.send(embed=embed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 1805, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10015): Unknown Webhook
+[2024/05/22|15:42:07][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:42:07][INFO]:ffmpeg process 11624 has not terminated. Waiting to terminate...
+[2024/05/22|15:42:07][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|15:42:07][INFO]:ffmpeg process 11624 should have terminated with a return code of 1.
+[2024/05/22|15:42:21][INFO]:擴充指令初始化完成
+[2024/05/22|15:42:21][INFO]:logging in using static token
+[2024/05/22|15:42:22][INFO]:Shard ID None has connected to Gateway (Session ID: 9ad89f012fa3dd8323df5d76b1cbde9f).
+[2024/05/22|15:42:26][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|15:42:26][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|15:42:39][INFO]:Connecting to voice...
+[2024/05/22|15:42:39][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|15:42:39][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|15:47:28][INFO]:ffmpeg process 5604 successfully terminated with return code of 0.
+[2024/05/22|15:50:03][INFO]:ffmpeg process 4776 successfully terminated with return code of 0.
+[2024/05/22|15:55:39][INFO]:ffmpeg process 6640 successfully terminated with return code of 0.
+[2024/05/22|15:59:42][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|15:59:42][INFO]:ffmpeg process 2252 successfully terminated with return code of 0.
+[2024/05/22|15:59:42][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|16:08:07][INFO]:擴充指令初始化完成
+[2024/05/22|16:08:07][INFO]:logging in using static token
+[2024/05/22|16:08:08][INFO]:Shard ID None has connected to Gateway (Session ID: be4845d54a88504fb0cd129a1722aa13).
+[2024/05/22|16:08:11][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|16:08:11][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|16:08:27][INFO]:Connecting to voice...
+[2024/05/22|16:08:27][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|16:08:27][INFO]:Voice handshake complete. Endpoint found hongkong4091.discord.media
+[2024/05/22|16:13:14][INFO]:ffmpeg process 3048 successfully terminated with return code of 0.
+[2024/05/22|16:15:50][INFO]:ffmpeg process 6136 successfully terminated with return code of 0.
+[2024/05/22|16:21:24][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|16:21:24][INFO]:ffmpeg process 9612 successfully terminated with return code of 0.
+[2024/05/22|16:21:24][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|16:30:41][INFO]:擴充指令初始化完成
+[2024/05/22|16:30:41][INFO]:logging in using static token
+[2024/05/22|16:30:42][INFO]:Shard ID None has connected to Gateway (Session ID: 5c672bd8ebd9dda82956b7311b858f3e).
+[2024/05/22|16:30:45][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|16:30:45][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|16:32:56][WARNING]:lightinvi<428845649279188992> 異常上線時間紀錄
+[2024/05/22|16:33:05][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:33:05][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:33:05][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/22|16:34:08][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:34:08][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:34:08][INFO]:lightinvi<428845649279188992> 於 光隱測試區<1029978425550704640> 獲得 1貢獻值 和 1碎星值
+[2024/05/22|16:34:59][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:34:59][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/22|16:34:59][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/22|16:35:06][INFO]:Connecting to voice...
+[2024/05/22|16:35:06][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|16:35:07][INFO]:Voice handshake complete. Endpoint found hongkong11068.discord.media
+[2024/05/22|16:39:10][INFO]:ffmpeg process 596 successfully terminated with return code of 0.
+[2024/05/22|16:41:46][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|16:41:46][INFO]:ffmpeg process 2584 successfully terminated with return code of 0.
+[2024/05/22|16:41:46][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|17:35:56][INFO]:lightinvi<428845649279188992>在[光隱測試區->test]說:\➡️
+[2024/05/22|17:36:06][INFO]:lightinvi<428845649279188992>在[光隱測試區->test]說:\⬅️
+[2024/05/22|17:42:22][INFO]:擴充指令初始化完成
+[2024/05/22|17:42:22][INFO]:logging in using static token
+[2024/05/22|17:42:23][INFO]:Shard ID None has connected to Gateway (Session ID: 7e844a4019ba15c742ee7994fb3360a0).
+[2024/05/22|17:42:26][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|17:42:26][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|17:42:57][INFO]:擴充指令初始化完成
+[2024/05/22|17:42:57][INFO]:logging in using static token
+[2024/05/22|17:42:59][INFO]:Shard ID None has connected to Gateway (Session ID: 1558ab0826bb554211dbc025c7b47baa).
+[2024/05/22|17:43:02][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|17:43:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|17:43:24][INFO]:Connecting to voice...
+[2024/05/22|17:43:24][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|17:43:24][INFO]:Voice handshake complete. Endpoint found hongkong11068.discord.media
+[2024/05/22|17:44:29][ERROR]:Ignoring exception in view <View timeout=180.0 children=2> for item <NextButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='➡' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 177, in callback
+    await self.music_queue.show()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 125, in show
+    embed=self.pages[self.now_page],
+          ~~~~~~~~~~^^^^^^^^^^^^^^^
+IndexError: list index out of range
+[2024/05/22|17:45:39][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|17:45:39][INFO]:ffmpeg process 6428 has not terminated. Waiting to terminate...
+[2024/05/22|17:45:39][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|17:45:39][INFO]:ffmpeg process 6428 should have terminated with a return code of 1.
+[2024/05/22|17:45:58][INFO]:擴充指令初始化完成
+[2024/05/22|17:45:58][INFO]:logging in using static token
+[2024/05/22|17:45:59][INFO]:Shard ID None has connected to Gateway (Session ID: afa923e5771af95d3e0a7f989070532f).
+[2024/05/22|17:46:02][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|17:46:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|17:46:25][INFO]:Connecting to voice...
+[2024/05/22|17:46:25][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|17:46:25][INFO]:Voice handshake complete. Endpoint found hongkong11068.discord.media
+[2024/05/22|17:48:04][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|17:48:04][INFO]:ffmpeg process 11908 has not terminated. Waiting to terminate...
+[2024/05/22|17:48:04][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|17:48:04][INFO]:ffmpeg process 11908 should have terminated with a return code of 1.
+[2024/05/22|17:49:12][INFO]:擴充指令初始化完成
+[2024/05/22|17:49:12][INFO]:logging in using static token
+[2024/05/22|17:49:13][INFO]:Shard ID None has connected to Gateway (Session ID: 938ede04efc6e0f70b44faf433de5d90).
+[2024/05/22|17:49:16][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|17:49:16][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|17:49:34][INFO]:Connecting to voice...
+[2024/05/22|17:49:34][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|17:49:34][INFO]:Voice handshake complete. Endpoint found hongkong11068.discord.media
+[2024/05/22|17:51:14][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|17:51:14][INFO]:ffmpeg process 11744 has not terminated. Waiting to terminate...
+[2024/05/22|17:51:14][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/22|17:51:14][INFO]:ffmpeg process 11744 should have terminated with a return code of 1.
+[2024/05/22|17:51:36][INFO]:擴充指令初始化完成
+[2024/05/22|17:51:36][INFO]:logging in using static token
+[2024/05/22|17:51:37][INFO]:Shard ID None has connected to Gateway (Session ID: 8de152435d05977d594f9e3a4a3219e9).
+[2024/05/22|17:51:40][INFO]:已載入21個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/22|17:51:40][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/22|17:51:51][INFO]:Connecting to voice...
+[2024/05/22|17:51:51][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/22|17:51:51][INFO]:Voice handshake complete. Endpoint found hongkong11068.discord.media
+[2024/05/22|17:52:50][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/22|17:52:50][INFO]:ffmpeg process 8096 has not terminated. Waiting to terminate...
+[2024/05/22|17:52:50][INFO]:ffmpeg process 8096 should have terminated with a return code of 1.
+[2024/05/22|17:52:51][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)

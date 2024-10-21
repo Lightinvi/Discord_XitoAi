@@ -1,0 +1,799 @@
+[2024/10/21|21:15:39][INFO]:擴充指令初始化完成
+[2024/10/21|21:15:40][INFO]:logging in using static token
+[2024/10/21|21:15:41][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:15:41][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:15:41][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:15:41][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:15:41][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:15:41][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:15:41][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:15:41][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:15:41][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:15:41][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:15:41][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:15:41][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:15:41][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:15:41][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:15:41][INFO]:已同步14個斜線指令
+[2024/10/21|21:16:04][INFO]:Shard ID None has connected to Gateway (Session ID: bb2f4948bcef3f06e737e4c1dd5d2db3).
+[2024/10/21|21:16:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:16:38][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:?他說他以前挖過幣安幣我問有沒有挖過比特幣怎麼了嗎
+[2024/10/21|21:16:45][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:16:45][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/21|21:16:57][INFO]:Connecting to voice...
+[2024/10/21|21:16:57][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:16:57][INFO]:Voice handshake complete. Endpoint found japan6448.discord.media
+[2024/10/21|21:16:58][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:16:58][INFO]:received secret key for voice connection
+[2024/10/21|21:17:14][WARNING]:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\XitoAi.py", line 110, in <module>
+    XitoAi.run(token)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 672, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 639, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1985, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\music.py", line 72, in play_music
+    await self.music_console.start()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\player.py", line 36, in start
+    embed, view = MusicUI(self).show()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\ui.py", line 164, in show
+    return self.embed,self.view
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\ui.py", line 122, in embed
+    embed_.set_thumbnail(url=self.player.music.thunbnail_url)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 48, in thunbnail_url
+    return self.youtube_info.get('thumbnail', '')
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 23, in youtube_info
+    return ydl.extract_info(self.url, download=False)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1615, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1626, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1761, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 741, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 4447, in _real_extract
+    self._list_formats(video_id, microformats, video_details, player_responses, player_url, duration)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 4350, in _list_formats
+    *formats, subtitles = self._extract_formats_and_subtitles(streaming_data, video_id, player_url, live_status, duration)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 4084, in _extract_formats_and_subtitles
+    'n': decrypt_nsig(query['n'][0], video_id, player_url),
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 3141, in inner
+    self._player_cache[cache_id] = func(*args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 3176, in _decrypt_nsig
+    ret = extract_nsig(jsi, func_code)(s)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 3258, in extract_nsig
+    ret = func([s])
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 868, in resf
+    ret, should_abort = self.interpret_statement(code.replace('\n', ' '), var_stack, allow_recursion - 1)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 440, in interpret_statement
+    ret, should_abort = self.interpret_statement(try_expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 440, in interpret_statement
+    ret, should_abort = self.interpret_statement(try_expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 532, in interpret_statement
+    ret, should_abort = self.interpret_statement(sub_expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 621, in interpret_statement
+    return self._operator(op, left_val, right_expr, expr, local_vars, allow_recursion), should_return
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 302, in _operator
+    right_val = self.interpret_expression(right_expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 790, in interpret_expression
+    ret, should_return = self.interpret_statement(expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 778, in interpret_statement
+    argvals = [self.interpret_expression(v, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 790, in interpret_expression
+    ret, should_return = self.interpret_statement(expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 402, in interpret_statement
+    inner, should_abort = self.interpret_statement(inner, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 532, in interpret_statement
+    ret, should_abort = self.interpret_statement(sub_expr, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 781, in interpret_statement
+    return local_vars[fname](argvals, allow_recursion=allow_recursion), should_return
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\utils\_utils.py", line 5004, in __call__
+    return self.func(*args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 868, in resf
+    ret, should_abort = self.interpret_statement(code.replace('\n', ' '), var_stack, allow_recursion - 1)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 781, in interpret_statement
+    return local_vars[fname](argvals, allow_recursion=allow_recursion), should_return
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\utils\_utils.py", line 5004, in __call__
+    return self.func(*args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 868, in resf
+    ret, should_abort = self.interpret_statement(code.replace('\n', ' '), var_stack, allow_recursion - 1)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 490, in interpret_statement
+    ret, should_abort = self.interpret_statement(body, local_vars, allow_recursion)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 185, in interpret_statement
+    ret, should_ret = f(self, stmt, local_vars, allow_recursion, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 608, in interpret_statement
+    separated = list(self._separate(expr, op))
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\jsinterp.py", line 268, in _separate
+    after_op = char if (not in_quote and char in OP_CHARS) else (char.isspace() and after_op)
+
+[2024/10/21|21:17:24][WARNING]:Shard ID None voice heartbeat blocked for more than 20 seconds
+Loop thread traceback (most recent call last):
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\XitoAi.py", line 110, in <module>
+    XitoAi.run(token)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 672, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 639, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1985, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\music.py", line 72, in play_music
+    await self.music_console.start()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\player.py", line 36, in start
+    embed, view = MusicUI(self).show()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\ui.py", line 164, in show
+    return self.embed,self.view
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\ui.py", line 131, in embed
+    value=self.player.music.author,
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 38, in author
+    return self.youtube_info.get('uploader', 'Unknown Author')
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 23, in youtube_info
+    return ydl.extract_info(self.url, download=False)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1615, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1626, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1761, in __extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 741, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 4365, in _real_extract
+    webpage, master_ytcfg, player_responses, player_url = self._download_player_responses(url, smuggled_data, video_id, webpage_url)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\youtube.py", line 4324, in _download_player_responses
+    webpage = self._download_webpage(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 1200, in _download_webpage
+    return self.__download_webpage(url_or_request, video_id, note, errnote, None, fatal, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 1151, in download_content
+    res = getattr(self, download_handle.__name__)(url_or_request, video_id, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 961, in _download_webpage_handle
+    urlh = self._request_webpage(url_or_request, video_id, note, errnote, fatal, data=data,
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\extractor\common.py", line 897, in _request_webpage
+    return self._downloader.urlopen(self._create_request(url_or_request, data, headers, query, extensions))
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 4172, in urlopen
+    return self._request_director.send(req)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\common.py", line 117, in send
+    response = handler.send(request)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_helper.py", line 208, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\common.py", line 340, in send
+    return self._send(request)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_requests.py", line 322, in _send
+    session = self._get_instance(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_helper.py", line 185, in _get_instance
+    instance = self._create_instance(**kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_requests.py", line 303, in _create_instance
+    ssl_context=self._make_sslcontext(legacy_ssl_support=legacy_ssl_support),
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\common.py", line 252, in _make_sslcontext
+    return make_ssl_context(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_helper.py", line 135, in make_ssl_context
+    ssl_load_certs(context, use_certifi)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\networking\_helper.py", line 26, in ssl_load_certs
+    context.load_verify_locations(cafile=certifi.where())
+
+[2024/10/21|21:18:56][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:18:56][INFO]:ffmpeg process 5520 has not terminated. Waiting to terminate...
+[2024/10/21|21:18:56][INFO]:ffmpeg process 5520 should have terminated with a return code of 1.
+[2024/10/21|21:18:56][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|21:19:06][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:19:06][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 2貢獻值 和 4碎星值
+[2024/10/21|21:19:16][INFO]:擴充指令初始化完成
+[2024/10/21|21:19:16][INFO]:logging in using static token
+[2024/10/21|21:19:18][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:19:18][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:19:18][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:19:18][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:19:18][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:19:18][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:19:18][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:19:18][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:19:18][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:19:18][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:19:18][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:19:18][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:19:18][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:19:18][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:19:18][INFO]:已同步14個斜線指令
+[2024/10/21|21:19:29][INFO]:Shard ID None has connected to Gateway (Session ID: cef44c5e8ad85224d5150bf1663f2326).
+[2024/10/21|21:19:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:19:38][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:19:38][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/21|21:23:56][INFO]:擴充指令初始化完成
+[2024/10/21|21:23:56][INFO]:logging in using static token
+[2024/10/21|21:23:57][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:23:57][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:23:57][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:23:57][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:23:57][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:23:57][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:23:57][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:23:57][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:23:57][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:23:57][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:23:57][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:23:57][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:23:57][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:23:57][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:23:57][INFO]:已同步14個斜線指令
+[2024/10/21|21:23:59][INFO]:Shard ID None has connected to Gateway (Session ID: 43b03a09bf9ac8e9c72714f5655f523f).
+[2024/10/21|21:24:01][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:24:10][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:24:10][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/21|21:24:31][INFO]:Connecting to voice...
+[2024/10/21|21:24:31][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:24:31][INFO]:Voice handshake complete. Endpoint found japan1346.discord.media
+[2024/10/21|21:24:32][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:24:32][INFO]:received secret key for voice connection
+[2024/10/21|21:24:50][WARNING]:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\XitoAi.py", line 107, in <module>
+    XitoAi.run(token)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 672, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 639, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1985, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\music.py", line 72, in play_music
+    await self.music_console.start()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\player.py", line 46, in start
+    await self._music.download()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 71, in download
+    ydl.download([self.url])
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3609, in download
+    self.__download_wrapper(self.extract_info)(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3582, in wrapper
+    res = func(*args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1615, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1626, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1782, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 1841, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3015, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 179, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3561, in process_info
+    replace_info_dict(self.post_process(dl_filename, info_dict, files_to_move))
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3745, in post_process
+    info = self.run_all_pps('post_process', info, additional_pps=info.get('__postprocessors'))
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3727, in run_all_pps
+    info = self.run_pp(pp, info)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\YoutubeDL.py", line 3705, in run_pp
+    files_to_delete, infodict = pp.run(infodict)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\common.py", line 23, in run
+    ret = func(self, info, *args, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\common.py", line 128, in wrapper
+    return func(self, info)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\ffmpeg.py", line 531, in run
+    self.run_ffmpeg(path, temp_path, acodec, more_opts)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\ffmpeg.py", line 480, in run_ffmpeg
+    FFmpegPostProcessor.run_ffmpeg(self, path, out_path, opts)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\ffmpeg.py", line 375, in run_ffmpeg
+    return self.run_ffmpeg_multiple_files([path], out_path, opts, **kwargs)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\ffmpeg.py", line 330, in run_ffmpeg_multiple_files
+    return self.real_run_ffmpeg(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\postprocessor\ffmpeg.py", line 364, in real_run_ffmpeg
+    _, stderr, returncode = Popen.run(
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\utils\_utils.py", line 869, in run
+    stdout, stderr = proc.communicate_or_kill(timeout=timeout)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\yt_dlp\utils\_utils.py", line 855, in communicate_or_kill
+    return self.communicate(*args, **kwargs)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1626, in _communicate
+    self.stdout_thread.join(self._remaining_time(endtime))
+  File "C:\Program Files\Python312\Lib\threading.py", line 1147, in join
+    self._wait_for_tstate_lock()
+  File "C:\Program Files\Python312\Lib\threading.py", line 1167, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+
+[2024/10/21|21:24:52][INFO]:ffmpeg process 6280 successfully terminated with return code of 4294967294.
+[2024/10/21|21:24:52][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:24:52][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|21:28:12][INFO]:擴充指令初始化完成
+[2024/10/21|21:28:12][INFO]:logging in using static token
+[2024/10/21|21:28:14][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:28:14][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:28:14][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:28:14][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:28:14][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:28:14][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:28:14][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:28:14][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:28:14][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:28:14][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:28:14][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:28:14][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:28:14][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:28:14][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:28:14][INFO]:已同步14個斜線指令
+[2024/10/21|21:28:15][INFO]:Shard ID None has connected to Gateway (Session ID: 3a702cf65c2017463490095368f773b4).
+[2024/10/21|21:28:17][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:28:20][WARNING]:lightinvi<428845649279188992> 異常上線時間紀錄
+[2024/10/21|21:28:25][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:28:25][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/21|21:28:57][INFO]:Connecting to voice...
+[2024/10/21|21:28:57][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:28:57][INFO]:Voice handshake complete. Endpoint found japan2531.discord.media
+[2024/10/21|21:28:58][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:28:58][INFO]:received secret key for voice connection
+[2024/10/21|21:31:35][ERROR]:Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 210, in on_raw_reaction_add
+    response = ReactionMethod.msg_translation(emoji, translation_msg.content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 117, in msg_translation
+    return translator.translate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\googletrans\client.py", line 174, in translate
+    dest = dest.lower().split('_', 1)[0]
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+[2024/10/21|21:33:38][INFO]:ffmpeg process 12848 successfully terminated with return code of 0.
+[2024/10/21|21:33:38][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:33:38][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|21:36:28][INFO]:bigben2689<787727387383037962>在[Star Impact Team->專業送錢]說:<:emoji_12:932694872178184332>
+[2024/10/21|21:37:40][INFO]:擴充指令初始化完成
+[2024/10/21|21:37:40][INFO]:logging in using static token
+[2024/10/21|21:37:41][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:37:41][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:37:41][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:37:41][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:37:41][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:37:41][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:37:41][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:37:41][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:37:41][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:37:41][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:37:41][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:37:41][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:37:41][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:37:41][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:37:41][INFO]:已同步14個斜線指令
+[2024/10/21|21:37:43][INFO]:Shard ID None has connected to Gateway (Session ID: 5ad8ce93dd184ed0bcc109d9968dd1db).
+[2024/10/21|21:37:45][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:37:57][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/21|21:37:57][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/21|21:38:09][INFO]:Connecting to voice...
+[2024/10/21|21:38:09][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:38:10][INFO]:Voice handshake complete. Endpoint found japan11029.discord.media
+[2024/10/21|21:38:11][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:38:11][INFO]:received secret key for voice connection
+[2024/10/21|21:38:28][INFO]:ffmpeg process 4504 successfully terminated with return code of 4294967294.
+[2024/10/21|21:38:28][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:38:28][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|21:39:14][INFO]:擴充指令初始化完成
+[2024/10/21|21:39:14][INFO]:logging in using static token
+[2024/10/21|21:39:15][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:39:15][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:39:15][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:39:15][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:39:15][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:39:15][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:39:15][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:39:15][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:39:15][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:39:15][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:39:15][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:39:15][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:39:15][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:39:15][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:39:15][INFO]:已同步14個斜線指令
+[2024/10/21|21:39:17][INFO]:Shard ID None has connected to Gateway (Session ID: 2b42f0b36b3502a393366c64adfdb783).
+[2024/10/21|21:39:19][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:39:23][INFO]:Connecting to voice...
+[2024/10/21|21:39:23][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:39:24][INFO]:Voice handshake complete. Endpoint found japan11029.discord.media
+[2024/10/21|21:39:25][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:39:25][INFO]:received secret key for voice connection
+[2024/10/21|21:39:35][WARNING]:'mp4'
+[2024/10/21|21:39:35][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:39:35][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|21:40:37][INFO]:擴充指令初始化完成
+[2024/10/21|21:40:37][INFO]:logging in using static token
+[2024/10/21|21:40:39][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/10/21|21:40:39][INFO]:同步指令 -> music<1242794784201117758>
+[2024/10/21|21:40:39][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/10/21|21:40:39][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/10/21|21:40:39][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/10/21|21:40:39][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/10/21|21:40:39][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/10/21|21:40:39][INFO]:同步指令 -> me<1146107097549897728>
+[2024/10/21|21:40:39][INFO]:同步指令 -> other<1146107097549897729>
+[2024/10/21|21:40:39][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/10/21|21:40:39][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/10/21|21:40:39][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/10/21|21:40:39][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/10/21|21:40:39][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/10/21|21:40:39][INFO]:已同步14個斜線指令
+[2024/10/21|21:40:40][INFO]:Shard ID None has connected to Gateway (Session ID: 62c555ec919ec553d58d174c5ed00848).
+[2024/10/21|21:40:42][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/10/21|21:40:58][INFO]:Connecting to voice...
+[2024/10/21|21:40:58][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|21:40:58][INFO]:Voice handshake complete. Endpoint found japan11029.discord.media
+[2024/10/21|21:40:59][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|21:40:59][INFO]:received secret key for voice connection
+[2024/10/21|21:41:54][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:喔幹po用錯頻道測試
+[2024/10/21|21:41:59][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: 喔幹po用錯頻道測試 -> 喔幹用錯頻道測試
+[2024/10/21|21:44:59][INFO]:ffmpeg process 5840 successfully terminated with return code of 0.
+[2024/10/21|21:44:59][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|21:44:59][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|22:13:16][INFO]:Connecting to voice...
+[2024/10/21|22:13:16][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/10/21|22:13:16][INFO]:Voice handshake complete. Endpoint found japan11029.discord.media
+[2024/10/21|22:13:17][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/10/21|22:13:17][INFO]:received secret key for voice connection
+[2024/10/21|22:14:04][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 102, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 58, in join_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:15:10][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 106, in on_voice_state_update
+    await VoiceMethod.leave_guild(member,before_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 74, in leave_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:15:15][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 106, in on_voice_state_update
+    await VoiceMethod.leave_guild(member,before_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 74, in leave_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:15:21][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 102, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 58, in join_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:17:38][INFO]:ffmpeg process 12448 successfully terminated with return code of 0.
+[2024/10/21|22:22:00][INFO]:ffmpeg process 6224 successfully terminated with return code of 0.
+[2024/10/21|22:22:00][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/10/21|22:22:00][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/10/21|22:25:25][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 106, in on_voice_state_update
+    await VoiceMethod.leave_guild(member,before_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 74, in leave_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:26:19][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 102, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 58, in join_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:26:27][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 106, in on_voice_state_update
+    await VoiceMethod.leave_guild(member,before_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 74, in leave_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax
+[2024/10/21|22:26:32][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 102, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 58, in join_guild
+    member_profile = DiscordMember(FakeUserInteraction(member,guild))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\member.py", line 199, in __init__
+    self.user = DiscordUser(interaction)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 21, in __init__
+    self._db_get()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_profile\user.py", line 26, in _db_get
+    db = SQL(db_account).connect(db_server).table(TABLENAME)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 45, in connect
+    ex_database = EXDataBase(pymssql.connect(#pylint: disable = E1101
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 8, in __init__
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\objects.py", line 29, in __post_init__
+    self._history.create_history(F"{self.database}.historyTable")
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\MsSQL_ORM\history.py", line 49, in create_history
+    self.history_ht = ast.literal_eval(history_ht.readline())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 66, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ast.py", line 52, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    <<<<<<< HEAD
+    ^^
+SyntaxError: invalid syntax

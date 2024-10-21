@@ -1,0 +1,59 @@
+[2024/05/28|16:04:47][INFO]:擴充指令初始化完成
+[2024/05/28|16:04:47][INFO]:logging in using static token
+[2024/05/28|16:04:48][INFO]:Shard ID None has connected to Gateway (Session ID: cb609bc6d2fd822fe055c1863dcaf03f).
+[2024/05/28|16:04:51][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/28|16:04:51][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/28|16:05:03][INFO]:Connecting to voice...
+[2024/05/28|16:05:03][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/28|16:05:04][INFO]:Voice handshake complete. Endpoint found hongkong11066.discord.media
+[2024/05/28|16:06:35][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/28|16:06:35][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/28|16:12:24][INFO]:擴充指令初始化完成
+[2024/05/28|16:12:25][INFO]:logging in using static token
+[2024/05/28|16:12:26][INFO]:Shard ID None has connected to Gateway (Session ID: 7d39680f624b15207fc0ea4bcae6aa57).
+[2024/05/28|16:12:31][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/28|16:12:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/28|16:12:36][WARNING]:lightinvi<428845649279188992> 異常上線時間紀錄
+[2024/05/28|16:12:38][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/28|16:12:38][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/28|16:12:38][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/28|16:12:46][INFO]:Connecting to voice...
+[2024/05/28|16:12:46][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/28|16:12:46][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/28|16:14:41][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/28|16:14:42][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/28|16:19:14][INFO]:擴充指令初始化完成
+[2024/05/28|16:19:14][INFO]:logging in using static token
+[2024/05/28|16:19:15][INFO]:Shard ID None has connected to Gateway (Session ID: 43f465efab7182f04743618ead01cc3b).
+[2024/05/28|16:19:18][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/28|16:19:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/28|16:19:30][INFO]:Connecting to voice...
+[2024/05/28|16:19:30][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/28|16:19:31][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/28|16:19:47][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/28|16:19:47][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/28|16:20:25][INFO]:擴充指令初始化完成
+[2024/05/28|16:20:25][INFO]:logging in using static token
+[2024/05/28|16:20:27][INFO]:Shard ID None has connected to Gateway (Session ID: d86264647adb1de6fd9080574ea7b874).
+[2024/05/28|16:20:29][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/28|16:20:29][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/28|16:20:37][INFO]:Connecting to voice...
+[2024/05/28|16:20:37][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/28|16:20:37][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/28|16:21:27][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/28|16:21:27][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/28|16:21:39][INFO]:擴充指令初始化完成
+[2024/05/28|16:21:39][INFO]:logging in using static token
+[2024/05/28|16:21:40][INFO]:Shard ID None has connected to Gateway (Session ID: daaa595bc592bff53526707edbeff2f0).
+[2024/05/28|16:21:42][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/28|16:21:42][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/28|16:21:49][INFO]:Connecting to voice...
+[2024/05/28|16:21:49][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/28|16:21:50][INFO]:Voice handshake complete. Endpoint found hongkong11032.discord.media
+[2024/05/28|16:22:21][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/28|16:22:21][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)

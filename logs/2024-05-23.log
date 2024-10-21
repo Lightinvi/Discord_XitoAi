@@ -1,0 +1,1483 @@
+[2024/05/23|09:27:37][INFO]:擴充指令初始化完成
+[2024/05/23|09:27:37][INFO]:logging in using static token
+[2024/05/23|09:27:39][INFO]:Shard ID None has connected to Gateway (Session ID: 8b72c5f0d9117acc6eba603e91d51e61).
+[2024/05/23|09:27:42][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|09:27:42][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|09:27:56][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|09:27:56][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|09:27:56][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/23|09:28:19][INFO]:Connecting to voice...
+[2024/05/23|09:28:19][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|09:28:19][INFO]:Voice handshake complete. Endpoint found hongkong11034.discord.media
+[2024/05/23|09:29:56][INFO]:lightinvi<428845649279188992>在[光隱測試區->study]說:https://youtube.com/playlist?list=PLfybBE-bMd-xKaB4BeoVwoXFrUi9LUMHg&si=3HLs4xuVyJujra44
+[2024/05/23|09:29:56][INFO]:光隱測試區<1029978425550704640> -> study<1163727016554659910> 中的訊息被編輯: https://youtube.com/playlist?list=PLfybBE-bMd-xKaB4BeoVwoXFrUi9LUMHg&si=3HLs4xuVyJujra44 -> https://youtube.com/playlist?list=PLfybBE-bMd-xKaB4BeoVwoXFrUi9LUMHg&si=3HLs4xuVyJujra44
+[2024/05/23|09:30:24][INFO]:lightinvi<428845649279188992>在[光隱測試區->study]說:https://youtu.be/K1_JbVuBpYs?si=sFdso1fjRaHpJHHN
+[2024/05/23|09:30:24][INFO]:光隱測試區<1029978425550704640> -> study<1163727016554659910> 中的訊息被編輯: https://youtu.be/K1_JbVuBpYs?si=sFdso1fjRaHpJHHN -> https://youtu.be/K1_JbVuBpYs?si=sFdso1fjRaHpJHHN
+[2024/05/23|09:30:57][ERROR]:Ignoring exception in modal <AddMusicTextinput timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 331, in on_submit
+    self.console.append(Music(music, interaction))
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 363, in append
+    if music.length < 600:
+       ^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 22, in youtube_info
+    return YouTube(self.url)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+[2024/05/23|09:33:12][INFO]:ffmpeg process 2976 successfully terminated with return code of 0.
+[2024/05/23|09:35:47][INFO]:ffmpeg process 11624 successfully terminated with return code of 0.
+[2024/05/23|09:35:47][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|09:35:47][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|09:38:14][INFO]:擴充指令初始化完成
+[2024/05/23|09:38:14][INFO]:logging in using static token
+[2024/05/23|09:38:16][INFO]:Shard ID None has connected to Gateway (Session ID: 0dc701564abfeec7bcae40968fe5ff3c).
+[2024/05/23|09:38:18][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|09:38:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|09:38:42][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|09:38:42][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|09:38:42][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/23|09:39:01][INFO]:Connecting to voice...
+[2024/05/23|09:39:01][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|09:39:01][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|09:39:22][ERROR]:Ignoring exception in modal <AddMusicTextinput timeout=None children=1>:
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\modal.py", line 188, in _scheduled_task
+    await self.on_submit(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 332, in on_submit
+    self.console.append(Music(music, interaction))
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 364, in append
+    if music.length < 600:
+       ^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 22, in youtube_info
+    return YouTube(self.url)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 71, in __init__
+    self.video_id = extract.video_id(url)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\extract.py", line 133, in video_id
+    return regex_search(r"(?:v=|\/)([0-9A-Za-z_-]{11}).*", url, group=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\helpers.py", line 129, in regex_search
+    raise RegexMatchError(caller="regex_search", pattern=pattern)
+pytube.exceptions.RegexMatchError: regex_search: could not find match for (?:v=|\/)([0-9A-Za-z_-]{11}).*
+[2024/05/23|09:43:48][INFO]:ffmpeg process 4300 successfully terminated with return code of 0.
+[2024/05/23|09:46:39][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|09:46:40][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|09:46:40][INFO]:ffmpeg process 8996 has not terminated. Waiting to terminate...
+[2024/05/23|09:46:40][INFO]:ffmpeg process 8996 should have terminated with a return code of 1.
+[2024/05/23|09:46:52][INFO]:擴充指令初始化完成
+[2024/05/23|09:46:52][INFO]:logging in using static token
+[2024/05/23|09:46:53][INFO]:Shard ID None has connected to Gateway (Session ID: f51e7dd1308bb42332b7ed3014237238).
+[2024/05/23|09:46:56][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|09:46:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|09:47:08][INFO]:Connecting to voice...
+[2024/05/23|09:47:08][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|09:47:08][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|09:49:46][INFO]:ffmpeg process 9892 successfully terminated with return code of 0.
+[2024/05/23|09:52:39][INFO]:ffmpeg process 10568 successfully terminated with return code of 0.
+[2024/05/23|09:55:56][INFO]:ffmpeg process 3688 successfully terminated with return code of 0.
+[2024/05/23|09:58:41][INFO]:ffmpeg process 1624 successfully terminated with return code of 0.
+[2024/05/23|10:01:57][INFO]:ffmpeg process 11600 successfully terminated with return code of 0.
+[2024/05/23|10:05:14][INFO]:ffmpeg process 448 successfully terminated with return code of 0.
+[2024/05/23|10:07:12][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|10:07:12][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|10:07:12][ERROR]:Ignoring exception in view <View timeout=600 children=5> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 300, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 402, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 50027): Invalid Webhook Token
+[2024/05/23|10:51:41][INFO]:擴充指令初始化完成
+[2024/05/23|10:51:41][INFO]:logging in using static token
+[2024/05/23|10:51:42][INFO]:Shard ID None has connected to Gateway (Session ID: ca2bed9cd3d132014d570bf3fb1e1712).
+[2024/05/23|10:51:44][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|10:51:44][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|10:52:32][INFO]:Connecting to voice...
+[2024/05/23|10:52:32][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|10:52:33][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|10:55:31][INFO]:ffmpeg process 7392 successfully terminated with return code of 0.
+[2024/05/23|10:58:48][INFO]:ffmpeg process 11780 successfully terminated with return code of 0.
+[2024/05/23|11:01:33][INFO]:ffmpeg process 11844 successfully terminated with return code of 0.
+[2024/05/23|11:04:49][INFO]:ffmpeg process 10908 successfully terminated with return code of 0.
+[2024/05/23|11:08:05][INFO]:ffmpeg process 6592 successfully terminated with return code of 0.
+[2024/05/23|11:13:12][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|11:13:13][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|11:13:13][ERROR]:Ignoring exception in command 'disconnect'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 143, in dsiconnect_channel
+    await self.music_console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 402, in shutdown
+    try:
+        ^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 50027): Invalid Webhook Token
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'disconnect' raised an exception: HTTPException: 401 Unauthorized (error code: 50027): Invalid Webhook Token
+[2024/05/23|11:18:47][INFO]:擴充指令初始化完成
+[2024/05/23|11:18:47][INFO]:logging in using static token
+[2024/05/23|11:18:48][INFO]:Shard ID None has connected to Gateway (Session ID: 754d32f3c0bd187389591b69bd5fea9c).
+[2024/05/23|11:18:51][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|11:18:51][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|11:19:42][INFO]:Connecting to voice...
+[2024/05/23|11:19:42][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|11:19:42][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|11:19:58][WARNING]:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 396, in _call_api
+    return json.loads(response.read())
+  File "C:\Program Files\Python312\Lib\http\client.py", line 473, in read
+    return self._read_chunked(amt)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 601, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+  File "C:\Program Files\Python312\Lib\http\client.py", line 640, in _safe_read
+    data = self.fp.read(amt)
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:20:08][WARNING]:Shard ID None voice heartbeat blocked for more than 20 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1461, in connect
+    super().connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+  File "C:\Program Files\Python312\Lib\socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+
+[2024/05/23|11:20:19][WARNING]:Shard ID None voice heartbeat blocked for more than 30 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 396, in _call_api
+    return json.loads(response.read())
+  File "C:\Program Files\Python312\Lib\http\client.py", line 473, in read
+    return self._read_chunked(amt)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 601, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+  File "C:\Program Files\Python312\Lib\http\client.py", line 640, in _safe_read
+    data = self.fp.read(amt)
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:20:20][WARNING]:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1461, in connect
+    super().connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+  File "C:\Program Files\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+
+[2024/05/23|11:20:29][WARNING]:Shard ID None voice heartbeat blocked for more than 40 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1461, in connect
+    super().connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+  File "C:\Program Files\Python312\Lib\socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Program Files\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+
+[2024/05/23|11:20:30][WARNING]:Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 47, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 366, in append
+    if music.length < 600:
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 42, in length
+    return self.youtube_info.length
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 383, in length
+    return int(self.vid_info.get('videoDetails', {}).get('lengthSeconds'))
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1468, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Program Files\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1046, in _create
+    self.do_handshake()
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1321, in do_handshake
+    self._sslobj.do_handshake()
+
+[2024/05/23|11:21:40][WARNING]:Shard ID None voice heartbeat blocked for more than 40 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1468, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Program Files\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1046, in _create
+    self.do_handshake()
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1321, in do_handshake
+    self._sslobj.do_handshake()
+
+[2024/05/23|11:21:50][WARNING]:Shard ID None voice heartbeat blocked for more than 50 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:21:57][WARNING]:Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:22:18][WARNING]:Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1468, in connect
+    self.sock = self._context.wrap_socket(self.sock,
+  File "C:\Program Files\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1046, in _create
+    self.do_handshake()
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1321, in do_handshake
+    self._sslobj.do_handshake()
+
+[2024/05/23|11:22:23][WARNING]:Shard ID None voice heartbeat blocked for more than 80 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:22:33][WARNING]:Shard ID None voice heartbeat blocked for more than 90 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:22:40][WARNING]:Shard ID None heartbeat blocked for more than 80 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1348, in do_open
+    r = h.getresponse()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1419, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:22:43][WARNING]:Shard ID None voice heartbeat blocked for more than 100 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 396, in _call_api
+    return json.loads(response.read())
+  File "C:\Program Files\Python312\Lib\http\client.py", line 473, in read
+    return self._read_chunked(amt)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 601, in _read_chunked
+    value.append(self._safe_read(chunk_left))
+  File "C:\Program Files\Python312\Lib\http\client.py", line 640, in _safe_read
+    data = self.fp.read(amt)
+  File "C:\Program Files\Python312\Lib\socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1253, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1105, in read
+    return self._sslobj.read(len, buffer)
+
+[2024/05/23|11:22:50][WARNING]:Shard ID None heartbeat blocked for more than 90 seconds.
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\Discord_XitoAi\XitoAi.py", line 96, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 285, in callback
+    music_queue = MusicQueue(interaction,self.console)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 109, in __init__
+    self.gnerate_page(music_queue)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 145, in gnerate_page
+    name=music.title,
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 32, in title
+    return self.youtube_info.title
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 341, in title
+    self._title = self.vid_info['videoDetails']['title']
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 246, in vid_info
+    innertube_response = innertube.player(self.video_id)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1327, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1373, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1322, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1081, in _send_output
+    self.send(msg)
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1025, in send
+    self.connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1461, in connect
+    super().connect()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 991, in connect
+    self.sock = self._create_connection(
+  File "C:\Program Files\Python312\Lib\socket.py", line 837, in create_connection
+    sock.connect(sa)
+
+[2024/05/23|11:23:01][ERROR]:Disconnected from voice... Reconnecting in 1.29s.
+Traceback (most recent call last):
+  File "C:\Program Files\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\client_ws.py", line 244, in receive
+    msg = await self._reader.read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\streams.py", line 663, in read
+    return await super().read()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\streams.py", line 622, in read
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\voice_client.py", line 461, in poll_voice_ws
+    await self.ws.poll_event()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\gateway.py", line 1003, in poll_event
+    msg = await asyncio.wait_for(self.ws.receive(), timeout=30.0)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\tasks.py", line 519, in wait_for
+    async with timeouts.timeout(timeout):
+  File "C:\Program Files\Python312\Lib\asyncio\timeouts.py", line 115, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+[2024/05/23|11:23:04][INFO]:Shard ID None session has been invalidated.
+[2024/05/23|11:23:05][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|11:23:08][WARNING]:Shard ID None has stopped responding to the gateway. Closing and restarting.
+[2024/05/23|11:23:10][INFO]:Shard ID None has connected to Gateway (Session ID: f2092f02ef75389f816d9d69c228da53).
+[2024/05/23|11:23:12][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|11:23:12][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|13:48:27][INFO]:擴充指令初始化完成
+[2024/05/23|13:48:27][INFO]:logging in using static token
+[2024/05/23|13:48:29][INFO]:Shard ID None has connected to Gateway (Session ID: 23f5cbff62d3029e0b34f3156144f6f7).
+[2024/05/23|13:48:31][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|13:48:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|13:49:15][INFO]:Connecting to voice...
+[2024/05/23|13:49:15][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|13:49:15][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|13:52:13][INFO]:ffmpeg process 10708 successfully terminated with return code of 0.
+[2024/05/23|13:56:03][INFO]:ffmpeg process 4092 successfully terminated with return code of 0.
+[2024/05/23|13:58:42][INFO]:ffmpeg process 2968 successfully terminated with return code of 0.
+[2024/05/23|14:01:30][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:01:30][INFO]:ffmpeg process 10380 has not terminated. Waiting to terminate...
+[2024/05/23|14:01:30][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:01:30][INFO]:ffmpeg process 10380 should have terminated with a return code of 1.
+[2024/05/23|14:01:51][INFO]:擴充指令初始化完成
+[2024/05/23|14:01:51][INFO]:logging in using static token
+[2024/05/23|14:01:53][INFO]:Shard ID None has connected to Gateway (Session ID: 817068a82893961fce4a9613fa8f906a).
+[2024/05/23|14:01:55][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:01:55][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:02:43][INFO]:Connecting to voice...
+[2024/05/23|14:02:43][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:02:44][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:04:09][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:04:09][INFO]:ffmpeg process 9412 has not terminated. Waiting to terminate...
+[2024/05/23|14:04:09][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:04:09][INFO]:ffmpeg process 9412 should have terminated with a return code of 1.
+[2024/05/23|14:21:03][INFO]:擴充指令初始化完成
+[2024/05/23|14:21:03][INFO]:logging in using static token
+[2024/05/23|14:21:04][INFO]:Shard ID None has connected to Gateway (Session ID: 2bdc63a6722fe7dbaf922a6a1c27e2eb).
+[2024/05/23|14:21:07][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:21:07][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:21:18][INFO]:Connecting to voice...
+[2024/05/23|14:21:18][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:21:19][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:21:26][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 66, in play_music
+    await self.music_console.start()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 414, in start
+    embed, view = MusicUI(self).show()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 275, in show
+    return self.embed,self.view
+           ^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 230, in embed
+    embed_.title = self.console.music.title
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'title'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'NoneType' object has no attribute 'title'
+[2024/05/23|14:22:59][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\music.py", line 66, in play_music
+    await self.music_console.start()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 414, in start
+    embed, view = MusicUI(self).show()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 275, in show
+    return self.embed,self.view
+           ^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 230, in embed
+    embed_.title = self.console.music.title
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'title'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'NoneType' object has no attribute 'title'
+[2024/05/23|14:23:58][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:23:58][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:28:53][INFO]:擴充指令初始化完成
+[2024/05/23|14:28:53][INFO]:logging in using static token
+[2024/05/23|14:28:54][INFO]:Shard ID None has connected to Gateway (Session ID: a9b83110f0fe0cced5ca2de410460ff9).
+[2024/05/23|14:28:56][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:28:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:29:05][INFO]:Connecting to voice...
+[2024/05/23|14:29:05][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:29:05][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:30:15][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:30:15][INFO]:ffmpeg process 2708 has not terminated. Waiting to terminate...
+[2024/05/23|14:30:15][INFO]:ffmpeg process 2708 should have terminated with a return code of 1.
+[2024/05/23|14:30:15][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:32:25][INFO]:擴充指令初始化完成
+[2024/05/23|14:32:25][INFO]:logging in using static token
+[2024/05/23|14:32:26][INFO]:Shard ID None has connected to Gateway (Session ID: 6a9e392fc0582e2a1237ac990cacd426).
+[2024/05/23|14:32:28][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:32:28][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:32:37][INFO]:Connecting to voice...
+[2024/05/23|14:32:37][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:32:38][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:34:03][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:34:03][INFO]:ffmpeg process 3512 has not terminated. Waiting to terminate...
+[2024/05/23|14:34:03][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:34:03][INFO]:ffmpeg process 3512 should have terminated with a return code of 1.
+[2024/05/23|14:35:24][INFO]:擴充指令初始化完成
+[2024/05/23|14:35:24][INFO]:logging in using static token
+[2024/05/23|14:35:25][INFO]:Shard ID None has connected to Gateway (Session ID: 2a258bc0954f12773f87ff9e3057e2cd).
+[2024/05/23|14:35:28][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:35:28][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:35:34][INFO]:Connecting to voice...
+[2024/05/23|14:35:34][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:35:34][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:37:03][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:37:03][INFO]:ffmpeg process 8204 has not terminated. Waiting to terminate...
+[2024/05/23|14:37:03][INFO]:ffmpeg process 8204 should have terminated with a return code of 1.
+[2024/05/23|14:37:03][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|14:39:31][INFO]:擴充指令初始化完成
+[2024/05/23|14:39:31][INFO]:logging in using static token
+[2024/05/23|14:39:33][INFO]:Shard ID None has connected to Gateway (Session ID: 91d3dc46e2d2e44e00e485379ffac106).
+[2024/05/23|14:39:35][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|14:39:35][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|14:39:41][INFO]:Connecting to voice...
+[2024/05/23|14:39:41][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|14:39:41][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|14:41:26][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|14:41:26][INFO]:ffmpeg process 7032 has not terminated. Waiting to terminate...
+[2024/05/23|14:41:26][INFO]:ffmpeg process 7032 should have terminated with a return code of 1.
+[2024/05/23|14:41:26][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|15:22:43][INFO]:Connecting to voice...
+[2024/05/23|15:22:43][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|15:22:43][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|15:25:47][INFO]:ffmpeg process 8640 successfully terminated with return code of 0.
+[2024/05/23|15:29:46][INFO]:ffmpeg process 11492 successfully terminated with return code of 0.
+[2024/05/23|15:33:35][INFO]:ffmpeg process 9520 successfully terminated with return code of 0.
+[2024/05/23|15:37:49][INFO]:ffmpeg process 11696 successfully terminated with return code of 0.
+[2024/05/23|15:41:48][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|15:41:48][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|15:41:49][ERROR]:Ignoring exception in view <View timeout=600 children=5> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 326, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 437, in shutdown
+    except AttributeError:
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 50027): Invalid Webhook Token
+[2024/05/23|15:43:38][INFO]:擴充指令初始化完成
+[2024/05/23|15:43:38][INFO]:logging in using static token
+[2024/05/23|15:43:40][INFO]:Shard ID None has connected to Gateway (Session ID: 361b063edf3ecf13ee5fd1bf3770fb44).
+[2024/05/23|15:43:42][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|15:43:42][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|15:44:02][INFO]:Connecting to voice...
+[2024/05/23|15:44:02][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|15:44:02][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|15:44:31][INFO]:ffmpeg process 10572 has not terminated. Waiting to terminate...
+[2024/05/23|15:44:31][INFO]:ffmpeg process 10572 should have terminated with a return code of 1.
+[2024/05/23|15:44:39][INFO]:ffmpeg process 10464 has not terminated. Waiting to terminate...
+[2024/05/23|15:44:39][INFO]:ffmpeg process 10464 should have terminated with a return code of 1.
+[2024/05/23|15:44:47][INFO]:ffmpeg process 8376 has not terminated. Waiting to terminate...
+[2024/05/23|15:44:47][INFO]:ffmpeg process 8376 should have terminated with a return code of 1.
+[2024/05/23|15:49:01][INFO]:ffmpeg process 7140 successfully terminated with return code of 0.
+[2024/05/23|15:52:19][INFO]:ffmpeg process 9724 successfully terminated with return code of 0.
+[2024/05/23|15:55:35][INFO]:ffmpeg process 6580 successfully terminated with return code of 0.
+[2024/05/23|15:59:11][INFO]:ffmpeg process 4512 successfully terminated with return code of 0.
+[2024/05/23|16:00:23][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|16:00:23][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|16:00:24][ERROR]:Ignoring exception in view <View timeout=None children=5> for item <StopButton style=<ButtonStyle.secondary: 2> url=None disabled=False label=None emoji=<PartialEmoji animated=False name='⏹' id=None> row=None>
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\ui\view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 326, in callback
+    await self.console.shutdown()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_music.py", line 436, in shutdown
+    await self.msg.delete()
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 936, in delete
+    await self._state._webhook.delete_message(self.id, thread=self._state._thread)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 2041, in delete_message
+    await adapter.delete_webhook_message(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 50027): Invalid Webhook Token
+[2024/05/23|16:12:30][INFO]:擴充指令初始化完成
+[2024/05/23|16:12:30][INFO]:logging in using static token
+[2024/05/23|16:12:31][INFO]:Shard ID None has connected to Gateway (Session ID: 071179b79cbfa9b863445407b48a2a21).
+[2024/05/23|16:12:34][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|16:12:34][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|16:12:45][INFO]:Connecting to voice...
+[2024/05/23|16:12:45][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|16:12:45][INFO]:Voice handshake complete. Endpoint found hongkong11008.discord.media
+[2024/05/23|16:15:44][INFO]:ffmpeg process 8768 successfully terminated with return code of 0.
+[2024/05/23|16:19:35][INFO]:ffmpeg process 10396 successfully terminated with return code of 0.
+[2024/05/23|16:22:15][INFO]:ffmpeg process 8180 successfully terminated with return code of 0.
+[2024/05/23|16:26:08][INFO]:ffmpeg process 9872 successfully terminated with return code of 0.
+[2024/05/23|16:27:59][INFO]:ffmpeg process 11336 has not terminated. Waiting to terminate...
+[2024/05/23|16:27:59][INFO]:ffmpeg process 11336 should have terminated with a return code of 1.
+[2024/05/23|16:31:21][INFO]:ffmpeg process 6060 successfully terminated with return code of 0.
+[2024/05/23|16:34:49][INFO]:ffmpeg process 2004 successfully terminated with return code of 0.
+[2024/05/23|16:41:21][INFO]:ffmpeg process 11260 successfully terminated with return code of 0.
+[2024/05/23|16:41:39][INFO]:ffmpeg process 6632 has not terminated. Waiting to terminate...
+[2024/05/23|16:41:39][INFO]:ffmpeg process 6632 should have terminated with a return code of 1.
+[2024/05/23|16:41:53][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|16:41:53][INFO]:ffmpeg process 9588 has not terminated. Waiting to terminate...
+[2024/05/23|16:41:53][INFO]:ffmpeg process 9588 should have terminated with a return code of 1.
+[2024/05/23|16:41:53][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|17:38:02][INFO]:擴充指令初始化完成
+[2024/05/23|17:38:02][INFO]:logging in using static token
+[2024/05/23|17:38:03][INFO]:Shard ID None has connected to Gateway (Session ID: 6214376e30a13cc894864cf3bd08b83c).
+[2024/05/23|17:38:06][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|17:38:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|17:38:55][INFO]:擴充指令初始化完成
+[2024/05/23|17:38:55][INFO]:logging in using static token
+[2024/05/23|17:38:56][INFO]:Shard ID None has connected to Gateway (Session ID: 5268adffe31fd9a1bcb46c83327c5e7d).
+[2024/05/23|17:38:58][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|17:38:58][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|17:39:15][INFO]:更新 profileOnline 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|17:39:15][INFO]:更新 profileStar 成功->UUID: D6FAAA3F-D601-458C-B1F6-9AB11E929F54
+[2024/05/23|17:39:15][INFO]:lightinvi<428845649279188992> 加入 光隱測試區<1029978425550704640> 的語音頻道
+[2024/05/23|17:39:22][INFO]:Connecting to voice...
+[2024/05/23|17:39:22][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|17:39:23][INFO]:Voice handshake complete. Endpoint found hongkong11001.discord.media
+[2024/05/23|17:44:10][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|17:44:10][INFO]:ffmpeg process 11036 successfully terminated with return code of 0.
+[2024/05/23|17:44:10][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|17:45:10][INFO]:擴充指令初始化完成
+[2024/05/23|17:45:10][INFO]:logging in using static token
+[2024/05/23|17:45:11][INFO]:Shard ID None has connected to Gateway (Session ID: 233fc7d7c40a8c2cdd5c7a738b79a5cf).
+[2024/05/23|17:45:14][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|17:45:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|17:45:31][INFO]:Connecting to voice...
+[2024/05/23|17:45:31][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|17:45:32][INFO]:Voice handshake complete. Endpoint found hongkong11001.discord.media
+[2024/05/23|17:46:32][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|17:46:32][INFO]:ffmpeg process 11308 has not terminated. Waiting to terminate...
+[2024/05/23|17:46:32][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|17:46:32][INFO]:ffmpeg process 11308 should have terminated with a return code of 1.
+[2024/05/23|17:51:42][INFO]:擴充指令初始化完成
+[2024/05/23|17:51:42][INFO]:logging in using static token
+[2024/05/23|17:51:43][INFO]:Shard ID None has connected to Gateway (Session ID: b0ec9acdc8d11454594fd8907f1dd904).
+[2024/05/23|17:51:46][INFO]:已載入22個斜線指令
+['樂透<1242290397108240507>', 'lottery<1242290397108240508>', '伺服器<1242290397108240509>', '開啟伺服器<1242290397108240510>', '關閉伺服器<1242290397108240511>', '重啟伺服器<1242290397108240513>', 'music<1242290397108240514>', 'queue<1243012448680935444>', 'skip<1242290397108240515>', 'pause<1242303741445668884>', 'resume<1242303741445668885>', 'disconnect<1242303741445668886>', '我<1242290397108240516>', '其他人<1242290397221228594>', '排行<1242290397221228595>', 'me<1242290397221228596>', 'other<1242290397221228597>', 'ranking<1242290397221228598>', '獲取驗證碼<1242290397221228599>', '驗證<1242290397221228600>', 'get_verification<1242290397221228602>', 'verify<1242290397221228603>']
+[2024/05/23|17:51:46][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/05/23|17:51:50][INFO]:Connecting to voice...
+[2024/05/23|17:51:50][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/05/23|17:51:50][INFO]:Voice handshake complete. Endpoint found hongkong11001.discord.media
+[2024/05/23|17:52:44][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/05/23|17:52:44][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/05/23|17:52:44][INFO]:ffmpeg process 4512 has not terminated. Waiting to terminate...
+[2024/05/23|17:52:44][INFO]:ffmpeg process 4512 should have terminated with a return code of 1.

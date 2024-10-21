@@ -1,0 +1,228 @@
+[2024/04/11|15:29:17][INFO]:擴充指令初始化完成
+[2024/04/11|15:29:17][INFO]:logging in using static token
+[2024/04/11|15:29:19][INFO]:Shard ID None has connected to Gateway (Session ID: 7be6bbdec7bbf5a8d5bcc5dfc5c70f05).
+[2024/04/11|15:29:22][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|15:29:22][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|15:29:48][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 205, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 21, in view_self_profile
+    database_id = await ProfileMethod.get_database_id(interaction)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 178, in get_database_id
+    await ProfileObject.create(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 488, in create
+    await QuicklyCreate.setup(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 296, in setup
+    await cls.profile_id(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 310, in profile_id
+    sql_cmd.memberId,
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'Table' object has no attribute 'memberId'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'Table' object has no attribute 'memberId'
+[2024/04/11|15:33:05][INFO]:擴充指令初始化完成
+[2024/04/11|15:33:05][INFO]:logging in using static token
+[2024/04/11|15:33:06][INFO]:Shard ID None has connected to Gateway (Session ID: e7ec9df6b3850605100533735a723067).
+[2024/04/11|15:33:09][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|15:33:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|15:33:15][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 205, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 21, in view_self_profile
+    database_id = await ProfileMethod.get_database_id(interaction)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 178, in get_database_id
+    await ProfileObject.create(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 488, in create
+    await QuicklyCreate.setup(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 298, in setup
+    await cls.profile_online(interaction)
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 351, in profile_online
+    sql_cmd.onlineTime,
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Table' object has no attribute 'onlineTime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'Table' object has no attribute 'onlineTime'
+[2024/04/11|15:35:10][INFO]:擴充指令初始化完成
+[2024/04/11|15:35:10][INFO]:logging in using static token
+[2024/04/11|15:35:12][INFO]:Shard ID None has connected to Gateway (Session ID: 33225b6e35c893d0a1b2a4e9c5f5d16f).
+[2024/04/11|15:35:14][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|15:35:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|15:35:24][INFO]:資料庫成功創建lightinvi(428845649279188992)於光隱測試區(1029978425550704640)的基本資料
+[2024/04/11|15:35:25][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 205, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 23, in view_self_profile
+    member_profile = await ProfileObject.init(database_id)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 434, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 424, in _async_init
+    result['onlineTime'].values[0][:-7],
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: TypeError: 'NoneType' object is not subscriptable
+[2024/04/11|15:37:43][INFO]:擴充指令初始化完成
+[2024/04/11|15:37:43][INFO]:logging in using static token
+[2024/04/11|15:37:45][INFO]:Shard ID None has connected to Gateway (Session ID: 01e6500401546881ec951376a9c11171).
+[2024/04/11|15:37:47][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|15:37:47][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|15:37:56][INFO]:資料庫成功創建lightinvi(428845649279188992)於光隱測試區(1029978425550704640)的基本資料
+[2024/04/11|15:37:57][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/11|15:38:11][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/04/11|16:00:01][INFO]:擴充指令初始化完成
+[2024/04/11|16:00:01][INFO]:logging in using static token
+[2024/04/11|16:00:03][INFO]:Shard ID None has connected to Gateway (Session ID: 14a69434947749a3199981b24f4dab56).
+[2024/04/11|16:00:06][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|16:00:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|16:00:28][INFO]:寄送驗證碼至 taylor05171200@gmail.com(lightinvi):KUpHA1
+[2024/04/11|16:00:28][ERROR]:Ignoring exception in command '獲取驗證碼'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\verify_mail.py", line 83, in verify_mail
+    return await interaction.response.send_message("已寄送驗證碼至您的信箱")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command '獲取驗證碼' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2024/04/11|16:02:17][INFO]:擴充指令初始化完成
+[2024/04/11|16:02:17][INFO]:logging in using static token
+[2024/04/11|16:02:18][INFO]:Shard ID None has connected to Gateway (Session ID: 3ecb5b85abb32302c6ef06538b2d12cc).
+[2024/04/11|16:02:21][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|16:02:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|16:03:44][INFO]:lightinvi 驗證成功
+[2024/04/11|16:08:05][INFO]:擴充指令初始化完成
+[2024/04/11|16:08:05][INFO]:logging in using static token
+[2024/04/11|16:08:07][INFO]:Shard ID None has connected to Gateway (Session ID: 9fc69435d7dbf5e72d9799786c81396c).
+[2024/04/11|16:08:09][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|16:08:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|16:08:30][INFO]:XitoAi Debug System#5101<XitoAi Debug System#5101>:請求列印->1227893023237734401_imageFile.png
+[2024/04/11|16:40:02][INFO]:擴充指令初始化完成
+[2024/04/11|16:40:02][INFO]:logging in using static token
+[2024/04/11|16:40:04][INFO]:Shard ID None has connected to Gateway (Session ID: dc3c2abd6d20bd146346be49471b0508).
+[2024/04/11|16:40:06][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|16:40:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|16:40:16][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 153, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 182, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'email_address'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 211, in view_self_profile
+    member_profile = await super().view_self_profile(interaction)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\profile.py", line 23, in view_self_profile
+    member_profile = await ProfileObject.init(database_id)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 443, in init
+    await instance._async_init()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 431, in _async_init
+    if result['email_address'].values[0] is not None:
+       ~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4090, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3809, in get_loc
+    raise KeyError(key) from err
+KeyError: 'email_address'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: KeyError: 'email_address'
+[2024/04/11|16:42:20][INFO]:擴充指令初始化完成
+[2024/04/11|16:42:20][INFO]:logging in using static token
+[2024/04/11|16:42:21][INFO]:Shard ID None has connected to Gateway (Session ID: 5bc96b6f523879a76e6429a59477a4a1).
+[2024/04/11|16:42:24][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/04/11|16:42:24][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/04/11|16:42:34][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區

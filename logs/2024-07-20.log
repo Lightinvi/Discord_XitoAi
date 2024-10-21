@@ -1,0 +1,341 @@
+[2024/07/20|01:07:56][INFO]:擴充指令初始化完成
+[2024/07/20|01:07:56][INFO]:logging in using static token
+[2024/07/20|01:07:57][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/20|01:07:57][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/20|01:07:57][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/20|01:07:57][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/20|01:07:57][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/20|01:07:57][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/20|01:07:57][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/20|01:07:57][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/20|01:07:57][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/20|01:07:57][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/20|01:07:57][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/20|01:07:57][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/20|01:07:57][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/20|01:07:57][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/20|01:07:57][INFO]:已同步14個斜線指令
+[2024/07/20|01:07:58][INFO]:Shard ID None has connected to Gateway (Session ID: b928f262da3240ce3cbd75b04c2490be).
+[2024/07/20|01:08:00][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|01:08:00][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|01:08:00][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/20|01:08:22][INFO]:Connecting to voice...
+[2024/07/20|01:08:22][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|01:08:23][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|01:08:23][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|01:08:23][INFO]:received secret key for voice connection
+[2024/07/20|01:08:25][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 55, in download
+    stream = self.youtube_info.streams.filter(only_audio=True).get_audio_only()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 296, in streams
+    return StreamQuery(self.fmt_streams)
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 176, in fmt_streams
+    stream_manifest = extract.apply_descrambler(self.streaming_data)
+                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 160, in streaming_data
+    self.bypass_age_gate()
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\__main__.py", line 257, in bypass_age_gate
+    innertube_response = innertube.player(self.video_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 448, in player
+    return self._call_api(endpoint, query, self.base_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\innertube.py", line 390, in _call_api
+    response = request._execute_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\pytube\request.py", line 37, in _execute_request
+    return urlopen(request, timeout=timeout)  # nosec
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\urllib\request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\music.py", line 72, in play_music
+    await self.music_console.start()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\player.py", line 47, in start
+    await self._music.download()
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_music\music.py", line 60, in download
+    logger.write.warning(ex,output=True)
+    ^^^^^^
+NameError: name 'logger' is not defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: NameError: name 'logger' is not defined
+[2024/07/20|01:09:04][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|01:09:04][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|01:10:09][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|01:10:09][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 2貢獻值 和 4碎星值
+[2024/07/20|01:10:14][INFO]:擴充指令初始化完成
+[2024/07/20|01:10:14][INFO]:logging in using static token
+[2024/07/20|01:10:15][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/20|01:10:15][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/20|01:10:15][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/20|01:10:15][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/20|01:10:15][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/20|01:10:15][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/20|01:10:15][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/20|01:10:15][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/20|01:10:15][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/20|01:10:15][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/20|01:10:15][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/20|01:10:15][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/20|01:10:15][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/20|01:10:15][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/20|01:10:15][INFO]:已同步14個斜線指令
+[2024/07/20|01:10:16][INFO]:Shard ID None has connected to Gateway (Session ID: 331536c0f40a0db55448ee7c977ff309).
+[2024/07/20|01:10:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/20|01:10:21][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|01:10:21][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|01:14:27][INFO]:Connecting to voice...
+[2024/07/20|01:14:27][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|01:14:27][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|01:14:27][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|01:14:28][INFO]:received secret key for voice connection
+[2024/07/20|01:14:29][WARNING]:HTTP Error 400: Bad Request
+[2024/07/20|01:14:29][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|01:14:29][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|01:31:08][INFO]:Connecting to voice...
+[2024/07/20|01:31:08][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|01:31:08][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|01:31:09][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|01:31:09][INFO]:received secret key for voice connection
+[2024/07/20|01:31:11][WARNING]:HTTP Error 400: Bad Request
+[2024/07/20|01:31:11][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|01:31:11][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|01:31:27][INFO]:Connecting to voice...
+[2024/07/20|01:31:27][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/20|01:31:27][INFO]:Voice handshake complete. Endpoint found japan3512.discord.media
+[2024/07/20|01:31:28][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/20|01:31:28][INFO]:received secret key for voice connection
+[2024/07/20|01:32:24][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/20|01:32:24][INFO]:ffmpeg process 9200 successfully terminated with return code of 0.
+[2024/07/20|01:32:24][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/20|02:00:27][WARNING]:fewheng<429678105809125386> 異常上線時間紀錄
+[2024/07/20|02:27:20][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|02:27:20][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|02:32:07][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1263926361626509393_image.png',)
+[2024/07/20|02:33:54][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|05:41:09][WARNING]:chengxue625<416236840547385345> 異常上線時間紀錄
+[2024/07/20|06:18:07][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|08:55:21][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|08:55:21][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 388貢獻值 和 776碎星值
+[2024/07/20|09:13:55][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|10:16:27][WARNING]:higuchiaoi<418099807660408852> 異常上線時間紀錄
+[2024/07/20|10:29:34][INFO]:已更新用戶 -> jimtenll<513666142230020117>
+[2024/07/20|10:29:35][INFO]:已更新 jimtenll<513666142230020117> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|12:20:03][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|13:27:50][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|13:27:50][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|13:34:41][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|13:34:41][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 6貢獻值 和 9碎星值
+[2024/07/20|13:38:55][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|15:12:23][INFO]:Shard ID None has successfully RESUMED session 331536c0f40a0db55448ee7c977ff309.
+[2024/07/20|17:16:30][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|17:16:30][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 966貢獻值 和 1932碎星值
+[2024/07/20|17:18:41][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|17:18:41][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|17:39:18][INFO]:擴充指令初始化完成
+[2024/07/20|17:39:19][INFO]:logging in using static token
+[2024/07/20|17:39:20][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/20|17:39:20][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/20|17:39:20][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/20|17:39:20][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/20|17:39:20][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/20|17:39:20][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/20|17:39:20][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/20|17:39:20][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/20|17:39:20][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/20|17:39:20][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/20|17:39:20][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/20|17:39:20][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/20|17:39:20][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/20|17:39:20][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/20|17:39:20][INFO]:已同步14個斜線指令
+[2024/07/20|17:39:21][INFO]:Shard ID None has connected to Gateway (Session ID: bf2f7865e7d4caeda15a29b36114078a).
+[2024/07/20|17:39:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/20|17:39:44][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/20|17:39:44][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/20|18:12:46][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/20|18:46:54][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264171678859006104_image.png',)
+[2024/07/20|18:46:54][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:<@182815652858298368>
+[2024/07/20|19:08:45][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264177178028019752_image.png',)
+[2024/07/20|21:26:46][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/20|22:01:10][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264220561605922836_image.png',)
+[2024/07/20|22:01:10][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:哭阿
+[2024/07/20|22:01:46][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:解霰彈爆頭解到翻車
+[2024/07/20|23:52:48][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|00:58:08][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264265092510253076_image.png',)
+[2024/07/21|00:58:22][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264265154489745419_image.png',)
+[2024/07/21|00:58:41][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264265236836257852_image.png',)
+[2024/07/21|00:58:45][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被刪除: 
+[2024/07/21|01:05:49][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264267031272755301_image.png',)
+[2024/07/21|01:05:49][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:?????
+[2024/07/21|01:08:59][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:剛剛在街區莫名其妙一直受傷，結果點開技能欄......啊我的活力怎麼變42了
+[2024/07/21|01:19:38][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264270505960013875_image.png',)
+[2024/07/21|01:19:53][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264270569134882816_image.png',)
+[2024/07/21|01:25:04][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|01:42:05][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|01:42:05][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|02:03:40][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|02:03:40][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|02:34:55][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|02:34:55][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|02:35:02][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|02:35:02][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/07/21|02:44:41][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|02:44:41][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|02:44:55][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規指令用頻道]說:偷查我的幹嘛
+[2024/07/21|02:44:57][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規指令用頻道]說:小色鬼
+[2024/07/21|02:45:08][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:等大哥帶我飛
+[2024/07/21|02:45:18][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:等你上限
+[2024/07/21|02:45:22][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:再說
+[2024/07/21|02:45:24][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:我剛到家
+[2024/07/21|02:45:37][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:明天或許還有攤
+[2024/07/21|02:45:40][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:下禮拜也有攤
+[2024/07/21|02:45:45][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:我真的會爆炸
+[2024/07/21|02:54:21][INFO]:Connecting to voice...
+[2024/07/21|02:54:21][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/21|02:54:22][INFO]:Voice handshake complete. Endpoint found japan4257.discord.media
+[2024/07/21|02:54:22][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/21|02:54:22][INFO]:received secret key for voice connection
+[2024/07/21|02:58:25][INFO]:ffmpeg process 3444 successfully terminated with return code of 0.
+[2024/07/21|02:58:25][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/21|02:58:25][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/21|03:44:42][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|04:03:45][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:https://x.com/LVNDMARK_tv/status/1814687563392643275
+[2024/07/21|06:43:37][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|07:00:41][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|07:55:47][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|07:55:47][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 311貢獻值 和 622碎星值
+[2024/07/21|10:02:04][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|10:02:04][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 499貢獻值 和 748碎星值
+[2024/07/21|10:34:21][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|10:34:21][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 510貢獻值 和 765碎星值
+[2024/07/21|10:38:09][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|11:09:04][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|11:38:39][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|12:35:43][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|12:35:43][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|12:41:00][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|12:41:00][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|13:00:57][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|13:00:57][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 19貢獻值 和 28碎星值
+[2024/07/21|13:01:57][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|13:01:57][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|14:03:50][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|15:30:24][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264484609568145418_remix-5abca158-67d3-45a0-aa55-ce0b136dc57d.png',)
+[2024/07/21|15:38:46][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|15:38:46][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/21|16:50:11][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|17:19:50][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:<@182815652858298368> 能打嗎
+[2024/07/21|17:24:44][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:太遲了
+[2024/07/21|17:25:36][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:那我獨自升級去了
+[2024/07/21|20:46:18][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1264564109102284872_image.png',)
+[2024/07/21|20:46:18][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:MCX YYDS
+[2024/07/21|20:49:49][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/21|21:11:09][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/21|21:11:09][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 515貢獻值 和 772碎星值
+[2024/07/22|00:05:17][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|00:05:17][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 1825貢獻值 和 3650碎星值
+[2024/07/22|00:26:13][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|00:33:18][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|00:33:18][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|01:09:15][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264630281021820939_image.png', '1264630281365885041_image.png')
+[2024/07/22|01:22:00][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|01:22:00][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 740貢獻值 和 1110碎星值
+[2024/07/22|01:25:24][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|01:25:24][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|03:21:04][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264663454808014890_image.png', '1264663455173181440_image.png')
+[2024/07/22|03:30:22][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|03:30:22][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 124貢獻值 和 186碎星值
+[2024/07/22|03:30:44][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|03:30:44][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|03:47:59][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264670227577442397_image.png',)
+[2024/07/22|03:48:05][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被刪除: 
+[2024/07/22|03:56:23][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|06:00:05][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|06:00:05][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 861貢獻值 和 1722碎星值
+[2024/07/22|07:19:39][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|07:19:39][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|07:28:38][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|08:18:14][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|08:18:14][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 287貢獻值 和 430碎星值
+[2024/07/22|08:18:24][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|08:18:24][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|08:20:23][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|08:20:23][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/07/22|08:20:32][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|08:20:32][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|08:57:53][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|10:51:59][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|10:51:59][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 151貢獻值 和 226碎星值
+[2024/07/22|10:52:14][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|10:52:14][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|11:46:48][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|12:19:01][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]新增附件:('1264798839093727282_20240722_121819.jpg',)
+[2024/07/22|12:22:38][INFO]:已更新用戶 -> jimtenll<513666142230020117>
+[2024/07/22|12:22:39][INFO]:已更新 jimtenll<513666142230020117> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|12:53:41][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|12:53:41][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 121貢獻值 和 181碎星值
+[2024/07/22|12:54:00][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|12:54:00][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|14:12:13][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|14:48:44][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]說:結束
+[2024/07/22|14:48:44][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1264836517692440618_image.png',)
+[2024/07/22|15:37:09][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|15:37:09][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|15:54:19][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|15:54:19][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 17貢獻值 和 25碎星值
+[2024/07/22|15:54:35][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|15:54:35][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 921貢獻值 和 1381碎星值
+[2024/07/22|16:02:18][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|16:02:18][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 188貢獻值 和 282碎星值
+[2024/07/22|16:51:04][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:添加system_prompt.txt 到 systemDocumentation
+添加XitoAiGPT 到 core
+[2024/07/22|16:58:53][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:更新翻譯模組
+[2024/07/22|17:04:26][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:更新 setup_hook
+[2024/07/22|17:10:28][INFO]:Shard ID None has successfully RESUMED session bf2f7865e7d4caeda15a29b36114078a.
+[2024/07/22|17:20:57][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|17:20:57][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|17:44:14][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:45:25][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是神
+[2024/07/22|17:45:41][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:47:39][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:49:05][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:50:45][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:50:45][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->sitreload-message]說:XitoAi思考中......
+[2024/07/22|19:41:19][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|19:41:19][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 741貢獻值 和 1482碎星值

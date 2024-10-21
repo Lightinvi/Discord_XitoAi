@@ -1,0 +1,675 @@
+[2023/12/09|00:01:19][INFO]:擴充指令初始化完成
+[2023/12/09|00:01:19][INFO]:logging in using static token
+[2023/12/09|00:01:20][INFO]:Shard ID None has connected to Gateway (Session ID: 0512d28f9a6486ac9dfbc828ee30eac3).
+[2023/12/09|00:01:23][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:01:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:01:28][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:01:28][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 208, in create_ranking_list
+    ConditionalObject('guildId', interaction.guild.id, '=')
+  File "<string>", line 6, in __init__
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 43, in __post_init__
+    self.sql_string = self.create_sql_string()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\core\sql_command.py", line 61, in create_sql_string
+    if str(self.value[0]) == '*':
+           ~~~~~~~~~~^^^
+TypeError: 'int' object is not subscriptable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: 'int' object is not subscriptable
+[2023/12/09|00:02:29][INFO]:擴充指令初始化完成
+[2023/12/09|00:02:29][INFO]:logging in using static token
+[2023/12/09|00:02:30][INFO]:Shard ID None has connected to Gateway (Session ID: 21dbf9e8fec1057e3c91ece6367e44c5).
+[2023/12/09|00:02:33][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:02:33][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:02:42][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:02:42][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 211, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 32, in ranking_sort
+    for member in result.tail(number):
+                  ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'tail'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'tail'
+[2023/12/09|00:03:56][INFO]:擴充指令初始化完成
+[2023/12/09|00:03:56][INFO]:logging in using static token
+[2023/12/09|00:03:58][INFO]:Shard ID None has connected to Gateway (Session ID: 5ab103c1c6bafa5d026c204da4964004).
+[2023/12/09|00:04:00][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:04:00][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:04:03][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:04:03][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 33, in ranking_sort
+    for member in result.tail(number):
+                  ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'tail'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'tail'
+[2023/12/09|00:05:19][INFO]:擴充指令初始化完成
+[2023/12/09|00:05:19][INFO]:logging in using static token
+[2023/12/09|00:05:20][INFO]:Shard ID None has connected to Gateway (Session ID: 6509c0ed405fb2691b15d91280cd0b90).
+[2023/12/09|00:05:23][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:05:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:05:29][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:05:29][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 33, in ranking_sort
+    for member in result.tail(number):
+                  ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'tail'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'tail'
+[2023/12/09|00:06:35][INFO]:擴充指令初始化完成
+[2023/12/09|00:06:35][INFO]:logging in using static token
+[2023/12/09|00:06:37][INFO]:Shard ID None has connected to Gateway (Session ID: a0f5fa78ec8941b4f1f1e24bec3d0574).
+[2023/12/09|00:06:39][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:06:39][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:06:42][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:06:42][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 33, in ranking_sort
+    for member in result.tail(number):
+                  ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'tail'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'tail'
+[2023/12/09|00:07:59][INFO]:擴充指令初始化完成
+[2023/12/09|00:07:59][INFO]:logging in using static token
+[2023/12/09|00:08:01][INFO]:Shard ID None has connected to Gateway (Session ID: 63898d577f30149a142645f85b92c76d).
+[2023/12/09|00:08:03][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:08:03][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:08:08][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/09|00:08:08][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 33, in ranking_sort
+    for member in result.tail(number):
+                  ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'tail'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'tail'
+[2023/12/09|00:09:42][INFO]:擴充指令初始化完成
+[2023/12/09|00:09:42][INFO]:logging in using static token
+[2023/12/09|00:09:44][INFO]:Shard ID None has connected to Gateway (Session ID: d191ceeb7ea2403071a8d03085a42ec4).
+[2023/12/09|00:09:46][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:09:46][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:09:59][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:09:59][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 37, in ranking_sort
+    member['memberId'],
+    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: string indices must be integers, not 'str'
+[2023/12/09|00:10:41][INFO]:擴充指令初始化完成
+[2023/12/09|00:10:41][INFO]:logging in using static token
+[2023/12/09|00:10:43][INFO]:Shard ID None has connected to Gateway (Session ID: bbf77dd363104365146f99191e2a865f).
+[2023/12/09|00:10:45][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:10:45][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:10:49][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:10:49][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 37, in ranking_sort
+    member['memberId'],
+    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: string indices must be integers, not 'str'
+[2023/12/09|00:12:16][INFO]:資料庫成功創建XitoAi Debug System(765494347410964500)於光隱的表情符號存放區(1029978425550704640)的基本資料
+[2023/12/09|00:12:16][INFO]:lightinvi查詢XitoAi Debug System的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:12:16][ERROR]:Ignoring exception in command 'other'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 208, in view_other_profile
+    message.set_author(name=guild_member.name, icon_url=guild_member.avatar.url)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'other' raised an exception: AttributeError: 'NoneType' object has no attribute 'url'
+[2023/12/09|00:12:54][INFO]:資料庫成功創建XitoAi(夕由愛)(659369978809548826)於光隱的表情符號存放區(1029978425550704640)的基本資料
+[2023/12/09|00:12:54][INFO]:lightinvi查詢XitoAi(夕由愛)的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:13:19][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:13:19][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 212, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 37, in ranking_sort
+    member['memberId'],
+    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: string indices must be integers, not 'str'
+[2023/12/09|00:14:34][INFO]:擴充指令初始化完成
+[2023/12/09|00:14:34][INFO]:logging in using static token
+[2023/12/09|00:14:36][INFO]:Shard ID None has connected to Gateway (Session ID: d2cf0ed07e404c2f22afff68614adec0).
+[2023/12/09|00:14:38][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:14:38][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:14:43][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:14:43][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 213, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 38, in ranking_sort
+    member['memberId'],
+    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: string indices must be integers, not 'str'
+[2023/12/09|00:15:55][INFO]:擴充指令初始化完成
+[2023/12/09|00:15:55][INFO]:logging in using static token
+[2023/12/09|00:15:56][INFO]:Shard ID None has connected to Gateway (Session ID: 87141769a13300183596080038d64878).
+[2023/12/09|00:15:59][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:15:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:16:05][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:16:05][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 214, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 39, in ranking_sort
+    member['memberId'],
+    ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: TypeError: string indices must be integers, not 'str'
+[2023/12/09|00:20:05][INFO]:擴充指令初始化完成
+[2023/12/09|00:20:05][INFO]:logging in using static token
+[2023/12/09|00:20:06][INFO]:Shard ID None has connected to Gateway (Session ID: 0fb037f53ab81f8492191818108e02cf).
+[2023/12/09|00:20:08][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:20:08][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:20:16][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:20:16][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'memberName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 210, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 37, in ranking_sort
+    result.loc[ranking,'memberName'],
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexing.py", line 1146, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4005, in _get_value
+    series = self._get_item_cache(col)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4414, in _get_item_cache
+    loc = self.columns.get_loc(item)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'memberName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'memberName'
+[2023/12/09|00:20:46][INFO]:擴充指令初始化完成
+[2023/12/09|00:20:46][INFO]:logging in using static token
+[2023/12/09|00:20:47][INFO]:Shard ID None has connected to Gateway (Session ID: bc1d963692adc299211fd50c18767f75).
+[2023/12/09|00:20:50][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:20:50][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:20:54][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:20:54][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'memberName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 210, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 37, in ranking_sort
+    result.loc[ranking,'memberName'],
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexing.py", line 1146, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4005, in _get_value
+    series = self._get_item_cache(col)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4414, in _get_item_cache
+    loc = self.columns.get_loc(item)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'memberName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 'memberName'
+[2023/12/09|00:24:22][INFO]:擴充指令初始化完成
+[2023/12/09|00:24:22][INFO]:logging in using static token
+[2023/12/09|00:24:23][INFO]:Shard ID None has connected to Gateway (Session ID: 3ce8041c212fdc5d988def61b01946d2).
+[2023/12/09|00:24:26][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:24:26][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:24:35][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:24:35][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 229, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 216, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 36, in ranking_sort
+    result.loc[ranking,'memberId'],
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'loc'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: AttributeError: 'str' object has no attribute 'loc'
+[2023/12/09|00:25:53][INFO]:擴充指令初始化完成
+[2023/12/09|00:25:53][INFO]:logging in using static token
+[2023/12/09|00:25:54][INFO]:Shard ID None has connected to Gateway (Session ID: d7eae0c4b517e67eaf1a0f31068448ba).
+[2023/12/09|00:25:57][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:25:57][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:26:01][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/09|00:29:14][INFO]:擴充指令初始化完成
+[2023/12/09|00:29:14][INFO]:logging in using static token
+[2023/12/09|00:29:16][INFO]:Shard ID None has connected to Gateway (Session ID: 7e460f75962173383a51561e7e8f0d9f).
+[2023/12/09|00:29:18][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:29:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:29:23][INFO]:lightinvi查詢XitoAi Debug System的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:29:23][ERROR]:Ignoring exception in command 'other'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 208, in view_other_profile
+    message.set_author(name=guild_member.name, icon_url=guild_member.avatar.url or None)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'url'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'other' raised an exception: AttributeError: 'NoneType' object has no attribute 'url'
+[2023/12/09|00:33:32][INFO]:擴充指令初始化完成
+[2023/12/09|00:33:32][INFO]:logging in using static token
+[2023/12/09|00:33:34][INFO]:Shard ID None has connected to Gateway (Session ID: 19a204f65e227fcfd900ce238c800b8d).
+[2023/12/09|00:33:36][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:33:36][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:33:39][INFO]:lightinvi查詢XitoAi Debug System的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:34:05][INFO]:lightinvi查詢lightinvi的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:39:28][INFO]:擴充指令初始化完成
+[2023/12/09|00:39:28][INFO]:logging in using static token
+[2023/12/09|00:39:29][INFO]:Shard ID None has connected to Gateway (Session ID: 201c6bf40af59143777762d43627ed2d).
+[2023/12/09|00:39:32][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:39:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:39:34][INFO]:lightinvi查詢XitoAi Debug System的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:40:05][INFO]:擴充指令初始化完成
+[2023/12/09|00:40:05][INFO]:logging in using static token
+[2023/12/09|00:40:06][INFO]:Shard ID None has connected to Gateway (Session ID: 60f358ca99d644610caf725ce28dab5c).
+[2023/12/09|00:40:09][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:40:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:40:15][INFO]:lightinvi查詢XitoAi Debug System的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:40:15][ERROR]:Ignoring exception in command 'other'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 239, in view_other_profile
+    await interaction.response.send_message(embed= message)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 774, in send_message
+    raise InteractionResponded(self._parent)
+discord.errors.InteractionResponded: This interaction has already been responded to before
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'other' raised an exception: InteractionResponded: This interaction has already been responded to before
+[2023/12/09|00:41:34][INFO]:擴充指令初始化完成
+[2023/12/09|00:41:34][INFO]:logging in using static token
+[2023/12/09|00:41:36][INFO]:Shard ID None has connected to Gateway (Session ID: adf8784751d00a2a7b13854ac960acad).
+[2023/12/09|00:41:38][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/09|00:41:38][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/09|00:41:53][INFO]:lightinvi查詢自己的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:42:00][INFO]:lightinvi查詢XitoAi(夕由愛)的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:42:08][INFO]:lightinvi查詢自己的個人資料公會->光隱的表情符號存放區
+[2023/12/09|00:42:20][INFO]:lightinvi查詢XitoAi(夕由愛)的個人資料公會->光隱的表情符號存放區

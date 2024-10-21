@@ -1,0 +1,146 @@
+[2023/12/14|20:12:28][INFO]:擴充指令初始化完成
+[2023/12/14|20:12:28][INFO]:logging in using static token
+[2023/12/14|20:12:29][INFO]:Shard ID None has connected to Gateway (Session ID: 3692a7709eefb88c629f4eb12465ed08).
+[2023/12/14|20:12:32][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:12:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:14:42][INFO]:擴充指令初始化完成
+[2023/12/14|20:14:42][INFO]:logging in using static token
+[2023/12/14|20:14:43][INFO]:Shard ID None has connected to Gateway (Session ID: d264da35e96d9478264e5e2092440296).
+[2023/12/14|20:14:45][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:14:45][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:14:53][INFO]:資料庫成功創建lightinvi(428845649279188992)於光隱的表情符號存放區(1029978425550704640)的基本資料
+[2023/12/14|20:14:53][INFO]:lightinvi查詢自己的個人資料公會->光隱的表情符號存放區
+[2023/12/14|20:21:55][INFO]:lightinvi查詢自己的個人資料公會->光隱的表情符號存放區
+[2023/12/14|20:22:29][INFO]:資料庫成功創建XitoAi(夕由愛)(659369978809548826)於光隱的表情符號存放區(1029978425550704640)的基本資料
+[2023/12/14|20:22:29][INFO]:lightinvi查詢XitoAi(夕由愛)的個人資料公會->光隱的表情符號存放區
+[2023/12/14|20:23:51][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:23:52][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 414, in get_loc
+    return self._range.index(new_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 2 is not in range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 281, in ranking_list
+    ranking_list_ = await super().ranking_list(interaction, competition, number)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 96, in ranking_list
+    return await ProfileMethod.create_ranking_list(interaction,competition,number)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 254, in create_ranking_list
+    output_list = ProfileHiddenMethod.ranking_sort(result,column_dict[competition],number)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\methods\OAM_profile.py", line 68, in ranking_sort
+    result.loc[ranking,'memberId'],
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexing.py", line 1146, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\frame.py", line 4012, in _get_value
+    row = self.index.get_loc(index)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\pandas\core\indexes\range.py", line 416, in get_loc
+    raise KeyError(key) from err
+KeyError: 2
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: KeyError: 2
+[2023/12/14|20:24:06][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:25:06][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:25:56][INFO]:擴充指令初始化完成
+[2023/12/14|20:25:56][INFO]:logging in using static token
+[2023/12/14|20:25:57][INFO]:Shard ID None has connected to Gateway (Session ID: 11e0e62134f6285ef02e2052b23fd67e).
+[2023/12/14|20:26:00][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:26:00][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:26:14][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:27:04][INFO]:擴充指令初始化完成
+[2023/12/14|20:27:04][INFO]:logging in using static token
+[2023/12/14|20:27:05][INFO]:Shard ID None has connected to Gateway (Session ID: 7b0ec60ee1687aead0b7459213c13b63).
+[2023/12/14|20:27:08][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:27:08][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:27:13][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:28:21][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:33:23][INFO]:擴充指令初始化完成
+[2023/12/14|20:33:23][INFO]:logging in using static token
+[2023/12/14|20:33:24][INFO]:Shard ID None has connected to Gateway (Session ID: e7e26957c5f3a30fb19c515a67625596).
+[2023/12/14|20:33:27][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:33:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:33:36][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:33:45][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:37:44][INFO]:擴充指令初始化完成
+[2023/12/14|20:37:45][INFO]:logging in using static token
+[2023/12/14|20:37:46][INFO]:Shard ID None has connected to Gateway (Session ID: 4b5399b14ef9828520d89108e8e2d31c).
+[2023/12/14|20:37:49][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:37:49][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:38:01][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/14|20:40:03][INFO]:擴充指令初始化完成
+[2023/12/14|20:40:03][INFO]:logging in using static token
+[2023/12/14|20:40:04][INFO]:Shard ID None has connected to Gateway (Session ID: b244eabb4a96524efd1a355dd3681b02).
+[2023/12/14|20:40:06][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:40:06][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:40:10][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/14|20:40:26][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/14|20:40:55][INFO]:擴充指令初始化完成
+[2023/12/14|20:40:55][INFO]:logging in using static token
+[2023/12/14|20:40:56][INFO]:Shard ID None has connected to Gateway (Session ID: 858d675fa87b8a97dcbc7c7216bdd3de).
+[2023/12/14|20:40:58][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:40:58][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:41:04][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行
+[2023/12/14|20:41:04][ERROR]:Ignoring exception in command 'ranking'
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\光隱\Desktop\code\Discord_XitoAi\src\commands\profile.py", line 286, in ranking_list
+    string += F"{member.ranking} place: @<{int(member.member_name)}>"\
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'lightinvi'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\光隱\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'ranking' raised an exception: ValueError: invalid literal for int() with base 10: 'lightinvi'
+[2023/12/14|20:41:56][INFO]:擴充指令初始化完成
+[2023/12/14|20:41:56][INFO]:logging in using static token
+[2023/12/14|20:41:57][INFO]:Shard ID None has connected to Gateway (Session ID: a23d745db131bcdfa091199af9d1dfe4).
+[2023/12/14|20:41:59][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:41:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:42:03][INFO]:lightinvi 查詢光隱的表情符號存放區的 在線時間排行
+[2023/12/14|20:43:14][INFO]:擴充指令初始化完成
+[2023/12/14|20:43:14][INFO]:logging in using static token
+[2023/12/14|20:43:15][INFO]:Shard ID None has connected to Gateway (Session ID: df150617e56ccf1672592f0392b9fd24).
+[2023/12/14|20:43:18][INFO]:已載入6個斜線指令
+['我', '其他人', '排行', 'me', 'other', 'ranking']
+[2023/12/14|20:43:18][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2023/12/14|20:43:22][INFO]:lightinvi 查詢光隱的表情符號存放區的 碎星值排行

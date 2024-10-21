@@ -1,0 +1,10 @@
+需要使用Discord錄音，可改用py-cord套件。
+若是想在官方Discord套件上使用錄音功能，需要更改套件包的部分檔案
+
+預設路徑:C:\Users\<username>\AppData\Roaming\Python\Python3xx\site-packages\discord
+
+將本目錄(除了txt文件)以外的所有檔案複製到Discord資料夾中，並取代。
+
+適用版本:discord 2.3.2
+
+參考:https://guide.pycord.dev/voice/receiving

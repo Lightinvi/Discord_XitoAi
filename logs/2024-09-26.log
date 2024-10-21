@@ -1,0 +1,781 @@
+[2024/09/26|00:20:01][INFO]:擴充指令初始化完成
+[2024/09/26|00:20:01][INFO]:logging in using static token
+[2024/09/26|00:20:02][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/09/26|00:20:02][INFO]:同步指令 -> music<1242794784201117758>
+[2024/09/26|00:20:02][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/09/26|00:20:02][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/09/26|00:20:02][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/09/26|00:20:02][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/09/26|00:20:02][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/09/26|00:20:02][INFO]:同步指令 -> me<1146107097549897728>
+[2024/09/26|00:20:02][INFO]:同步指令 -> other<1146107097549897729>
+[2024/09/26|00:20:02][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/09/26|00:20:02][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/09/26|00:20:02][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/09/26|00:20:02][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/09/26|00:20:02][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/09/26|00:20:02][INFO]:已同步14個斜線指令
+[2024/09/26|00:20:13][INFO]:Shard ID None has connected to Gateway (Session ID: d9dd0de1bb8b65506fe38b39e89c5852).
+[2024/09/26|00:20:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/09/26|00:20:27][INFO]:lightinvi<428845649279188992>在[光隱test區->test]說:<@659369978809548826> test
+[2024/09/26|03:37:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|07:20:29][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1288608548137472041_IMG_20240925_224807_663.png',)
+[2024/09/26|07:20:29][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News @Updates 
+Tomorrow, September 26, at 8 AM BST / 3 AM EDT we are planning to install patch 0.15.2.0 for #EscapefromTarkov. The installation will take approximately 5 hours, but may be extended if required. 
+The game will not be accessible during this period.
+[2024/09/26|07:26:38][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|09:20:21][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|10:27:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|12:10:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|12:19:07][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:https://x.com/r3_1128/status/1838621286790238527?t=yT3oPW58xj-32_0yxeEpVQ&s=33
+[2024/09/26|12:19:08][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: https://x.com/r3_1128/status/1838621286790238527?t=yT3oPW58xj-32_0yxeEpVQ&s=33 -> https://x.com/r3_1128/status/1838621286790238527?t=yT3oPW58xj-32_0yxeEpVQ&s=33
+[2024/09/26|12:20:03][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:哈PVP競技場商人可以換SPEAR => PVE…………0
+[2024/09/26|14:22:15][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/09/26|14:22:17][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|14:34:02][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/09/26|14:34:05][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|15:46:35][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1288757571913781259_EFT_Patch_0.15.2.0_ENG.png',)
+[2024/09/26|15:46:35][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News @Updates 
+The installation of #EscapefromTarkov patch 0.15.2.0 has begun. The installation will take approximately 5 hours, but may be extended if required. The game will not be accessible during this period.
+
+Patchnotes: https://www.escapefromtarkov.com/news/id/315
+[2024/09/26|15:56:10][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|16:16:11][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/09/26|16:16:14][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|16:59:42][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|17:43:38][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/09/26|17:43:40][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|18:32:07][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|18:48:08][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|18:49:12][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|18:49:12][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/26|19:13:01][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:感覺不錯ㄟ
+https://www.youtube.com/watch?v=RA4zabaQU1c
+[2024/09/26|19:13:01][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: 感覺不錯ㄟ
+https://www.youtube.com/watch?v=RA4zabaQU1c -> 感覺不錯ㄟ
+https://www.youtube.com/watch?v=RA4zabaQU1c
+[2024/09/26|20:11:21][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]新增附件:('1288835295789191249_image.png',)
+[2024/09/26|20:11:21][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:可以預購了 預購有額外造型 <@416236840547385345> 上車
+[2024/09/26|20:47:47][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|20:52:38][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News 
+#EscapefromTarkov  
+https://youtu.be/S0-Ai58WTxI
+[2024/09/26|21:52:46][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News  
+The patch installation has been extended. Stay tuned for more updates. Thank you for your understanding.
+[2024/09/26|22:28:16][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:好貴
+[2024/09/26|22:54:44][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:<@416236840547385345> 有一堆新任務
+[2024/09/26|23:01:45][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|23:01:45][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/26|23:38:12][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|23:38:12][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 36貢獻值 和 54碎星值
+[2024/09/26|23:38:14][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/26|23:38:14][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 289貢獻值 和 578碎星值
+[2024/09/26|23:45:28][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/26|23:59:22][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News  The patch installation in #EscapefromTarkov is complete. Please download the update via the launcher.
+[2024/09/27|00:12:11][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|01:04:39][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|01:59:05][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|03:47:03][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|05:59:06][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|06:33:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|08:36:09][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|10:28:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|13:54:40][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|16:55:19][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|17:47:51][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:你解了多少
+[2024/09/27|17:49:41][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|17:49:41][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|18:03:30][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:一個都沒解
+[2024/09/27|18:05:54][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|18:53:52][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|18:53:52][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|18:58:02][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:https://www.youtube.com/watch?v=cekAlExBrac
+
+一個都沒記住
+[2024/09/27|18:58:03][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: https://www.youtube.com/watch?v=cekAlExBrac
+
+一個都沒記住 -> https://www.youtube.com/watch?v=cekAlExBrac
+
+一個都沒記住
+[2024/09/27|19:49:13][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:我找到人跟我們一起pve 了
+[2024/09/27|19:49:18][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:<@428845649279188992>
+[2024/09/27|19:59:34][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:誰
+[2024/09/27|20:36:34][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:我朋友
+[2024/09/27|20:37:13][INFO]:已建立用戶 -> allen554<641584621527760938>
+[2024/09/27|20:37:14][INFO]:已建立 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|20:54:00][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|20:54:00][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 120貢獻值 和 240碎星值
+[2024/09/27|20:54:03][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|20:54:03][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|20:56:10][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|20:56:10][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|20:56:12][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|20:56:12][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/09/27|20:56:29][INFO]:allen554<641584621527760938>在[Star Impact Team->遊客會員申請區]說:SIT!申請 Allen
+[2024/09/27|21:36:12][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|21:40:25][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|21:40:25][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 46貢獻值 和 92碎星值
+[2024/09/27|21:40:27][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|21:40:27][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|21:41:21][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|21:41:21][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|22:05:11][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/27|22:36:29][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|22:36:29][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/27|22:38:30][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/27|22:38:30][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 2貢獻值 和 3碎星值
+[2024/09/27|23:31:18][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|01:30:34][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|01:30:34][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 229貢獻值 和 343碎星值
+[2024/09/28|01:42:13][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|01:42:13][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 472貢獻值 和 708碎星值
+[2024/09/28|02:33:01][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|03:04:39][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1289268106350559363_Tarkov.jpg',)
+[2024/09/28|03:04:39][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News
+[2024/09/28|04:03:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|06:48:08][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|07:33:07][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|07:33:07][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/28|07:34:21][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|07:34:21][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/09/28|08:15:04][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|08:15:04][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 634貢獻值 和 1268碎星值
+[2024/09/28|09:19:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|09:29:12][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|09:29:12][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/28|09:43:57][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|12:12:51][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289439661449547910_image.png',)
+[2024/09/28|12:12:51][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:之後要燈塔時光了
+[2024/09/28|12:19:57][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|14:09:00][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:https://tarkov.dev/players/pve/9429200
+[2024/09/28|14:09:00][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: https://tarkov.dev/players/pve/9429200 -> https://tarkov.dev/players/pve/9429200
+[2024/09/28|15:38:46][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|18:19:39][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289531970061340754_image.png',)
+[2024/09/28|18:44:03][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|19:28:25][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289549276484993054_image.png',)
+[2024/09/28|19:28:25][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:???
+[2024/09/28|20:57:30][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|20:57:30][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/28|21:27:37][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|21:27:37][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 718貢獻值 和 1436碎星值
+[2024/09/28|21:30:30][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|21:30:30][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/28|21:52:16][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/28|22:16:56][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|22:16:56][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/28|22:19:00][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/28|22:19:00][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 2貢獻值 和 3碎星值
+[2024/09/28|23:34:42][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|02:01:51][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|02:01:51][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 304貢獻值 和 456碎星值
+[2024/09/29|02:56:58][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|05:10:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|06:03:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|07:24:24][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|07:24:24][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 593貢獻值 和 1186碎星值
+[2024/09/29|08:57:27][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|10:46:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|11:50:01][WARNING]:Can't keep up, shard ID None websocket is 13.8s behind.
+[2024/09/29|11:50:01][WARNING]:Can't keep up, shard ID None websocket is 13.8s behind.
+[2024/09/29|12:12:18][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289801910127300703_image.png',)
+[2024/09/29|12:12:18][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:完成
+[2024/09/29|14:40:10][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|14:54:53][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|15:19:23][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|15:19:23][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/29|15:31:26][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|15:31:26][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/29|17:04:20][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:撞到實況主= = 
+https://www.twitch.tv/kin2358
+[2024/09/29|17:04:21][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: 撞到實況主= = 
+https://www.twitch.tv/kin2358 -> 撞到實況主= = 
+https://www.twitch.tv/kin2358
+[2024/09/29|17:04:57][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289875557642670130_image.png',)
+[2024/09/29|17:08:59][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:https://www.youtube.com/@karr0301
+[2024/09/29|17:09:00][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: https://www.youtube.com/@karr0301 -> https://www.youtube.com/@karr0301
+[2024/09/29|17:11:14][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]新增附件:('1289877137586651238_image.png',)
+[2024/09/29|17:11:14][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:0.0
+[2024/09/29|17:15:28][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:<@428845649279188992>  你電繪版還有在用嗎
+[2024/09/29|17:15:49][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:還有阿 打osu用
+[2024/09/29|17:15:55][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:哦好吧
+[2024/09/29|17:16:15][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:電繪版有什麼挑選的重點嗎
+[2024/09/29|17:16:28][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:價格功能 CP？
+[2024/09/29|17:17:14][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:我覺得台灣比較知名的就只有wacom
+[2024/09/29|17:19:00][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:有那種1000元以下的小繪圖板，但那種後續的消耗配件(筆芯)都不好買
+[2024/09/29|17:28:55][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:https://www.twitch.tv/videos/2263170349?t=03h22m10s
+[2024/09/29|17:28:58][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: https://www.twitch.tv/videos/2263170349?t=03h22m10s -> https://www.twitch.tv/videos/2263170349?t=03h22m10s
+[2024/09/29|17:31:15][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|18:09:24][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:推薦幾個來看看吧
+[2024/09/29|18:09:35][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:新手
+[2024/09/29|18:54:41][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:最標準的就Wacom Intous ，而且他現在好像有出藍芽版的售價約3000～5000
+型號CTL4100 這款就很夠用。
+[2024/09/29|18:56:39][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: 有那種1000元以下的小繪圖板，但那種後續的消耗配件(筆芯)都不好買 -> 其他牌有那種1000元以下的小繪圖板，但那種後續的消耗配件(筆芯)都不好買
+[2024/09/29|19:47:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|21:03:18][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|22:07:23][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|22:17:35][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|22:17:35][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 418貢獻值 和 836碎星值
+[2024/09/29|22:17:37][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|22:17:37][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/29|22:18:25][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|22:18:25][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 406貢獻值 和 609碎星值
+[2024/09/29|22:18:27][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|22:18:27][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/29|22:48:33][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/29|23:51:36][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|23:51:36][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/29|23:59:47][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/29|23:59:47][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 8貢獻值 和 12碎星值
+[2024/09/30|00:01:02][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|00:01:02][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|01:13:27][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:13:27][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 175貢獻值 和 350碎星值
+[2024/09/30|01:15:42][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:15:42][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 74貢獻值 和 111碎星值
+[2024/09/30|01:15:44][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:15:44][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 177貢獻值 和 265碎星值
+[2024/09/30|01:19:05][ERROR]:Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 212, in on_raw_reaction_add
+    response = ReactionMethod.msg_translation(emoji, translation_msg.content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 117, in msg_translation
+    return translator.translate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\googletrans\client.py", line 174, in translate
+    dest = dest.lower().split('_', 1)[0]
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+[2024/09/30|01:21:36][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:21:36][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|01:51:56][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:51:56][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|01:57:51][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|01:57:51][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 5貢獻值 和 7碎星值
+[2024/09/30|01:59:46][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|02:49:03][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|06:34:46][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|08:15:03][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|08:15:03][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 413貢獻值 和 826碎星值
+[2024/09/30|09:33:50][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|11:10:00][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|11:49:17][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|14:47:37][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|17:40:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|18:12:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|18:45:24][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|19:52:54][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|19:52:54][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|20:21:57][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|20:21:57][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|21:03:53][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|21:03:53][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 41貢獻值 和 61碎星值
+[2024/09/30|21:03:55][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|21:03:55][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|21:17:12][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1290262589510647839_EFT_Post_TechUpdate_ENG.png',)
+[2024/09/30|21:17:12][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News @Updates 
+We have installed a technical update for #EscapefromTarkov. The game will not stop, however the raid time on servers undergoing the updates may be reduced to 10 minutes. The full server update will take approximately 2 hours.
+
+● Fixed an issue causing the player to be stuck at 0:00 timer when loading into raid.
+[2024/09/30|21:42:51][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|21:42:51][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/09/30|21:44:15][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|21:44:15][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/09/30|22:27:33][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/09/30|22:51:57][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/09/30|22:51:57][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 108貢獻值 和 162碎星值
+[2024/10/01|02:23:37][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|05:17:07][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|05:55:49][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|07:00:54][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/01|07:00:54][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 667貢獻值 和 1334碎星值
+[2024/10/01|09:05:25][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|11:12:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|12:15:56][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|16:04:58][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|18:12:42][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|19:09:49][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|19:10:25][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/01|19:10:25][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/01|19:11:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|19:29:42][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|20:33:03][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/01|20:40:28][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:放假囉
+[2024/10/01|20:40:32][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:好爽
+[2024/10/01|20:40:51][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:準備躺平
+[2024/10/01|21:37:30][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/01|21:37:30][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/01|21:43:49][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/01|21:43:49][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/01|22:01:44][INFO]:已更新用戶 -> higuchiaoi<418099807660408852>
+[2024/10/01|22:01:48][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/01|22:58:29][INFO]:higuchiaoi<418099807660408852>在[Star Impact Team->正規成員頻道]新增附件:('1290689298516938762_IMG_5713.jpg',)
+[2024/10/02|00:08:51][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1290674833004298270_Hamster_Tap_.mp4',)
+[2024/10/02|00:08:51][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:https://youtube.com/shorts/Ij6RjHEXL1Y
+[2024/10/02|00:30:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|00:32:52][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|00:32:52][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|00:36:05][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|00:36:05][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 3貢獻值 和 6碎星值
+[2024/10/02|01:40:46][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|01:40:46][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 236貢獻值 和 354碎星值
+[2024/10/02|02:38:31][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|02:38:31][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 301貢獻值 和 451碎星值
+[2024/10/02|03:20:15][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|03:40:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|05:05:54][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|05:05:54][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|05:06:10][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|05:06:10][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/02|06:21:24][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|08:28:36][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|08:28:36][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 798貢獻值 和 1596碎星值
+[2024/10/02|10:10:38][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|11:54:20][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|11:54:20][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|12:55:23][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|12:55:23][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|13:41:04][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|13:41:04][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 106貢獻值 和 212碎星值
+[2024/10/02|13:41:07][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|13:41:07][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|13:54:52][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|15:28:31][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:<@428845649279188992>  阿光
+[2024/10/02|15:28:44][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:?
+[2024/10/02|15:29:19][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:你會十進位和十六進位
+[2024/10/02|15:29:34][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:會
+[2024/10/02|15:29:41][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:那是啥
+[2024/10/02|15:29:56][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:我上課有聽沒有懂
+[2024/10/02|15:30:56][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:我要打程式要用到嗎
+[2024/10/02|15:31:24][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:平常你我都是用 十進位 也就是 每計算9次下一次會進位
+16進位就是每計算15次 第16次會進位
+[2024/10/02|15:31:47][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:初學不會但 論計算機原理會
+[2024/10/02|15:32:52][INFO]:wujiaheitao<250219460877746176>在[Star Impact Team->正規成員頻道]說:要操控電子元件用的
+[2024/10/02|15:33:52][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:那可能懂一點二進制 跟邏輯閘會吃相依些
+[2024/10/02|15:34:05][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯: 那可能懂一點二進制 跟邏輯閘會吃相依些 -> 那可能懂一點二進制 跟邏輯閘會吃香一些
+[2024/10/02|17:14:56][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:14:56][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|17:15:27][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:15:27][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/02|17:23:38][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:23:38][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|17:23:41][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:23:41][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/02|17:23:43][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:23:43][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|17:24:00][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|17:24:00][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/02|17:34:57][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|19:06:23][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|19:53:55][INFO]:allen554<641584621527760938>在[Star Impact Team->正規成員頻道]新增附件:('1291005233685856298_image.png',)
+[2024/10/02|19:54:08][INFO]:allen554<641584621527760938>在[Star Impact Team->正規成員頻道]說:舒服
+[2024/10/02|19:54:59][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/02|19:54:59][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/02|20:18:59][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|21:19:25][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|22:04:57][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/02|23:53:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|00:10:10][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|00:28:02][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|00:28:02][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 273貢獻值 和 409碎星值
+[2024/10/03|00:36:20][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|01:01:33][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|01:17:49][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1291052188529070132_EFT_.jpg',)
+[2024/10/03|01:17:49][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News 
+The in-game event “Mortar Strike” in #EscapefromTarkov is available for completion until October 6, 10:00 AM BST / 5:00 AM EDT.
+
+● The event achievement and tasks will not be available for obtaining and completing once the event is over;
+● "The Eye" mortar strike signaling device will be temporarily unavailable for obtaining. 
+● Mortar strikes will still occur on locations, but less frequently.
+[2024/10/03|01:23:34][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:23:34][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 748貢獻值 和 1122碎星值
+[2024/10/03|01:23:37][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:23:37][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|01:32:14][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:32:14][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 8貢獻值 和 12碎星值
+[2024/10/03|01:32:16][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:32:16][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|01:48:07][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:48:07][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 15貢獻值 和 22碎星值
+[2024/10/03|01:48:13][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|01:48:13][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|03:30:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|03:55:28][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|03:55:28][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 127貢獻值 和 190碎星值
+[2024/10/03|04:30:51][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|05:38:19][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|06:18:27][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|09:14:02][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|09:58:51][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|09:58:51][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 1217貢獻值 和 2434碎星值
+[2024/10/03|10:58:17][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|11:15:05][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|12:19:46][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|12:32:29][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|12:32:29][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|12:36:58][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|12:36:58][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|14:07:35][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|14:51:31][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|14:51:31][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 134貢獻值 和 201碎星值
+[2024/10/03|14:51:34][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|14:51:34][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|15:47:16][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|16:45:17][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:45:17][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 113貢獻值 和 169碎星值
+[2024/10/03|16:45:20][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:45:20][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|16:49:58][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:49:58][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 4貢獻值 和 6碎星值
+[2024/10/03|16:50:00][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:50:00][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|16:51:49][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:51:49][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/10/03|16:52:17][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/03|16:52:17][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/03|18:04:35][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|18:28:16][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|21:50:05][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|23:49:22][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/03|23:51:11][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|00:07:44][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|00:07:44][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 435貢獻值 和 652碎星值
+[2024/10/04|00:13:32][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|00:13:32][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 701貢獻值 和 1402碎星值
+[2024/10/04|01:21:37][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|05:20:50][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|08:13:02][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|08:48:10][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|10:32:45][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|11:05:07][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|12:19:12][INFO]:已更新用戶 -> higuchiaoi<418099807660408852>
+[2024/10/04|12:19:15][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|13:54:25][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|14:08:41][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|15:39:35][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|16:04:54][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1291641953435385946_EFT_Post_TechUpdate_ENG.png',)
+[2024/10/04|16:04:54][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News @Updates  
+We have installed a technical client update for #EscapefromTarkov.
+The game will not stop, however the raid time on servers undergoing the updates may be reduced to 10 minutes. Matching time may be increased during the update installation. Please download the update via the launcher.
+
+●  Fixed an issue where the RSP-30 flares of all colors were working incorrectly.
+[2024/10/04|17:35:19][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|18:50:53][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|19:24:09][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|19:24:09][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/04|19:25:32][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|19:25:32][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/04|19:26:15][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|19:26:15][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/04|19:30:41][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|19:30:41][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 4貢獻值 和 6碎星值
+[2024/10/04|20:45:14][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/04|20:55:21][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|20:55:21][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/04|22:59:13][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/04|22:59:13][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|00:19:58][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|00:24:53][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:24:53][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|00:25:28][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:25:28][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/05|00:25:39][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:25:39][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|00:26:09][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:26:09][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/05|00:26:12][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:26:12][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|00:44:09][INFO]:已更新 loseqoo<230026966110044160> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|00:56:59][INFO]:fewheng<429678105809125386>在[Star Impact Team->正規成員頻道]說:https://www.youtube.com/watch?v=BMZ3HTdMjIMhttps://www.youtube.com/watch?v=BMZ3HTdMjIM
+[2024/10/05|01:00:46][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:00:46][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 34貢獻值 和 51碎星值
+[2024/10/05|01:02:02][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:02:02][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|01:03:56][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:03:56][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/10/05|01:04:42][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:04:42][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 249貢獻值 和 373碎星值
+[2024/10/05|01:08:34][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:08:34][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 343貢獻值 和 514碎星值
+[2024/10/05|01:25:46][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:25:46][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 146貢獻值 和 219碎星值
+[2024/10/05|01:34:31][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|01:34:31][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 370貢獻值 和 740碎星值
+[2024/10/05|02:54:02][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|03:31:18][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|05:11:01][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|05:36:37][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|06:05:53][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|08:02:52][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|08:58:54][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|08:58:54][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|11:52:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|12:48:09][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|13:05:37][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|13:05:37][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|13:44:08][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|14:21:55][INFO]:fewheng<429678105809125386>在[Star Impact Team->正規成員頻道]新增附件:('1292008856104472670_screenshot002.jpg',)
+[2024/10/05|14:21:56][INFO]:Star Impact Team<510386488639488001> -> 正規成員頻道<578156795667808276> 中的訊息被編輯:  -> 
+[2024/10/05|14:22:02][INFO]:fewheng<429678105809125386>在[Star Impact Team->正規成員頻道]說:進排名了
+[2024/10/05|14:23:07][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|14:23:07][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|14:23:09][ERROR]:Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 212, in on_raw_reaction_add
+    response = ReactionMethod.msg_translation(emoji, translation_msg.content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 117, in msg_translation
+    return translator.translate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\googletrans\client.py", line 174, in translate
+    dest = dest.lower().split('_', 1)[0]
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+[2024/10/05|14:34:18][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|16:29:30][INFO]:lightinvi<428845649279188992>在[光隱test區->test]說:https://store.steampowered.com/app/3012420/Live2D/?snr=1_7_7_2300_150_5
+[2024/10/05|16:30:45][INFO]:lightinvi<428845649279188992>在[光隱test區->test]說:https://store.steampowered.com/bundle/45809/Sunspot_Bundle/
+[2024/10/05|16:30:45][INFO]:光隱test區<1029978425550704640> -> test<1240227686887067730> 中的訊息被編輯: https://store.steampowered.com/bundle/45809/Sunspot_Bundle/ -> https://store.steampowered.com/bundle/45809/Sunspot_Bundle/
+[2024/10/05|17:26:41][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|17:44:31][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|17:44:31][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 278貢獻值 和 417碎星值
+[2024/10/05|19:11:24][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|19:11:24][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|19:38:35][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|19:38:35][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 27貢獻值 和 40碎星值
+[2024/10/05|19:38:46][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|19:38:46][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|20:34:19][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|21:45:26][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|21:45:26][INFO]:wujiaheitao<250219460877746176> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|23:14:17][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|23:14:17][INFO]:higuchiaoi<418099807660408852> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/05|23:16:13][INFO]:已更新 higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|23:16:13][INFO]:higuchiaoi<418099807660408852> 於 Star Impact Team<510386488639488001> 獲得 1貢獻值 和 1碎星值
+[2024/10/05|23:45:58][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/05|23:48:29][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|23:48:29][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 565貢獻值 和 847碎星值
+[2024/10/05|23:49:28][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/05|23:49:28][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 250貢獻值 和 375碎星值
+[2024/10/05|23:57:46][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:https://www.youtube.com/watch?v=V8hoTt0BPxE
+[2024/10/05|23:57:47][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: https://www.youtube.com/watch?v=V8hoTt0BPxE -> https://www.youtube.com/watch?v=V8hoTt0BPxE
+[2024/10/06|00:43:13][INFO]:已更新 wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|00:43:13][INFO]:wujiaheitao<250219460877746176> 於 Star Impact Team<510386488639488001> 獲得 177貢獻值 和 265碎星值
+[2024/10/06|01:26:45][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|01:26:45][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 987貢獻值 和 1974碎星值
+[2024/10/06|02:22:51][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|03:19:54][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|03:52:33][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|04:17:39][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|04:17:39][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/06|04:17:42][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|04:17:42][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/06|04:57:35][INFO]:已更新用戶 -> jimtenll<513666142230020117>
+[2024/10/06|04:57:38][INFO]:已更新 jimtenll<513666142230020117> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|05:21:05][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|06:07:42][INFO]:Developers #developer-news<1146637700380770407>在[Star Impact Team->developers-news]說:Hi devs! 👋
+
+Welcome to the September edition of our **Developer News**! We've got some exciting updates to share with you this month! 🚀 📰
+# 💻 Platform Updates
+*For more details on recent developer updates, check out our [developer change log](https://discord.com/developers/docs/change-log).*
+## 🎉 Activities Now Open to All Developers
+Since we announced the developer preview of Activities, we've been so excited to hear what devs think and see your prototypes of new games and experiences come to life in Discord. After making improvements based on feedback, we're thrilled to announce that **Activities are generally available for all developers**! 🎊
+
+➡️ [Read our blog post about the announcement here.](https://discord.com/blog/build-where-the-world-plays)
+
+Starting today, apps with Activities can now be verified, distributed, and monetized natively on Discord:
+- ✅ [Verify your app](https://support-dev.discord.com/hc/en-us/articles/23926564536471-How-Do-I-Get-My-App-Verified) with Activities enabled to scale past 100 servers.
+- 🔍 [Opt into Discovery](https://discord.com/developers/docs/discovery/overview) to show up in surfaces like the App Directory
+- 💰 Add [In-App Purchases to your Activity](https://discord.com/developers/monetization/implementing-iap-for-activities)
+For a look at the technical changes and documentation updates made since the preview started in March, read the ✍️  [Change Log entry](https://discord.com/developers/docs/change-log#activities-general-availability). To get started building, read [Activities documentation](https://discord.com/developers/docs/activities/overview).
+### 🛠️ Subscribe to SDK Updates
+We’ve added a new <#1288842831703576606> channel to the [DDevs server](https://discord.com/invite/discord-developers). Subscribe to get Embedded App SDK release notifications as they happen.
+## 🎙️ Voice End-to-End Encryption
+Say hello to [DAVE, Discord's Audio and Video End-to-End Encryption (DAVE) protocol](<https://discord.com/developers/docs/topics/voice-connections>). Starting this month, we are migrating most voice and video to use end-to-end encryption (E2EE). Developers are NOT immediately required to support the E2EE protocol, as calls will automatically upgrade/downgrade to/from E2EE depending on the support of clients in the call.
+- Read details about the deprecation of non-E2EE voice [in the Change Log](https://discord.com/developers/docs/change-log#voice-endtoend-encryption-dave-protocol)
+## 💸 Upcoming Entitlement Migration & New Subscription API
+Discord’s entitlement system is being migrated to a new behavior where entitlements will not end until explicitly canceled, representing a breaking change for subscription management. We are introducing a [Subscription API](https://discord.com/developers/docs/resources/subscription) and [Subscription Events](https://discord.com/developers/docs/topics/gateway-events#subscriptions) to allow handling subscription-related events.
+- Starting **October 1, 2024**, all existing entitlements that grant access to user-subscription and guild-subscription SKUs will automatically transfer to the new system on their renewal date.
+- [See the Change Log for details](https://discord.com/developers/docs/change-log#premium-apps-entitlement-migration-and-new-subscription-api)
+## 🗓️ DDevs: October Platform Updates Event
+Join us on October 8th at 12pm PST to learn more about the long-awaited open platform for Activities and a sneak peek at upcoming features.
+
+➡️ RSVP to the DDevs event: https://discord.gg/rTvHmMds?event=1288881805482524732 to get notified when we go live!
+
+💜 Discord Platform team
+-# If you'd like to change which channel should receive our Developer News or opt-out at any time, you can do so in the [Developer Portal](https://discord.com/developers/active-developer) or by editing your announcement channel's integrations settings, depending on how you subscribed.
+[2024/10/06|06:07:42][INFO]:Star Impact Team<510386488639488001> -> developers-news<1146656128277692437> 中的訊息被編輯: Hi devs! 👋
+
+Welcome to the September edition of our **Developer News**! We've got some exciting updates to share with you this month! 🚀 📰
+# 💻 Platform Updates
+*For more details on recent developer updates, check out our [developer change log](https://discord.com/developers/docs/change-log).*
+## 🎉 Activities Now Open to All Developers
+Since we announced the developer preview of Activities, we've been so excited to hear what devs think and see your prototypes of new games and experiences come to life in Discord. After making improvements based on feedback, we're thrilled to announce that **Activities are generally available for all developers**! 🎊
+
+➡️ [Read our blog post about the announcement here.](https://discord.com/blog/build-where-the-world-plays)
+
+Starting today, apps with Activities can now be verified, distributed, and monetized natively on Discord:
+- ✅ [Verify your app](https://support-dev.discord.com/hc/en-us/articles/23926564536471-How-Do-I-Get-My-App-Verified) with Activities enabled to scale past 100 servers.
+- 🔍 [Opt into Discovery](https://discord.com/developers/docs/discovery/overview) to show up in surfaces like the App Directory
+- 💰 Add [In-App Purchases to your Activity](https://discord.com/developers/monetization/implementing-iap-for-activities)
+For a look at the technical changes and documentation updates made since the preview started in March, read the ✍️  [Change Log entry](https://discord.com/developers/docs/change-log#activities-general-availability). To get started building, read [Activities documentation](https://discord.com/developers/docs/activities/overview).
+### 🛠️ Subscribe to SDK Updates
+We’ve added a new <#1288842831703576606> channel to the [DDevs server](https://discord.com/invite/discord-developers). Subscribe to get Embedded App SDK release notifications as they happen.
+## 🎙️ Voice End-to-End Encryption
+Say hello to [DAVE, Discord's Audio and Video End-to-End Encryption (DAVE) protocol](<https://discord.com/developers/docs/topics/voice-connections>). Starting this month, we are migrating most voice and video to use end-to-end encryption (E2EE). Developers are NOT immediately required to support the E2EE protocol, as calls will automatically upgrade/downgrade to/from E2EE depending on the support of clients in the call.
+- Read details about the deprecation of non-E2EE voice [in the Change Log](https://discord.com/developers/docs/change-log#voice-endtoend-encryption-dave-protocol)
+## 💸 Upcoming Entitlement Migration & New Subscription API
+Discord’s entitlement system is being migrated to a new behavior where entitlements will not end until explicitly canceled, representing a breaking change for subscription management. We are introducing a [Subscription API](https://discord.com/developers/docs/resources/subscription) and [Subscription Events](https://discord.com/developers/docs/topics/gateway-events#subscriptions) to allow handling subscription-related events.
+- Starting **October 1, 2024**, all existing entitlements that grant access to user-subscription and guild-subscription SKUs will automatically transfer to the new system on their renewal date.
+- [See the Change Log for details](https://discord.com/developers/docs/change-log#premium-apps-entitlement-migration-and-new-subscription-api)
+## 🗓️ DDevs: October Platform Updates Event
+Join us on October 8th at 12pm PST to learn more about the long-awaited open platform for Activities and a sneak peek at upcoming features.
+
+➡️ RSVP to the DDevs event: https://discord.gg/rTvHmMds?event=1288881805482524732 to get notified when we go live!
+
+💜 Discord Platform team
+-# If you'd like to change which channel should receive our Developer News or opt-out at any time, you can do so in the [Developer Portal](https://discord.com/developers/active-developer) or by editing your announcement channel's integrations settings, depending on how you subscribed. -> Hi devs! 👋
+
+Welcome to the September edition of our **Developer News**! We've got some exciting updates to share with you this month! 🚀 📰
+# 💻 Platform Updates
+*For more details on recent developer updates, check out our [developer change log](https://discord.com/developers/docs/change-log).*
+## 🎉 Activities Now Open to All Developers
+Since we announced the developer preview of Activities, we've been so excited to hear what devs think and see your prototypes of new games and experiences come to life in Discord. After making improvements based on feedback, we're thrilled to announce that **Activities are generally available for all developers**! 🎊
+
+➡️ [Read our blog post about the announcement here.](https://discord.com/blog/build-where-the-world-plays)
+
+Starting today, apps with Activities can now be verified, distributed, and monetized natively on Discord:
+- ✅ [Verify your app](https://support-dev.discord.com/hc/en-us/articles/23926564536471-How-Do-I-Get-My-App-Verified) with Activities enabled to scale past 100 servers.
+- 🔍 [Opt into Discovery](https://discord.com/developers/docs/discovery/overview) to show up in surfaces like the App Directory
+- 💰 Add [In-App Purchases to your Activity](https://discord.com/developers/monetization/implementing-iap-for-activities)
+For a look at the technical changes and documentation updates made since the preview started in March, read the ✍️  [Change Log entry](https://discord.com/developers/docs/change-log#activities-general-availability). To get started building, read [Activities documentation](https://discord.com/developers/docs/activities/overview).
+### 🛠️ Subscribe to SDK Updates
+We’ve added a new <#1288842831703576606> channel to the [DDevs server](https://discord.com/invite/discord-developers). Subscribe to get Embedded App SDK release notifications as they happen.
+## 🎙️ Voice End-to-End Encryption
+Say hello to [DAVE, Discord's Audio and Video End-to-End Encryption (DAVE) protocol](<https://discord.com/developers/docs/topics/voice-connections>). Starting this month, we are migrating most voice and video to use end-to-end encryption (E2EE). Developers are NOT immediately required to support the E2EE protocol, as calls will automatically upgrade/downgrade to/from E2EE depending on the support of clients in the call.
+- Read details about the deprecation of non-E2EE voice [in the Change Log](https://discord.com/developers/docs/change-log#voice-endtoend-encryption-dave-protocol)
+## 💸 Upcoming Entitlement Migration & New Subscription API
+Discord’s entitlement system is being migrated to a new behavior where entitlements will not end until explicitly canceled, representing a breaking change for subscription management. We are introducing a [Subscription API](https://discord.com/developers/docs/resources/subscription) and [Subscription Events](https://discord.com/developers/docs/topics/gateway-events#subscriptions) to allow handling subscription-related events.
+- Starting **October 1, 2024**, all existing entitlements that grant access to user-subscription and guild-subscription SKUs will automatically transfer to the new system on their renewal date.
+- [See the Change Log for details](https://discord.com/developers/docs/change-log#premium-apps-entitlement-migration-and-new-subscription-api)
+## 🗓️ DDevs: October Platform Updates Event
+Join us on October 8th at 12pm PST to learn more about the long-awaited open platform for Activities and a sneak peek at upcoming features.
+
+➡️ RSVP to the DDevs event: https://discord.gg/rTvHmMds?event=1288881805482524732 to get notified when we go live!
+
+💜 Discord Platform team
+-# If you'd like to change which channel should receive our Developer News or opt-out at any time, you can do so in the [Developer Portal](https://discord.com/developers/active-developer) or by editing your announcement channel's integrations settings, depending on how you subscribed.
+[2024/10/06|07:28:46][ERROR]:Ignoring exception in on_raw_reaction_add
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 212, in on_raw_reaction_add
+    response = ReactionMethod.msg_translation(emoji, translation_msg.content)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\methods\OAM_event.py", line 117, in msg_translation
+    return translator.translate(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\googletrans\client.py", line 174, in translate
+    dest = dest.lower().split('_', 1)[0]
+           ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'lower'
+[2024/10/06|09:20:45][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|10:00:07][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|13:32:32][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|16:58:34][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|17:31:39][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|17:31:39][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/06|18:48:23][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|18:50:06][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|18:50:06][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/06|20:23:59][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|20:23:59][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/06|22:47:06][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|23:31:08][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/06|23:38:39][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|23:38:39][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 367貢獻值 和 734碎星值
+[2024/10/06|23:57:19][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/06|23:57:19][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 213貢獻值 和 319碎星值
+[2024/10/07|00:02:18][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|00:02:18][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 312貢獻值 和 468碎星值
+[2024/10/07|00:15:37][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/10/07|00:15:40][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|00:17:01][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/10/07|00:17:05][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|00:35:01][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|02:14:03][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|03:48:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|06:23:49][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|09:00:29][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|09:17:28][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|09:31:00][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|10:45:53][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|10:50:15][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|12:11:24][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|12:41:41][INFO]:已更新用戶 -> cheecher0611<282522123635916801>
+[2024/10/07|12:41:44][INFO]:已更新 cheecher0611<282522123635916801> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|12:46:17][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|13:30:18][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|14:23:58][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|16:30:29][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|17:07:02][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|17:27:28][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|18:32:43][INFO]:已更新 loseqoo<230026966110044160> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|20:10:33][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|20:45:38][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|20:45:38][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/07|21:04:32][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|21:04:32][INFO]:allen554<641584621527760938> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/07|21:49:35][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/07|22:24:22][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|22:24:22][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/07|22:25:36][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|22:25:36][INFO]:bigben2689<787727387383037962> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/07|22:31:39][INFO]:已更新 bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/07|22:31:39][INFO]:bigben2689<787727387383037962> 於 Star Impact Team<510386488639488001> 獲得 6貢獻值 和 9碎星值
+[2024/10/08|00:01:14][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|00:06:13][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/08|00:06:13][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 200貢獻值 和 400碎星值
+[2024/10/08|00:06:38][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/08|00:06:38][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 102貢獻值 和 153碎星值
+[2024/10/08|00:06:44][INFO]:已更新 allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/08|00:06:44][INFO]:allen554<641584621527760938> 於 Star Impact Team<510386488639488001> 獲得 182貢獻值 和 273碎星值
+[2024/10/08|01:56:10][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|05:01:30][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|07:19:12][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|11:03:25][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|12:34:53][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|13:08:53][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|15:44:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|18:38:24][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|20:01:01][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/08|20:01:01][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/08|20:18:28][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/08|22:08:42][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|00:03:32][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|00:27:17][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/09|00:27:17][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/09|00:27:35][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/09|00:27:35][INFO]:chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/10/09|00:47:12][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/09|00:47:12][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 286貢獻值 和 572碎星值
+[2024/10/09|00:55:36][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|01:37:30][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|03:57:34][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|04:38:31][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|07:09:27][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|07:50:06][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|08:46:08][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|10:02:53][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|12:48:02][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|15:58:11][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|18:41:37][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|18:44:35][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/09|18:44:35][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/09|19:36:10][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.
+[2024/10/09|19:38:01][INFO]:已更新 chengxue625<416236840547385345> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/10/09|19:38:01][INFO]:chengxue625<416236840547385345> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/10/09|21:11:48][INFO]:Shard ID None has successfully RESUMED session d9dd0de1bb8b65506fe38b39e89c5852.

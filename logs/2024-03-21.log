@@ -1,0 +1,78 @@
+[2024/03/21|10:31:08][INFO]:擴充指令初始化完成
+[2024/03/21|10:31:08][INFO]:logging in using static token
+[2024/03/21|10:31:11][INFO]:Shard ID None has connected to Gateway (Session ID: a21d440c310def7f7e5168e6c104c793).
+[2024/03/21|10:31:13][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|10:31:13][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|10:32:27][INFO]:擴充指令初始化完成
+[2024/03/21|10:32:27][INFO]:logging in using static token
+[2024/03/21|10:32:28][INFO]:Shard ID None has connected to Gateway (Session ID: 1c2f9fbceb27389764e3557dfaefc23c).
+[2024/03/21|10:32:31][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|10:32:31][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|10:54:10][INFO]:擴充指令初始化完成
+[2024/03/21|10:54:10][INFO]:logging in using static token
+[2024/03/21|10:54:11][INFO]:Shard ID None has connected to Gateway (Session ID: 320d7cb8f9784eaf4c02644117b6dc8b).
+[2024/03/21|10:54:14][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|10:54:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|11:14:11][INFO]:擴充指令初始化完成
+[2024/03/21|11:14:11][INFO]:logging in using static token
+[2024/03/21|11:14:13][INFO]:Shard ID None has connected to Gateway (Session ID: e69ae54627af9756663e20ea9bb358b8).
+[2024/03/21|11:14:15][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|11:14:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|12:06:07][INFO]:Shard ID None has successfully RESUMED session e69ae54627af9756663e20ea9bb358b8.
+[2024/03/21|13:52:11][INFO]:Shard ID None has successfully RESUMED session e69ae54627af9756663e20ea9bb358b8.
+[2024/03/21|14:37:08][INFO]:XitoAi Debug System#5101<XitoAi Debug System#5101>:請求列印->1220259883887235152_test1.png
+[2024/03/21|15:07:14][INFO]:XitoAi Debug System#5101<XitoAi Debug System#5101>:請求列印->1220267459911618610_test1.png
+[2024/03/21|15:14:32][INFO]:XitoAi Debug System#5101<XitoAi Debug System#5101>:請求列印->1220269298262605844_test1.png
+[2024/03/21|17:02:55][INFO]:擴充指令初始化完成
+[2024/03/21|17:02:55][INFO]:logging in using static token
+[2024/03/21|17:02:56][INFO]:Shard ID None has connected to Gateway (Session ID: 371d786284867119237dc93f31518674).
+[2024/03/21|17:02:59][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|17:02:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|17:03:29][ERROR]:Ignoring exception in command 'lottery'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\entertainment.py", line 71, in lottery
+    lottery_result = await super().lottery(interaction, broken_star)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\commands\entertainment.py", line 30, in lottery
+    await member.update()
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 326, in update
+    star_result = await ProfileMethod.update_database(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\Discord_XitoAi\src\methods\OAM_profile.py", line 193, in update_database
+    sql_cmd.id == database_id
+    ^^^^^^^^^^
+AttributeError: 'Table' object has no attribute 'id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'lottery' raised an exception: AttributeError: 'Table' object has no attribute 'id'
+[2024/03/21|17:07:58][INFO]:擴充指令初始化完成
+[2024/03/21|17:07:58][INFO]:logging in using static token
+[2024/03/21|17:07:59][INFO]:Shard ID None has connected to Gateway (Session ID: 9f50550cc3bc5cd96036cdc006d93965).
+[2024/03/21|17:08:02][INFO]:已載入12個斜線指令
+['樂透<1185834413750243399>', 'lottery<1185834413750243401>', '我<1182669382023913524>', '其他人<1182669382581768272>', '排行<1182669382581768273>', 'me<1182669382581768274>', 'other<1182669382581768275>', 'ranking<1182669382581768276>', '獲取驗證碼<1219915775603769347>', '驗證<1219915775603769348>', 'get_verification<1219919789619941376>', 'verify<1219919789619941377>']
+[2024/03/21|17:08:02][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/03/21|17:08:11][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2024/03/21|17:08:19][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區
+[2024/03/21|17:08:37][INFO]:更新 profile_memberOnline 成功
+更新 profile_memberStar 成功
+UUID->293FBB4D-C517-4716-A004-145554D888E2
+[2024/03/21|17:08:58][INFO]:lightinvi查詢自己的個人資料公會->光隱測試區

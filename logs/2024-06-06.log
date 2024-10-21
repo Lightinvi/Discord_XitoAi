@@ -1,0 +1,1023 @@
+[2024/06/06|09:24:06][INFO]:擴充指令初始化完成
+[2024/06/06|09:24:06][INFO]:logging in using static token
+[2024/06/06|09:24:08][INFO]:Shard ID None has connected to Gateway (Session ID: fc69c2c97151907eb2630985335efddb).
+[2024/06/06|09:24:10][ERROR]:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\XitoAi.py", line 32, in on_ready
+    for command_object in sync:
+TypeError: 'NoneType' object is not iterable
+[2024/06/06|09:25:52][INFO]:擴充指令初始化完成
+[2024/06/06|09:25:52][INFO]:logging in using static token
+[2024/06/06|09:25:54][INFO]:Shard ID None has connected to Gateway (Session ID: 78709e8e2bbba9ed3a59181be60833d6).
+[2024/06/06|09:25:56][INFO]:同步 樂透<1242290397108240507>
+[2024/06/06|09:25:56][INFO]:同步 lottery<1242290397108240508>
+[2024/06/06|09:25:56][INFO]:同步 伺服器<1242290397108240509>
+[2024/06/06|09:25:56][INFO]:同步 開啟伺服器<1242290397108240510>
+[2024/06/06|09:25:56][INFO]:同步 關閉伺服器<1242290397108240511>
+[2024/06/06|09:25:56][INFO]:同步 重啟伺服器<1242290397108240513>
+[2024/06/06|09:25:56][INFO]:同步 music<1242290397108240514>
+[2024/06/06|09:25:56][INFO]:同步 queue<1243012448680935444>
+[2024/06/06|09:25:56][INFO]:同步 skip<1242290397108240515>
+[2024/06/06|09:25:56][INFO]:同步 pause<1242303741445668884>
+[2024/06/06|09:25:56][INFO]:同步 resume<1242303741445668885>
+[2024/06/06|09:25:56][INFO]:同步 disconnect<1242303741445668886>
+[2024/06/06|09:25:56][INFO]:同步 me<1247750228497399882>
+[2024/06/06|09:25:56][INFO]:同步 start_record<1246024385882624020>
+[2024/06/06|09:25:56][INFO]:同步 stop_record<1245564727015243787>
+[2024/06/06|09:25:56][INFO]:同步 獲取驗證碼<1242290397221228599>
+[2024/06/06|09:25:56][INFO]:同步 驗證<1242290397221228600>
+[2024/06/06|09:25:56][INFO]:同步 get_verification<1242290397221228602>
+[2024/06/06|09:25:56][INFO]:同步 verify<1242290397221228603>
+[2024/06/06|09:25:56][INFO]:已載入19個斜線指令
+[2024/06/06|09:25:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|09:53:03][INFO]:擴充指令初始化完成
+[2024/06/06|09:53:03][INFO]:logging in using static token
+[2024/06/06|09:53:05][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|09:53:05][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|09:53:05][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|09:53:05][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|09:53:05][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|09:53:05][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|09:53:05][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|09:53:05][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|09:53:05][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|09:53:06][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|09:53:06][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|09:53:06][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|09:53:06][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|09:53:06][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|09:53:06][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|09:53:06][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|09:53:06][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|09:53:06][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|09:53:06][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|09:53:07][INFO]:已同步19個斜線指令
+[2024/06/06|09:53:07][INFO]:Shard ID None has connected to Gateway (Session ID: 5ab5ff0e1e97df1db9e77ca0db416943).
+[2024/06/06|09:53:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:01:51][INFO]:擴充指令初始化完成
+[2024/06/06|10:01:51][INFO]:logging in using static token
+[2024/06/06|10:01:52][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:01:52][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:01:52][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:01:52][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:01:52][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:01:52][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:01:52][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:01:52][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:01:52][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:01:52][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:01:52][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:01:52][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:01:52][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:01:52][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:01:52][INFO]:已同步19個斜線指令
+[2024/06/06|10:01:53][INFO]:Shard ID None has connected to Gateway (Session ID: 2613acf717ce76334800c92462e7a91d).
+[2024/06/06|10:01:55][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:10:43][INFO]:擴充指令初始化完成
+[2024/06/06|10:10:43][INFO]:logging in using static token
+[2024/06/06|10:10:45][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:10:45][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:10:45][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:10:45][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:10:45][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:10:45][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:10:45][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:10:45][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:10:45][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:10:45][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:10:45][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:10:45][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:10:45][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:10:45][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:10:45][INFO]:已同步19個斜線指令
+[2024/06/06|10:10:46][INFO]:Shard ID None has connected to Gateway (Session ID: dc53c93a1f1750cee1ba99277c311179).
+[2024/06/06|10:10:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:14:34][INFO]:擴充指令初始化完成
+[2024/06/06|10:14:34][INFO]:logging in using static token
+[2024/06/06|10:14:36][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:14:36][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:14:36][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:14:36][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:14:36][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:14:36][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:14:36][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:14:37][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:14:37][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:14:37][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:14:37][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:14:37][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:14:37][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:14:38][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:14:38][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:14:38][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:14:38][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:14:38][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:14:38][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:14:38][INFO]:已同步19個斜線指令
+[2024/06/06|10:14:39][INFO]:Shard ID None has connected to Gateway (Session ID: 839ebc381b90c90fbad17b7b9cf61b72).
+[2024/06/06|10:14:41][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:16:17][INFO]:擴充指令初始化完成
+[2024/06/06|10:16:17][INFO]:logging in using static token
+[2024/06/06|10:16:18][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:16:18][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:16:18][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:16:18][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:16:18][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:16:18][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:16:18][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:16:18][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:16:18][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:16:18][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:16:18][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:16:18][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:16:18][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:16:18][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:16:18][INFO]:已同步19個斜線指令
+[2024/06/06|10:16:19][INFO]:Shard ID None has connected to Gateway (Session ID: 3df7601dd9e010f53fedaa47526a4092).
+[2024/06/06|10:16:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:29:17][INFO]:擴充指令初始化完成
+[2024/06/06|10:29:17][INFO]:logging in using static token
+[2024/06/06|10:29:18][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:29:18][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:29:18][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:29:18][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:29:18][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:29:18][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:29:18][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:29:18][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:29:18][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:29:18][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:29:18][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:29:18][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:29:18][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:29:18][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:29:18][INFO]:已同步19個斜線指令
+[2024/06/06|10:29:19][INFO]:Shard ID None has connected to Gateway (Session ID: 07efe391558d07a5f821dc7c94cf7da5).
+[2024/06/06|10:29:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:32:12][INFO]:擴充指令初始化完成
+[2024/06/06|10:32:12][INFO]:logging in using static token
+[2024/06/06|10:32:14][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:32:14][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:32:14][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:32:14][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:32:14][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:32:14][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:32:14][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:32:14][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:32:14][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:32:14][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:32:14][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:32:14][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:32:14][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:32:14][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:32:14][INFO]:已同步19個斜線指令
+[2024/06/06|10:32:15][INFO]:Shard ID None has connected to Gateway (Session ID: cf9355747846f8ed749228a0238afce0).
+[2024/06/06|10:32:17][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:32:50][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 63, in view_self_profile
+    await interaction.response.send_message(embed= embed)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2024/06/06|10:33:26][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 63, in view_self_profile
+    await interaction.response.send_message(embed= embed)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2024/06/06|10:37:17][INFO]:擴充指令初始化完成
+[2024/06/06|10:37:17][INFO]:logging in using static token
+[2024/06/06|10:37:20][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:37:20][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:37:20][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:37:20][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:37:20][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:37:20][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:37:20][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:37:20][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:37:20][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:37:20][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:37:20][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:37:20][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:37:20][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:37:20][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:37:20][INFO]:已同步19個斜線指令
+[2024/06/06|10:37:21][INFO]:Shard ID None has connected to Gateway (Session ID: 189c9e89cfc7217c19d6cf3b86e23ffa).
+[2024/06/06|10:37:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:39:44][INFO]:擴充指令初始化完成
+[2024/06/06|10:39:44][INFO]:logging in using static token
+[2024/06/06|10:39:46][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:39:46][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:39:46][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:39:46][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:39:46][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:39:46][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:39:46][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:39:46][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:39:46][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:39:46][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:39:46][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:39:46][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:39:46][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:39:46][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:39:46][INFO]:已同步19個斜線指令
+[2024/06/06|10:39:46][INFO]:Shard ID None has connected to Gateway (Session ID: 3e1dc6d4cca87de56399853acaa62800).
+[2024/06/06|10:39:49][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:40:03][INFO]:擴充指令初始化完成
+[2024/06/06|10:40:04][INFO]:logging in using static token
+[2024/06/06|10:41:20][INFO]:擴充指令初始化完成
+[2024/06/06|10:41:20][INFO]:logging in using static token
+[2024/06/06|10:41:21][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:41:21][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:41:21][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:41:21][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:41:21][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:41:21][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:41:22][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:41:22][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:41:22][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:41:22][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:41:22][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:41:22][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:41:22][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:41:22][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:41:22][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:41:22][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:41:22][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:41:22][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:41:22][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:41:23][INFO]:已同步19個斜線指令
+[2024/06/06|10:41:23][INFO]:Shard ID None has connected to Gateway (Session ID: 1d1db86e2ac641a5cfb23758731d7604).
+[2024/06/06|10:41:25][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:43:44][INFO]:擴充指令初始化完成
+[2024/06/06|10:43:44][INFO]:logging in using static token
+[2024/06/06|10:43:46][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:43:46][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:43:46][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:43:46][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:43:46][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:43:46][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:43:46][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:43:46][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:43:46][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:43:46][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:43:46][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:43:46][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:43:46][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:43:46][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:43:47][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:43:47][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:43:47][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:43:47][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:43:47][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:43:47][INFO]:已同步19個斜線指令
+[2024/06/06|10:43:57][INFO]:Shard ID None has connected to Gateway (Session ID: 251ba8500ebe5acaff5ac8590b5b1361).
+[2024/06/06|10:43:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:44:25][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 63, in view_self_profile
+    await interaction.response.send_message(embed= embed)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2024/06/06|10:47:50][INFO]:擴充指令初始化完成
+[2024/06/06|10:47:50][INFO]:logging in using static token
+[2024/06/06|10:47:52][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:47:52][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:47:52][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:47:52][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:47:52][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:47:52][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:47:52][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:47:52][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:47:52][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:47:52][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:47:52][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:47:52][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:47:52][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:47:52][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:47:52][INFO]:已同步19個斜線指令
+[2024/06/06|10:47:53][INFO]:Shard ID None has connected to Gateway (Session ID: a4060ed47011f1b2789b9cda92cca7f7).
+[2024/06/06|10:47:55][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:48:04][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 63, in view_self_profile
+    await interaction.response.send_message(embed= embed)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\interactions.py", line 801, in send_message
+    await adapter.create_interaction_response(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 219, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+[2024/06/06|10:49:54][INFO]:擴充指令初始化完成
+[2024/06/06|10:49:54][INFO]:logging in using static token
+[2024/06/06|10:49:56][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:49:56][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:49:56][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:49:56][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:49:56][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:49:56][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:49:56][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:49:56][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:49:56][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:49:56][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:49:56][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:49:56][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:49:56][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:49:56][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:49:56][INFO]:已同步19個斜線指令
+[2024/06/06|10:50:07][INFO]:Shard ID None has connected to Gateway (Session ID: a4cc14b4a56802977bebe463df8e3f65).
+[2024/06/06|10:50:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:50:24][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 19, in view_self_profile
+    member = DiscordMember(interaction)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 190, in __init__
+    self._db_get()
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 205, in _db_get
+    self._db_get()
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 213, in _db_get
+    ExMember.create(self._id)
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 49, in create
+    method(uid)
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 121, in online_time
+    db = SQL(db_account).connect(db_account).table(ONLINETABLE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 46, in connect
+    host = database.host,
+           ^^^^^^^^^^^^^
+AttributeError: 'DBUser' object has no attribute 'host'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'DBUser' object has no attribute 'host'
+[2024/06/06|10:50:38][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 19, in view_self_profile
+    member = DiscordMember(interaction)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 190, in __init__
+    self._db_get()
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 213, in _db_get
+    ExMember.create(self._id)
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 49, in create
+    method(uid)
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 121, in online_time
+    db = SQL(db_account).connect(db_account).table(ONLINETABLE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 46, in connect
+    host = database.host,
+           ^^^^^^^^^^^^^
+AttributeError: 'DBUser' object has no attribute 'host'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'DBUser' object has no attribute 'host'
+[2024/06/06|10:51:10][INFO]:擴充指令初始化完成
+[2024/06/06|10:51:10][INFO]:logging in using static token
+[2024/06/06|10:51:11][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:51:11][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:51:11][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:51:11][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:51:11][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:51:11][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:51:11][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:51:11][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:51:11][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:51:11][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:51:11][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:51:11][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:51:11][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:51:11][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:51:11][INFO]:已同步19個斜線指令
+[2024/06/06|10:51:12][INFO]:Shard ID None has connected to Gateway (Session ID: ff35ae7454fa6d94769136597ea90979).
+[2024/06/06|10:51:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:51:19][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 19, in view_self_profile
+    member = DiscordMember(interaction)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 190, in __init__
+    self._db_get()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 213, in _db_get
+    ExMember.create(self._id)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 49, in create
+    method(uid)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 121, in online_time
+    db = SQL(db_account).connect(db_account).table(ONLINETABLE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 46, in connect
+    host = database.host,
+           ^^^^^^^^^^^^^
+AttributeError: 'DBUser' object has no attribute 'host'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'DBUser' object has no attribute 'host'
+[2024/06/06|10:52:34][INFO]:擴充指令初始化完成
+[2024/06/06|10:52:34][INFO]:logging in using static token
+[2024/06/06|10:52:35][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:52:35][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:52:35][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:52:35][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:52:35][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:52:35][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:52:35][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:52:35][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:52:35][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:52:35][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:52:35][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:52:35][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:52:35][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:52:35][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:52:35][INFO]:已同步19個斜線指令
+[2024/06/06|10:52:36][INFO]:Shard ID None has connected to Gateway (Session ID: ce5e4d326814f873d5ca21db91ff768d).
+[2024/06/06|10:52:38][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:52:43][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 19, in view_self_profile
+    member = DiscordMember(interaction)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 190, in __init__
+    self._db_get()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 213, in _db_get
+    ExMember.create(self._id)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 49, in create
+    method(uid)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 124, in online_time
+    db.id, db.onlineTime, db.total_onlineTime, db.isOline
+                                               ^^^^^^^^^^
+AttributeError: 'Table' object has no attribute 'isOline'. Did you mean: 'isOnline'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: 'Table' object has no attribute 'isOline'
+[2024/06/06|10:53:53][INFO]:擴充指令初始化完成
+[2024/06/06|10:53:53][INFO]:logging in using static token
+[2024/06/06|10:53:54][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:53:54][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:53:54][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:53:54][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:53:54][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:53:54][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:53:54][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:53:54][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:53:54][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:53:54][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:53:54][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:53:54][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:53:54][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:53:54][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:53:54][INFO]:已同步19個斜線指令
+[2024/06/06|10:53:55][INFO]:Shard ID None has connected to Gateway (Session ID: b7edd493b4e4666aa1800bd9714edf32).
+[2024/06/06|10:53:57][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|10:54:02][ERROR]:Ignoring exception in command 'me'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\profile.py", line 19, in view_self_profile
+    member = DiscordMember(interaction)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 190, in __init__
+    self._db_get()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 217, in _db_get
+    self.total_online_time = 0
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: property 'total_online_time' of 'DiscordMember' object has no setter
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'me' raised an exception: AttributeError: property 'total_online_time' of 'DiscordMember' object has no setter
+[2024/06/06|10:55:11][INFO]:擴充指令初始化完成
+[2024/06/06|10:55:11][INFO]:logging in using static token
+[2024/06/06|10:55:12][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|10:55:12][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|10:55:12][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|10:55:12][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|10:55:12][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|10:55:12][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|10:55:12][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|10:55:12][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|10:55:12][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|10:55:12][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|10:55:12][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|10:55:12][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|10:55:12][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|10:55:12][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|10:55:12][INFO]:已同步19個斜線指令
+[2024/06/06|10:55:13][INFO]:Shard ID None has connected to Gateway (Session ID: 2c0e2a86c508666359008e1b6b88b320).
+[2024/06/06|10:55:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|13:43:54][INFO]:擴充指令初始化完成
+[2024/06/06|13:43:54][INFO]:logging in using static token
+[2024/06/06|13:43:55][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|13:43:55][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|13:43:55][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|13:43:55][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|13:43:55][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|13:43:55][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|13:43:56][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|13:43:56][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|13:43:56][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|13:43:56][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|13:43:56][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|13:43:56][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|13:43:56][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|13:43:56][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|13:43:56][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|13:43:56][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|13:43:56][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|13:43:56][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|13:43:56][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|13:43:56][INFO]:已同步19個斜線指令
+[2024/06/06|13:43:57][INFO]:Shard ID None has connected to Gateway (Session ID: 992dbfe84d8839bcfb0021cc235d68b6).
+[2024/06/06|13:43:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|13:56:54][INFO]:擴充指令初始化完成
+[2024/06/06|13:56:54][INFO]:logging in using static token
+[2024/06/06|13:56:55][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|13:56:55][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 伺服器<1242290397108240509>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 開啟伺服器<1242290397108240510>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 關閉伺服器<1242290397108240511>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 重啟伺服器<1242290397108240513>
+[2024/06/06|13:56:55][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|13:56:55][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|13:56:55][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|13:56:55][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|13:56:55][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|13:56:55][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|13:56:55][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|13:56:55][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|13:56:55][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|13:56:55][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|13:56:55][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|13:56:55][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|13:56:55][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|13:56:55][INFO]:已同步20個斜線指令
+[2024/06/06|13:56:57][INFO]:Shard ID None has connected to Gateway (Session ID: b430804616c502cd8676f71eb5909416).
+[2024/06/06|13:56:59][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|14:25:55][INFO]:擴充指令初始化完成
+[2024/06/06|14:25:55][INFO]:logging in using static token
+[2024/06/06|14:25:56][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|14:25:56][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|14:25:56][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|14:25:56][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|14:25:56][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|14:25:56][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|14:25:56][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|14:25:56][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|14:25:56][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|14:25:56][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|14:25:56][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|14:25:56][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|14:25:56][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|14:25:56][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|14:25:56][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|14:25:56][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|14:25:56][INFO]:已同步16個斜線指令
+[2024/06/06|14:26:23][INFO]:Shard ID None has connected to Gateway (Session ID: ddb2e7f53bf90bef140f80cfbee306b5).
+[2024/06/06|14:26:25][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|14:29:25][INFO]:已建立公會 光隱測試區<1029978425550704640>
+[2024/06/06|15:10:12][INFO]:擴充指令初始化完成
+[2024/06/06|15:10:13][INFO]:logging in using static token
+[2024/06/06|15:10:14][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|15:10:15][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|15:10:15][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|15:10:15][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|15:10:15][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|15:10:16][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|15:10:16][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|15:10:16][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|15:10:16][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|15:10:16][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|15:10:17][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|15:10:17][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|15:10:17][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|15:10:18][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|15:10:18][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|15:10:18][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|15:10:18][INFO]:已同步16個斜線指令
+[2024/06/06|15:10:22][INFO]:Shard ID None has connected to Gateway (Session ID: b28cb14f26e1f978970ac24877fad5aa).
+[2024/06/06|15:10:24][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|15:12:49][INFO]:已更新公會 -> 光隱測試區<1029978425550704640>
+[2024/06/06|15:15:43][INFO]:擴充指令初始化完成
+[2024/06/06|15:15:43][INFO]:logging in using static token
+[2024/06/06|15:15:45][INFO]:同步指令 -> 樂透<1242290397108240507>
+[2024/06/06|15:15:45][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|15:15:45][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|15:15:45][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|15:15:45][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|15:15:45][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|15:15:45][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|15:15:45][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|15:15:45][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|15:15:45][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|15:15:45][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|15:15:45][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|15:15:45][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|15:15:45][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|15:15:45][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|15:15:45][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|15:15:45][INFO]:已同步16個斜線指令
+[2024/06/06|15:15:46][INFO]:Shard ID None has connected to Gateway (Session ID: ac1499018921e6e979998a2eeea45a18).
+[2024/06/06|15:15:48][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|15:16:09][INFO]:已更新公會 -> 光隱test區<1029978425550704640>
+[2024/06/06|15:16:49][INFO]:已更新公會 -> 光隱測試區<1029978425550704640>
+[2024/06/06|16:42:08][INFO]:擴充指令初始化完成
+[2024/06/06|16:42:08][INFO]:logging in using static token
+[2024/06/06|16:43:23][INFO]:擴充指令初始化完成
+[2024/06/06|16:43:23][INFO]:logging in using static token
+[2024/06/06|16:43:24][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|16:43:24][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|16:43:24][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|16:43:24][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|16:43:24][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|16:43:24][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|16:43:24][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|16:43:24][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|16:43:24][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|16:43:24][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|16:43:24][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|16:43:24][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|16:43:24][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|16:43:24][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|16:43:24][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|16:43:24][INFO]:已同步15個斜線指令
+[2024/06/06|16:43:25][INFO]:Shard ID None has connected to Gateway (Session ID: 087acf35bd7fb0a797d6afb8f5b9c339).
+[2024/06/06|16:43:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|16:45:29][ERROR]:Ignoring exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\event.py", line 101, in on_voice_state_update
+    await VoiceMethod.join_guild(member, after_channel.guild)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_event.py", line 62, in join_guild
+    member_profile.db_update()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 258, in db_update
+    ExMember.update(self)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 63, in update
+    method(member)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_profile\member.py", line 174, in online_time
+    db = SQL(db_account).connect(db_account).table(ONLINETABLE)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\MsSQL_ORM\sql.py", line 46, in connect
+    host = database.host,
+           ^^^^^^^^^^^^^
+AttributeError: 'DBUser' object has no attribute 'host'
+[2024/06/06|16:46:29][INFO]:擴充指令初始化完成
+[2024/06/06|16:46:30][INFO]:logging in using static token
+[2024/06/06|16:46:32][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|16:46:32][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|16:46:32][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|16:46:32][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|16:46:32][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|16:46:32][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|16:46:33][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|16:46:33][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|16:46:34][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|16:46:34][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|16:46:35][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|16:46:36][INFO]:同步指令 -> 獲取驗證碼<1242290397221228599>
+[2024/06/06|16:46:36][INFO]:同步指令 -> 驗證<1242290397221228600>
+[2024/06/06|16:46:37][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|16:46:37][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|16:46:38][INFO]:已同步15個斜線指令
+[2024/06/06|16:46:41][INFO]:Shard ID None has connected to Gateway (Session ID: abfbbb065002b1d15d70cf834f49ed54).
+[2024/06/06|16:46:43][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|16:46:50][WARNING]:lightinvi<428845649279188992> 異常上線時間紀錄
+[2024/06/06|16:47:01][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/06|16:47:01][INFO]:lightinvi<428845649279188992> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/06/06|16:49:11][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/06|16:49:11][INFO]:lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 獲得 2貢獻值 和 3碎星值
+[2024/06/06|17:34:24][INFO]:擴充指令初始化完成
+[2024/06/06|17:34:24][INFO]:logging in using static token
+[2024/06/06|17:35:43][INFO]:擴充指令初始化完成
+[2024/06/06|17:35:43][INFO]:logging in using static token
+[2024/06/06|17:35:44][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:35:44][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:35:44][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:35:44][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:35:44][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:35:44][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:35:44][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:35:44][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:35:44][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:35:44][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:35:44][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:35:44][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:35:44][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:35:44][INFO]:已同步13個斜線指令
+[2024/06/06|17:35:45][INFO]:Shard ID None has connected to Gateway (Session ID: e4c1a8140fe7624436f0cbb60e43d84c).
+[2024/06/06|17:35:47][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:37:06][INFO]:已更新用戶 -> lightinvi<428845649279188992>
+[2024/06/06|17:37:09][INFO]:寄送驗證碼至 taylor05171200@gmail.com(lightinvi):t8J6M6
+[2024/06/06|17:39:19][INFO]:擴充指令初始化完成
+[2024/06/06|17:39:19][INFO]:logging in using static token
+[2024/06/06|17:39:20][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:39:21][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:39:21][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:39:21][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:39:21][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:39:21][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:39:21][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:39:21][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:39:21][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:39:21][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:39:21][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:39:21][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:39:21][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:39:21][INFO]:已同步13個斜線指令
+[2024/06/06|17:39:30][INFO]:Shard ID None has connected to Gateway (Session ID: 8c859f4dd4ada720872f372cdae6f3f3).
+[2024/06/06|17:39:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:40:18][INFO]:已更新用戶 -> lightinvi<428845649279188992>
+[2024/06/06|17:40:20][INFO]:寄送驗證碼至 taylor05171200@gmail.com(lightinvi):8a6KnC
+[2024/06/06|17:40:50][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:42:06][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:43:46][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:44:07][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:45:08][INFO]:擴充指令初始化完成
+[2024/06/06|17:45:08][INFO]:logging in using static token
+[2024/06/06|17:45:10][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:45:10][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:45:10][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:45:10][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:45:11][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:45:11][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:45:11][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:45:11][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:45:11][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:45:11][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:45:11][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:45:11][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:45:11][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:45:11][INFO]:已同步13個斜線指令
+[2024/06/06|17:45:12][INFO]:Shard ID None has connected to Gateway (Session ID: 3e73455cdc40d63bc76e56608cc06168).
+[2024/06/06|17:45:14][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:45:38][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:46:17][INFO]:擴充指令初始化完成
+[2024/06/06|17:46:17][INFO]:logging in using static token
+[2024/06/06|17:46:19][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:46:19][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:46:19][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:46:19][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:46:19][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:46:19][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:46:19][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:46:19][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:46:19][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:46:19][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:46:19][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:46:19][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:46:19][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:46:20][INFO]:已同步13個斜線指令
+[2024/06/06|17:46:20][INFO]:Shard ID None has connected to Gateway (Session ID: c88ef807d151a1ba304f691f05b3c420).
+[2024/06/06|17:46:22][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:47:12][INFO]:擴充指令初始化完成
+[2024/06/06|17:47:13][INFO]:logging in using static token
+[2024/06/06|17:47:15][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:47:15][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:47:15][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:47:15][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:47:15][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:47:15][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:47:15][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:47:15][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:47:15][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:47:15][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:47:15][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:47:15][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:47:15][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:47:15][INFO]:已同步13個斜線指令
+[2024/06/06|17:47:19][INFO]:Shard ID None has connected to Gateway (Session ID: fa96af994ad921b88a7c8f24f17e2080).
+[2024/06/06|17:47:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:47:31][INFO]:lightinvi 驗證失敗
+[2024/06/06|17:50:47][INFO]:擴充指令初始化完成
+[2024/06/06|17:50:47][INFO]:logging in using static token
+[2024/06/06|17:50:50][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:50:50][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:50:50][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:50:50][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:50:51][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:50:52][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:50:52][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:50:53][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:50:53][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:50:54][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:50:54][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:50:55][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:50:55][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:50:56][INFO]:已同步13個斜線指令
+[2024/06/06|17:50:59][INFO]:Shard ID None has connected to Gateway (Session ID: 5ec9aca7ca8466baa67258d5c16de515).
+[2024/06/06|17:51:01][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:51:12][INFO]:已更新用戶 -> lightinvi<428845649279188992>
+[2024/06/06|17:51:12][INFO]:lightinvi 驗證成功
+[2024/06/06|17:54:41][INFO]:擴充指令初始化完成
+[2024/06/06|17:54:41][INFO]:logging in using static token
+[2024/06/06|17:54:42][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/06|17:54:42][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/06|17:54:42][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/06|17:54:42][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/06|17:54:42][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/06|17:54:42][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/06|17:54:42][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/06|17:54:42][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/06|17:54:42][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/06|17:54:42][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/06|17:54:42][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/06|17:54:42][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/06|17:54:42][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/06|17:54:42][INFO]:已同步13個斜線指令
+[2024/06/06|17:54:43][INFO]:Shard ID None has connected to Gateway (Session ID: b7ea03eba400167d96b52a9cecc02b1d).
+[2024/06/06|17:54:45][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/06|17:55:09][INFO]:lightinvi<428845649279188992>在[光隱test區->study]新增附件:('1248213580990386266_image.png',)
+[2024/06/06|17:55:24][INFO]:lightinvi<428845649279188992>在[光隱test區->study]新增附件:('1248213644290822155_image.png',)
+[2024/06/06|17:55:38][INFO]:lightinvi<428845649279188992>在[光隱test區->study]新增附件:('1248213707092394045_image.png',)
+[2024/06/06|17:55:58][INFO]:lightinvi<428845649279188992>在[光隱test區->study]新增附件:('1248213789413740646_image.png',)

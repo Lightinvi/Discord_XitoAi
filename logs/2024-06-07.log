@@ -1,0 +1,336 @@
+[2024/06/07|10:31:47][INFO]:擴充指令初始化完成
+[2024/06/07|10:31:47][INFO]:logging in using static token
+[2024/06/07|10:31:48][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:31:48][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:31:48][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:31:48][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:31:48][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:31:48][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:31:48][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:31:48][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:31:48][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:31:48][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:31:48][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:31:48][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:31:48][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:31:49][INFO]:已同步13個斜線指令
+[2024/06/07|10:31:50][INFO]:Shard ID None has connected to Gateway (Session ID: 2b2a8ec439312c8124e9137818d94e91).
+[2024/06/07|10:31:52][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:32:11][INFO]:已更新 lightinvi<428845649279188992> 於 光隱test區<1029978425550704640> 的伺服器資料
+[2024/06/07|10:32:11][INFO]:lightinvi<428845649279188992> 加入 光隱test區<1029978425550704640> 的語音頻道
+[2024/06/07|10:32:20][INFO]:Connecting to voice...
+[2024/06/07|10:32:20][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:32:21][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:32:21][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:32:21][INFO]:received secret key for voice connection
+[2024/06/07|10:32:21][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 28, in play_music
+    if await MusicCheck.try_connect(interactions,self.music_console):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\check.py", line 69, in try_connect
+    music_player.discord_voice_channel = await interaction.user.voice.channel.connect()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: property 'discord_voice_channel' of 'MusicPlayer' object has no setter
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: property 'discord_voice_channel' of 'MusicPlayer' object has no setter
+[2024/06/07|10:34:13][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:34:13][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:34:48][INFO]:擴充指令初始化完成
+[2024/06/07|10:34:48][INFO]:logging in using static token
+[2024/06/07|10:34:49][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:34:49][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:34:49][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:34:49][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:34:49][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:34:49][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:34:49][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:34:49][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:34:49][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:34:49][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:34:49][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:34:49][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:34:49][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:34:49][INFO]:已同步13個斜線指令
+[2024/06/07|10:34:51][INFO]:Shard ID None has connected to Gateway (Session ID: 610bfd83ac12970a7c8a194f0dc7721d).
+[2024/06/07|10:34:53][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:35:16][INFO]:Connecting to voice...
+[2024/06/07|10:35:16][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:35:16][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:35:24][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:35:24][INFO]:received secret key for voice connection
+[2024/06/07|10:35:27][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 60, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\player.py", line 23, in append
+    super(list).append(music)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'append'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'super' object has no attribute 'append'
+[2024/06/07|10:36:02][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:36:02][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:36:48][INFO]:擴充指令初始化完成
+[2024/06/07|10:36:48][INFO]:logging in using static token
+[2024/06/07|10:36:50][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:36:50][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:36:50][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:36:50][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:36:50][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:36:50][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:36:50][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:36:51][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:36:51][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:36:51][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:36:51][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:36:51][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:36:52][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:36:52][INFO]:已同步13個斜線指令
+[2024/06/07|10:36:53][INFO]:Shard ID None has connected to Gateway (Session ID: f979257658598352496fe3f961004a74).
+[2024/06/07|10:36:55][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:37:04][INFO]:Connecting to voice...
+[2024/06/07|10:37:04][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:37:04][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:37:04][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:37:05][INFO]:received secret key for voice connection
+[2024/06/07|10:37:06][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 60, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\player.py", line 23, in append
+    super(list).append(music)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute 'append'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: AttributeError: 'super' object has no attribute 'append'
+[2024/06/07|10:40:50][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:40:50][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:41:04][INFO]:擴充指令初始化完成
+[2024/06/07|10:41:04][INFO]:logging in using static token
+[2024/06/07|10:41:06][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:41:06][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:41:06][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:41:06][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:41:06][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:41:06][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:41:06][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:41:06][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:41:06][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:41:06][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:41:06][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:41:06][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:41:06][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:41:06][INFO]:已同步13個斜線指令
+[2024/06/07|10:41:07][INFO]:Shard ID None has connected to Gateway (Session ID: 1f3e07948a5a7a8f77eade6c2415bf32).
+[2024/06/07|10:41:09][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:42:22][INFO]:擴充指令初始化完成
+[2024/06/07|10:42:22][INFO]:logging in using static token
+[2024/06/07|10:42:24][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:42:24][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:42:24][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:42:24][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:42:24][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:42:24][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:42:24][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:42:24][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:42:24][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:42:24][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:42:24][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:42:24][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:42:24][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:42:24][INFO]:已同步13個斜線指令
+[2024/06/07|10:42:25][INFO]:Shard ID None has connected to Gateway (Session ID: 99cf2d9bb7b7296f54e4cecdf6f32c4f).
+[2024/06/07|10:42:27][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:42:41][INFO]:Connecting to voice...
+[2024/06/07|10:42:41][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:42:41][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:42:41][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:42:41][INFO]:received secret key for voice connection
+[2024/06/07|10:42:57][WARNING]:Shard ID None voice heartbeat blocked for more than 10 seconds
+Loop thread traceback (most recent call last):
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\XitoAi.py", line 103, in <module>
+    XitoAi.run(token)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 860, in run
+    asyncio.run(runner())
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 671, in run_until_complete
+    self.run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 638, in run_forever
+    self._run_once()
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 1971, in _run_once
+    handle._run()
+  File "C:\Program Files\Python312\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1089, in wrapper
+    await self._call(interaction)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 71, in play_music
+    await self.music_console.start()
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\player.py", line 53, in start
+    discord.FFmpegPCMAudio(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\player.py", line 290, in __init__
+    super().__init__(source, executable=executable, args=args, **subprocess_kwargs)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\player.py", line 166, in __init__
+    self._process = self._spawn_process(args, **kwargs)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\player.py", line 180, in _spawn_process
+    process = subprocess.Popen(args, creationflags=CREATE_NO_WINDOW, **subprocess_kwargs)
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Program Files\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+
+[2024/06/07|10:44:35][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:44:35][INFO]:ffmpeg process 2944 has not terminated. Waiting to terminate...
+[2024/06/07|10:44:35][INFO]:ffmpeg process 2944 should have terminated with a return code of 1.
+[2024/06/07|10:44:35][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:44:48][INFO]:擴充指令初始化完成
+[2024/06/07|10:44:48][INFO]:logging in using static token
+[2024/06/07|10:44:50][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:44:50][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:44:50][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:44:50][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:44:50][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:44:50][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:44:50][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:44:50][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:44:50][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:44:50][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:44:50][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:44:50][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:44:50][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:44:50][INFO]:已同步13個斜線指令
+[2024/06/07|10:44:51][INFO]:Shard ID None has connected to Gateway (Session ID: 8a9f6261d1b52fcd3044c29f4dd9074c).
+[2024/06/07|10:44:53][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:45:06][INFO]:Connecting to voice...
+[2024/06/07|10:45:06][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:45:07][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:45:08][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:45:08][INFO]:received secret key for voice connection
+[2024/06/07|10:47:28][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:47:28][INFO]:ffmpeg process 8760 has not terminated. Waiting to terminate...
+[2024/06/07|10:47:28][INFO]:ffmpeg process 8760 should have terminated with a return code of 1.
+[2024/06/07|10:47:28][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:48:47][INFO]:擴充指令初始化完成
+[2024/06/07|10:48:47][INFO]:logging in using static token
+[2024/06/07|10:48:48][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:48:48][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:48:48][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:48:48][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:48:48][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:48:48][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:48:48][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:48:48][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:48:48][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:48:48][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:48:48][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:48:48][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:48:48][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:48:48][INFO]:已同步13個斜線指令
+[2024/06/07|10:48:51][INFO]:Shard ID None has connected to Gateway (Session ID: 3a4e325b52de23d0bca45ad5ccbe8cf5).
+[2024/06/07|10:48:53][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:49:01][INFO]:Connecting to voice...
+[2024/06/07|10:49:01][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:49:01][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:49:02][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:49:02][INFO]:received secret key for voice connection
+[2024/06/07|10:49:04][ERROR]:Ignoring exception in command 'music'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\music.py", line 60, in play_music
+    self.music_console.append(music_)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\methods\OAM_music\player.py", line 23, in append
+    return super(obj = list).append(music)
+           ^^^^^^^^^^^^^^^^^
+TypeError: super() takes no keyword arguments
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 842, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'music' raised an exception: TypeError: super() takes no keyword arguments
+[2024/06/07|10:50:35][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:50:35][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)
+[2024/06/07|10:51:14][INFO]:擴充指令初始化完成
+[2024/06/07|10:51:14][INFO]:logging in using static token
+[2024/06/07|10:51:16][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/06/07|10:51:16][INFO]:同步指令 -> music<1242290397108240514>
+[2024/06/07|10:51:16][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/06/07|10:51:16][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/06/07|10:51:16][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/06/07|10:51:16][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/06/07|10:51:16][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/06/07|10:51:16][INFO]:同步指令 -> me<1247750228497399882>
+[2024/06/07|10:51:16][INFO]:同步指令 -> other<1248153632377929841>
+[2024/06/07|10:51:16][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/06/07|10:51:16][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/06/07|10:51:16][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/06/07|10:51:16][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/06/07|10:51:16][INFO]:已同步13個斜線指令
+[2024/06/07|10:51:17][INFO]:Shard ID None has connected to Gateway (Session ID: 0fac4aa59afa581610318be846622832).
+[2024/06/07|10:51:19][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/06/07|10:51:36][INFO]:Connecting to voice...
+[2024/06/07|10:51:36][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/06/07|10:51:36][INFO]:Voice handshake complete. Endpoint found hongkong11048.discord.media
+[2024/06/07|10:51:38][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/06/07|10:51:38][INFO]:received secret key for voice connection
+[2024/06/07|10:56:22][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/06/07|10:56:22][INFO]:ffmpeg process 10288 successfully terminated with return code of 0.
+[2024/06/07|10:56:22][INFO]:The voice handshake is being terminated for Channel ID 1029978426192433165 (Guild ID 1029978425550704640)

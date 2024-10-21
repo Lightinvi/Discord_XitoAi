@@ -1,0 +1,596 @@
+<<<<<<< HEAD
+[2024/07/22|19:42:45][INFO]:擴充指令初始化完成
+[2024/07/22|19:42:45][INFO]:logging in using static token
+[2024/07/22|19:42:46][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/22|19:42:46][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/22|19:42:46][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/22|19:42:46][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/22|19:42:46][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/22|19:42:46][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/22|19:42:46][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/22|19:42:46][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/22|19:42:46][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/22|19:42:46][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/22|19:42:46][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/22|19:42:46][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/22|19:42:46][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/22|19:42:46][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/22|19:42:46][INFO]:已同步14個斜線指令
+[2024/07/22|19:43:07][INFO]:擴充指令初始化完成
+[2024/07/22|19:43:07][INFO]:logging in using static token
+[2024/07/22|19:44:54][INFO]:擴充指令初始化完成
+[2024/07/22|19:44:54][INFO]:logging in using static token
+[2024/07/22|19:44:55][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/22|19:44:55][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/22|19:44:55][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/22|19:44:55][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/22|19:44:55][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/22|19:44:55][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/22|19:44:55][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/22|19:44:55][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/22|19:44:55][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/22|19:44:55][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/22|19:44:55][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/22|19:44:55][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/22|19:44:55][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/22|19:44:55][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/22|19:44:55][INFO]:已同步14個斜線指令
+[2024/07/22|19:51:45][INFO]:Shard ID None has connected to Gateway (Session ID: 4f893d17671db64f2219a93b8b0ca0fe).
+[2024/07/22|19:51:47][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|19:52:20][INFO]:擴充指令初始化完成
+[2024/07/22|19:52:20][INFO]:logging in using static token
+[2024/07/22|19:52:21][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/22|19:52:21][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/22|19:52:21][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/22|19:52:21][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/22|19:52:21][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/22|19:52:21][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/22|19:52:21][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/22|19:52:21][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/22|19:52:21][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/22|19:52:21][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/22|19:52:21][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/22|19:52:21][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/22|19:52:21][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/22|19:52:21][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/22|19:52:21][INFO]:已同步14個斜線指令
+[2024/07/22|19:52:26][INFO]:Shard ID None has connected to Gateway (Session ID: c7ff2184d0b630c278da5b689e91a2dd).
+[2024/07/22|19:52:28][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|19:52:44][INFO]:lightinvi<428845649279188992>在[Star Impact Team->管理員專用]說:<@659369978809548826> 你是誰
+[2024/07/22|20:00:59][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 176, in on_message
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 50, in generate
+    asyncio.run(msg.edit(
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 685, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\http.py", line 625, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 504, in _request
+    with timer:
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\helpers.py", line 715, in __enter__
+    raise RuntimeError(
+RuntimeError: Timeout context manager should be used inside a task
+[2024/07/22|20:01:56][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|20:01:56][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|20:15:14][INFO]:擴充指令初始化完成
+[2024/07/22|20:15:14][INFO]:logging in using static token
+[2024/07/22|20:15:16][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/22|20:15:16][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/22|20:15:16][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/22|20:15:16][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/22|20:15:16][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/22|20:15:16][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/22|20:15:16][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/22|20:15:16][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/22|20:15:16][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/22|20:15:16][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/22|20:15:16][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/22|20:15:16][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/22|20:15:16][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/22|20:15:16][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/22|20:15:16][INFO]:已同步14個斜線指令
+[2024/07/22|20:15:21][INFO]:Shard ID None has connected to Gateway (Session ID: 53e5433f70ea096d024a16886c85addf).
+[2024/07/22|20:15:23][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|20:15:36][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|20:15:36][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|20:15:41][INFO]:lightinvi<428845649279188992>在[Star Impact Team->管理員專用]說:<@659369978809548826> 你是誰
+[2024/07/22|20:15:42][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 176, in on_message
+    await loop.run_in_executor(pool, gpt.generate, msg.channel.fetch_message(temp_msg.id), msg.content)
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 50, in generate
+    asyncio.run(msg.edit(
+                ^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'edit'
+[2024/07/22|20:16:10][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|20:16:10][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 0貢獻值 和 0碎星值
+[2024/07/22|20:16:16][INFO]:擴充指令初始化完成
+[2024/07/22|20:16:16][INFO]:logging in using static token
+[2024/07/22|20:16:17][INFO]:同步指令 -> lottery<1228422626767011965>
+[2024/07/22|20:16:17][INFO]:同步指令 -> music<1242794784201117758>
+[2024/07/22|20:16:17][INFO]:同步指令 -> queue<1243247995034669086>
+[2024/07/22|20:16:17][INFO]:同步指令 -> skip<1237057743316062282>
+[2024/07/22|20:16:17][INFO]:同步指令 -> pause<1242794784201117759>
+[2024/07/22|20:16:17][INFO]:同步指令 -> resume<1242794784201117760>
+[2024/07/22|20:16:17][INFO]:同步指令 -> disconnect<1237057743316062283>
+[2024/07/22|20:16:17][INFO]:同步指令 -> me<1146107097549897728>
+[2024/07/22|20:16:17][INFO]:同步指令 -> other<1146107097549897729>
+[2024/07/22|20:16:17][INFO]:同步指令 -> rank<1261983343721840651>
+[2024/07/22|20:16:17][INFO]:同步指令 -> start_record<1246531582622437456>
+[2024/07/22|20:16:17][INFO]:同步指令 -> stop_record<1246531582622437457>
+[2024/07/22|20:16:17][INFO]:同步指令 -> get_verification<1228422626767011972>
+[2024/07/22|20:16:17][INFO]:同步指令 -> verify<1228422627073200309>
+[2024/07/22|20:16:17][INFO]:已同步14個斜線指令
+[2024/07/22|20:16:22][INFO]:Shard ID None has connected to Gateway (Session ID: ed1ec3f747ded7f02bd2cd111a527147).
+[2024/07/22|20:16:24][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|20:16:28][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|20:16:28][INFO]:lightinvi<428845649279188992> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|20:16:50][INFO]:lightinvi<428845649279188992>在[Star Impact Team->管理員專用]說:<@659369978809548826> 你是誰
+[2024/07/22|20:17:20][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]新增附件:('1264885181089710142_Arms-race_final_piecemaker_EN_1920x1080.jpg',)
+[2024/07/22|20:17:20][INFO]:Escape from Tarkov Official #eft-announcements<1206517498044878858>在[Star Impact Team->塔科夫公佈欄📝]說:@News  
+The in-game event “Arms Race” has come to an end. In a tight contest, the Peacekeeper has gained the upper-hand. #EscapefromTarkov
+[2024/07/22|20:25:29][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\commands\event.py", line 176, in on_message
+    await loop.run_in_executor(pool, gpt.generate, await msg.channel.fetch_message(temp_msg.id), msg.content)
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\Desktop\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 50, in generate
+    asyncio.run(msg.edit(
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\asyncio\base_events.py", line 685, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\message.py", line 2275, in edit
+    data = await self._state.http.edit_message(self.channel.id, self.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\discord\http.py", line 625, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 504, in _request
+    with timer:
+  File "C:\Users\Lightinvi\AppData\Roaming\Python\Python312\site-packages\aiohttp\helpers.py", line 715, in __enter__
+    raise RuntimeError(
+RuntimeError: Timeout context manager should be used inside a task
+[2024/07/22|20:37:01][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/22|21:01:02][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]新增附件:('1264930203780517899_image.png',)
+[2024/07/22|21:01:02][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:你他媽
+匠人氣息71.85就是上不去 ,我只是想白嫖Rrrrrr
+[2024/07/22|22:08:21][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:石頭很便宜
+[2024/07/22|22:08:23][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:直接買
+[2024/07/22|22:08:29][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:硬衝
+[2024/07/22|23:04:07][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/22|23:04:07][INFO]:fewheng<429678105809125386> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/22|23:05:33][INFO]:Connecting to voice...
+[2024/07/22|23:05:33][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/22|23:05:33][INFO]:Voice handshake complete. Endpoint found japan4479.discord.media
+[2024/07/22|23:05:33][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/22|23:05:33][INFO]:received secret key for voice connection
+[2024/07/22|23:07:36][INFO]:ffmpeg process 10456 successfully terminated with return code of 0.
+[2024/07/22|23:07:36][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/22|23:07:36][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/22|23:11:38][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/22|23:12:06][INFO]:Connecting to voice...
+[2024/07/22|23:12:06][INFO]:Starting voice handshake... (connection attempt 1)
+[2024/07/22|23:12:07][INFO]:Voice handshake complete. Endpoint found japan4479.discord.media
+[2024/07/22|23:12:07][INFO]:selected the voice protocol for use (xsalsa20_poly1305_lite)
+[2024/07/22|23:12:07][INFO]:received secret key for voice connection
+[2024/07/22|23:16:00][INFO]:ffmpeg process 11344 successfully terminated with return code of 0.
+[2024/07/22|23:20:19][INFO]:ffmpeg process 8064 successfully terminated with return code of 0.
+[2024/07/22|23:24:07][INFO]:ffmpeg process 10024 successfully terminated with return code of 0.
+[2024/07/22|23:24:10][INFO]:lightinvi<428845649279188992>在[Star Impact Team->塔科夫閒聊📣]說:<@182815652858298368> <@250219460877746176> 
+整理了一下 彈藥 可以根據這張跳去添加一下願望清單
+https://docs.google.com/spreadsheets/d/1FzO6LGeb0WNWyrdg3Dfxmunk1W939QNgeoSCpUUFrmk/edit?usp=sharing
+[2024/07/22|23:28:23][INFO]:ffmpeg process 10984 successfully terminated with return code of 0.
+[2024/07/22|23:32:53][INFO]:ffmpeg process 7920 successfully terminated with return code of 0.
+[2024/07/22|23:37:23][INFO]:ffmpeg process 10736 successfully terminated with return code of 0.
+[2024/07/22|23:38:05][INFO]:Star Impact Team<510386488639488001> -> 塔科夫閒聊📣<1042031163637764167> 中的訊息被編輯: <@182815652858298368> <@250219460877746176> 
+整理了一下 彈藥 可以根據這張跳去添加一下願望清單
+https://docs.google.com/spreadsheets/d/1FzO6LGeb0WNWyrdg3Dfxmunk1W939QNgeoSCpUUFrmk/edit?usp=sharing -> <@182815652858298368> <@250219460877746176> 
+整理了一下 彈藥 可以根據這張表去添加一下願望清單
+https://docs.google.com/spreadsheets/d/1FzO6LGeb0WNWyrdg3Dfxmunk1W939QNgeoSCpUUFrmk/edit?usp=sharing
+[2024/07/22|23:41:34][INFO]:ffmpeg process 11036 successfully terminated with return code of 0.
+[2024/07/22|23:46:07][INFO]:ffmpeg process 9380 successfully terminated with return code of 0.
+[2024/07/22|23:46:11][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/22|23:50:33][INFO]:ffmpeg process 12244 successfully terminated with return code of 0.
+[2024/07/22|23:54:21][INFO]:ffmpeg process 10420 successfully terminated with return code of 0.
+[2024/07/22|23:54:21][INFO]:Disconnecting from voice normally, close code 1000.
+[2024/07/22|23:54:21][INFO]:The voice handshake is being terminated for Channel ID 873869960064139334 (Guild ID 510386488639488001)
+[2024/07/22|23:57:24][INFO]:已更新用戶 -> hkndk<415087368651931649>
+[2024/07/22|23:57:25][INFO]:已更新 hkndk<415087368651931649> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|00:32:58][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|00:53:25][INFO]:已更新 lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|00:53:25][INFO]:lightinvi<428845649279188992> 於 Star Impact Team<510386488639488001> 獲得 276貢獻值 和 552碎星值
+[2024/07/23|01:10:46][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|01:10:46][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/23|01:22:49][INFO]:rena5212<182815652858298368>在[Star Impact Team->塔科夫閒聊📣]說:好 再說再聯絡
+[2024/07/23|01:28:24][INFO]:已更新 fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|01:28:24][INFO]:fewheng<429678105809125386> 於 Star Impact Team<510386488639488001> 獲得 144貢獻值 和 216碎星值
+[2024/07/23|02:50:05][WARNING]:higuchiaoi<418099807660408852> 異常上線時間紀錄
+[2024/07/23|03:50:43][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|03:51:31][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:半夜塔科夫
+[2024/07/23|03:51:38][INFO]:chengxue625<416236840547385345>在[Star Impact Team->正規成員頻道]說:<@428845649279188992> 厲害
+[2024/07/23|04:13:37][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|04:15:00][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|05:35:28][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|05:53:21][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|06:21:53][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|06:21:53][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 311貢獻值 和 622碎星值
+[2024/07/23|07:05:30][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|07:20:22][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|07:20:22][INFO]:rena5212<182815652858298368> 加入 Star Impact Team<510386488639488001> 的語音頻道
+[2024/07/23|08:25:59][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|09:15:02][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|09:28:02][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:我在掛機弄藏身處而已 設個鬧鐘時間到，起來收貨
+[2024/07/23|10:44:53][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/23|10:44:53][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->sitreload-message]說:XitoAi思考中......
+[2024/07/23|10:52:01][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:device (str | None, default: None ) – The processing unit on which the GPT4All model will run. It can be set to: - "cpu": Model will run on the central processing unit. - "gpu": Use Metal on ARM64 macOS, otherwise the same as "kompute". - "kompute": Use the best GPU provided by the Kompute backend. - "cuda": Use the best GPU provided by the CUDA backend. - "amd", "nvidia": Use the best GPU provided by the Kompute backend from this vendor. - A specific device name from the list returned by GPT4All.list_gpus(). Default is Metal on ARM64 macOS, "cpu" otherwise.
+Note: If a selected GPU device does not have sufficient RAM to accommodate the model, an error will be thrown, and the GPT4All instance will be rendered invalid. It's advised to ensure the device has enough memory before initiating the model.
+[2024/07/23|10:53:19][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是神
+[2024/07/23|10:53:20][INFO]:XitoAi Debug System<765494347410964500>在[光隱test區->sitreload-message]說:XitoAi思考中......
+[2024/07/23|10:53:38][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|10:57:55][INFO]:光隱test區<1029978425550704640> -> sitreload-message<1029978426192433164> 中的訊息被編輯: XitoAi思考中...... -> 哈哈，感謝你的夸獎！我只是個聊天機器人夕由愛（XitoAi），我的目的是幫助你解答問題、分享知識和創造有趣的對話。請隨時與我交流，我會盡力回應！
+[2024/07/23|11:01:31][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]新增附件:('1265141720643932272_image.png',)
+[2024/07/23|11:02:24][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:有嘍~會回應人了…………但等一個回應要等快2分鐘
+[2024/07/23|12:02:39][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|12:19:18][INFO]:bigben2689<787727387383037962>在[Star Impact Team->正規成員頻道]說:各位別吵
+我說我說
+我認為
+義大利麵就應該拌 42 號混泥土
+因為這個螺絲釘的長度很容易直接影響到挖掘機的扭矩
+
+你往裡砸的時候
+一瞬間他就會產生大量的高能蛋白
+俗稱 UFO，會嚴重影響經濟的發展
+以至於對整個太平洋和充電器的核污染
+
+再或者說
+透過這勾股定理
+很容易推斷出人工飼養的東條英機
+他是可以捕獲野生的三角函數
+
+所以說
+不管這秦始皇的切面是否具有放射性
+川普的 N 次方是否有沈澱物
+都不會影響到沃爾瑪跟維爾康在南極匯合
+[2024/07/23|12:31:41][INFO]:已更新 rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 的伺服器資料
+[2024/07/23|12:31:41][INFO]:rena5212<182815652858298368> 於 Star Impact Team<510386488639488001> 獲得 311貢獻值 和 622碎星值
+[2024/07/23|12:37:31][INFO]:rena5212<182815652858298368>在[Star Impact Team->正規成員頻道]說:東條英機 ❌
+東條英雞 ✅
+[2024/07/23|12:49:45][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|13:00:27][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+[2024/07/23|13:31:09][INFO]:lightinvi<428845649279188992>在[Star Impact Team->正規成員頻道]說:今天晚上會更新並嘗試用GPU運算來加快回應速度
+[2024/07/23|15:50:52][INFO]:Shard ID None has successfully RESUMED session ed1ec3f747ded7f02bd2cd111a527147.
+=======
+[2024/07/22|17:11:14][INFO]:擴充指令初始化完成
+[2024/07/22|17:11:14][INFO]:logging in using static token
+[2024/07/22|17:11:16][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:11:16][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:11:16][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:11:16][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:11:16][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:11:16][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:11:16][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:11:16][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:11:16][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:11:16][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:11:16][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:11:16][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:11:16][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:11:16][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:11:16][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:11:16][INFO]:已同步15個斜線指令
+[2024/07/22|17:11:24][INFO]:Shard ID None has connected to Gateway (Session ID: 4b6bbb37a528484dd731f4c13a504bb4).
+[2024/07/22|17:11:26][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:16:11][INFO]:擴充指令初始化完成
+[2024/07/22|17:16:11][INFO]:logging in using static token
+[2024/07/22|17:16:12][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:16:12][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:16:12][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:16:12][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:16:12][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:16:12][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:16:12][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:16:12][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:16:12][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:16:12][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:16:12][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:16:12][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:16:12][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:16:12][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:16:12][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:16:12][INFO]:已同步15個斜線指令
+[2024/07/22|17:16:24][INFO]:Shard ID None has connected to Gateway (Session ID: 24b87cac5960c6c07833163d82475615).
+[2024/07/22|17:16:26][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:20:20][INFO]:擴充指令初始化完成
+[2024/07/22|17:20:20][INFO]:logging in using static token
+[2024/07/22|17:20:22][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:20:22][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:20:22][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:20:22][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:20:22][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:20:22][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:20:22][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:20:22][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:20:22][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:20:22][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:20:22][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:20:22][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:20:22][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:20:22][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:20:22][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:20:22][INFO]:已同步15個斜線指令
+[2024/07/22|17:20:28][INFO]:Shard ID None has connected to Gateway (Session ID: ccd928898ceadc76959352ed828a6ce0).
+[2024/07/22|17:20:30][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:21:47][INFO]:擴充指令初始化完成
+[2024/07/22|17:21:48][INFO]:logging in using static token
+[2024/07/22|17:21:49][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:21:49][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:21:49][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:21:49][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:21:49][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:21:49][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:21:49][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:21:49][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:21:49][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:21:49][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:21:50][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:21:50][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:21:50][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:21:50][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:21:50][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:21:50][INFO]:已同步15個斜線指令
+[2024/07/22|17:21:55][INFO]:Shard ID None has connected to Gateway (Session ID: 272aaa64624ea22f478409f2cacae9db).
+[2024/07/22|17:21:57][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:29:12][INFO]:擴充指令初始化完成
+[2024/07/22|17:29:12][INFO]:logging in using static token
+[2024/07/22|17:29:14][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:29:14][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:29:14][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:29:14][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:29:14][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:29:14][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:29:14][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:29:14][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:29:14][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:29:14][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:29:14][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:29:14][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:29:14][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:29:14][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:29:14][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:29:15][INFO]:已同步15個斜線指令
+[2024/07/22|17:29:19][INFO]:Shard ID None has connected to Gateway (Session ID: ae9f39a7ea756d5d7b87295637cb9377).
+[2024/07/22|17:29:21][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:31:58][INFO]:擴充指令初始化完成
+[2024/07/22|17:31:59][INFO]:logging in using static token
+[2024/07/22|17:32:00][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:32:00][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:32:00][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:32:00][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:32:00][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:32:00][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:32:00][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:32:00][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:32:00][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:32:00][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:32:00][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:32:00][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:32:00][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:32:00][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:32:00][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:32:01][INFO]:已同步15個斜線指令
+[2024/07/22|17:32:13][INFO]:Shard ID None has connected to Gateway (Session ID: eb98f5ee87427e85a1c665fdf37a39ba).
+[2024/07/22|17:32:15][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:35:50][ERROR]:Ignoring exception in command 'chat'
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 827, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\gpt.py", line 23, in gpt_chat
+    await loop.run_in_executor(pool, gpt.generate, interaction, content)
+  File "c:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 46, in generate
+    asyncio.run(interaction.followup.send(
+  File "c:\Program Files\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Program Files\Python312\Lib\asyncio\base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 1805, in send
+    data = await adapter.execute_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\webhook\async_.py", line 177, in request
+    async with session.request(
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 1194, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\client.py", line 504, in _request
+    with timer:
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\aiohttp\helpers.py", line 715, in __enter__
+    raise RuntimeError(
+RuntimeError: Timeout context manager should be used inside a task
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 1248, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 853, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\commands.py", line 846, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'chat' raised an exception: RuntimeError: Timeout context manager should be used inside a task
+[2024/07/22|17:43:53][INFO]:擴充指令初始化完成
+[2024/07/22|17:43:53][INFO]:logging in using static token
+[2024/07/22|17:43:54][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:43:54][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:43:54][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:43:54][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:43:54][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:43:54][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:43:54][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:43:54][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:43:54][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:43:54][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:43:54][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:43:54][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:43:54][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:43:54][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:43:54][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:43:55][INFO]:已同步15個斜線指令
+[2024/07/22|17:44:01][INFO]:Shard ID None has connected to Gateway (Session ID: c537425f66b332c4ef71339280667df4).
+[2024/07/22|17:44:03][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:44:16][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:45:18][INFO]:擴充指令初始化完成
+[2024/07/22|17:45:18][INFO]:logging in using static token
+[2024/07/22|17:45:20][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:45:21][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:45:21][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:45:21][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:45:21][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:45:21][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:45:21][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:45:21][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:45:21][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:45:21][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:45:21][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:45:21][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:45:21][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:45:21][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:45:21][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:45:21][INFO]:已同步15個斜線指令
+[2024/07/22|17:45:27][INFO]:Shard ID None has connected to Gateway (Session ID: 29364edb195cc7bee20460e52e726910).
+[2024/07/22|17:45:29][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:45:42][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:47:23][INFO]:擴充指令初始化完成
+[2024/07/22|17:47:23][INFO]:logging in using static token
+[2024/07/22|17:47:25][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:47:25][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:47:25][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:47:25][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:47:25][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:47:25][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:47:25][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:47:25][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:47:25][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:47:25][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:47:25][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:47:25][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:47:25][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:47:25][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:47:25][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:47:25][INFO]:已同步15個斜線指令
+[2024/07/22|17:47:30][INFO]:Shard ID None has connected to Gateway (Session ID: 72c14e3ddc6edc488ee04e9df2fca114).
+[2024/07/22|17:47:32][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:47:40][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:48:47][INFO]:擴充指令初始化完成
+[2024/07/22|17:48:47][INFO]:logging in using static token
+[2024/07/22|17:48:49][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:48:49][INFO]:同步指令 -> chat<1264872380816298055>
+[2024/07/22|17:48:49][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:48:49][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:48:49][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:48:49][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:48:49][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:48:49][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:48:49][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:48:49][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:48:49][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:48:49][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:48:49][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:48:49][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:48:49][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:48:49][INFO]:已同步15個斜線指令
+[2024/07/22|17:48:54][INFO]:Shard ID None has connected to Gateway (Session ID: 97c4116b6f380f9c88dba59b7b1b06fb).
+[2024/07/22|17:48:56][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:49:06][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:49:06][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\event.py", line 178, in on_message
+    await loop.run_in_executor(pool, gpt.generate, temp_msg, msg.content)
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 46, in generate
+    asyncio.run(msg.edit(
+                ^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'edit'
+[2024/07/22|17:50:29][INFO]:擴充指令初始化完成
+[2024/07/22|17:50:29][INFO]:logging in using static token
+[2024/07/22|17:50:30][INFO]:同步指令 -> lottery<1242290397108240508>
+[2024/07/22|17:50:30][INFO]:同步指令 -> music<1242290397108240514>
+[2024/07/22|17:50:30][INFO]:同步指令 -> queue<1243012448680935444>
+[2024/07/22|17:50:30][INFO]:同步指令 -> skip<1242290397108240515>
+[2024/07/22|17:50:30][INFO]:同步指令 -> pause<1242303741445668884>
+[2024/07/22|17:50:30][INFO]:同步指令 -> resume<1242303741445668885>
+[2024/07/22|17:50:30][INFO]:同步指令 -> disconnect<1242303741445668886>
+[2024/07/22|17:50:30][INFO]:同步指令 -> me<1247750228497399882>
+[2024/07/22|17:50:30][INFO]:同步指令 -> other<1248153632377929841>
+[2024/07/22|17:50:30][INFO]:同步指令 -> rank<1257939481168842784>
+[2024/07/22|17:50:30][INFO]:同步指令 -> start_record<1246024385882624020>
+[2024/07/22|17:50:30][INFO]:同步指令 -> stop_record<1245564727015243787>
+[2024/07/22|17:50:30][INFO]:同步指令 -> get_verification<1242290397221228602>
+[2024/07/22|17:50:30][INFO]:同步指令 -> verify<1242290397221228603>
+[2024/07/22|17:50:30][INFO]:已同步14個斜線指令
+[2024/07/22|17:50:35][INFO]:Shard ID None has connected to Gateway (Session ID: 3189f7b3c72f33d60a6dc539a0b85a84).
+[2024/07/22|17:50:37][INFO]: >>夕由愛XitoAi已成功連線Discord<< 
+[2024/07/22|17:50:46][INFO]:lightinvi<428845649279188992>在[光隱test區->sitreload-message]說:<@765494347410964500> 你是誰
+[2024/07/22|17:55:14][ERROR]:Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\test\AppData\Roaming\Python\Python312\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\commands\event.py", line 178, in on_message
+    @CogExtension.listener()
+                    ^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\test\Desktop\XitoAi\Discord_XitoAi\src\core\XitoAiGPT\XitoAiGPT.py", line 46, in generate
+    asyncio.run(msg.edit(
+                ^^^^^^^^^
+TypeError: Message.edit() takes 1 positional argument but 2 were given
+>>>>>>> 67a345d0d289250bf454b1fd7021fd8a4cf3d87f
